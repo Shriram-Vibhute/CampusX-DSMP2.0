@@ -3,7 +3,8 @@ print("Number - ", 1e308)
 print("Null - ", None) # Does not return anything
 
 print("String - ", "Hello World")
-print("Symbol - ", 1+2j)
+print("Symbol - ", 1+2j) 
+# In Python, there is no built-in "symbol" data type. However, the term "symbol" is sometimes used informally to refer to complex numbers, which are represented using the complex data type in Python.
 
 print("Boolean - ", True)
 print("BigInt - ")
@@ -30,6 +31,12 @@ name = 30
 print(name)
 
 # Interview Questions - What is the difference between Static/Dynamic Typing and Static/Dynamic Binding?
+
+# Compile time vs Runtime
+'''
+Compile Time: The phase when the code is being written
+Run Time: The phase when the compiled code is executed
+'''
 
 # Multiple Assignment shorthand
 a, b, c = 1, 2, 3
@@ -88,3 +95,38 @@ print(raw_str)
 # The purpose of "None" apart from null representation - Variable Declaration
 a = None 
 b = None
+
+# My Code
+
+# Print a simple greeting message
+print("hello world")
+
+# Define a variable with value 56
+a = 56
+
+# Print the result of adding 45 to the variable 'a'
+print(a + 45)
+
+# You can multiply string with number
+print('5' * 5)
+
+# Uncommenting the following lines will cause errors due to type mismatch:
+# Concatenation of string with an integer (not allowed)
+# print("Shriram" + 56)  # This will raise a TypeError
+
+# Adding a string and an integer (not allowed)
+# b = "shriram" + 13  # This will also raise a TypeError
+
+# Demonstrating the print function's parameters:
+# 'sep' parameter specifies the separator between the printed values
+# 'end' parameter specifies what to print at the end of the statement
+print("Hello Python", "Hello C++", sep=" seperator ", end="end")
+
+# Print a new line
+print("Second Line")
+
+# Quick Quiz:
+# The print function does not return any value (returns None), so
+# 'a' will be assigned the value None. Then 'print(a)' will output None.
+a = print(type(print(5)))  # Output: <class 'NoneType'>
+print(a)  # Output: None

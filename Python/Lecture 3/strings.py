@@ -2,14 +2,6 @@
 In Python, strings are a sequence of "Unicode Characters".
 
 Why Unicode? ASCII supports 8-bit characters which is very small and can only support 256 characters. Unicode supports 16-bit characters which can support emojis and 4.3 billion characters.
-
-- Creating Strings
-- Accessing Strings
-- Adding Chars to Strings
-- Editing Strings
-- Deleting Strings
-- Operations on Strings
-- String Functions
 '''
 
 # Creating Strings

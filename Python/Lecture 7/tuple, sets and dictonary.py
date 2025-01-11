@@ -180,8 +180,8 @@ b = (5,6,7,8)
 
 tuple(zip(a,b))
 
-"""# Sets
-
+# Sets
+'''
 A set is an unordered collection of items. Every set element is unique (no duplicates) and must be immutable (cannot be changed).
 
 However, a set itself is mutable. We can add or remove items from it.
@@ -193,85 +193,96 @@ Characterstics:
 - Mutable
 - No Duplicates
 - Can't contain mutable data types
+'''
 
 ### Creating Sets
-"""
+
+s = {} # This is a dictonary and not a set
 
 # empty
 s = set()
 print(s)
 print(type(s))
+
 # 1D and 2D
 s1 = {1,2,3}
 print(s1)
-#s2 = {1,2,3,{4,5}}
-#print(s2)
-# homo and hetro
+
+s2 = {1,2,3,{4,5}}
+print(s2) # Throws an error
+
+# Hetrogeneous set
 s3 = {1,'hello',4.5,(1,2,3)}
 print(s3)
-# using type conversion
 
+# using type conversion
 s4 = set([1,2,3])
 print(s4)
+
 # duplicates not allowed
 s5 = {1,1,2,2,3,3}
 print(s5)
+
 # set can't have mutable items
 s6 = {1,2,[3,4]}
 print(s6)
 
+# Comparison
 s1 = {1,2,3}
 s2 = {3,2,1}
+print(s1 == s2) # True - sets are unordered so only the content inside the set matters
 
-print(s1 == s2)
-
-
-
-"""### Accessing Items"""
-
+# Accessing Items - does not work for sets (both indexing and slicing)
 s1 = {1,2,3,4}
-s1[0:3]
+s1[3] # Error
+s1[0:3] # Error
 
-"""### Editing Items"""
-
+# Editing Items
 s1 = {1,2,3,4}
-s1[0] = 100
+s1[0] = 100 # Error
 
-"""### Adding Items"""
+# Adding Items
 
 S = {1,2,3,4}
 # add
-# S.add(5)
-# print(S)
-# update
+S.add(5) # Add one item at a time
+print(S)
+
+# update # Add multiple items at a time
 S.update([5,6,7])
 print(S)
 
-"""### Deleting Items"""
+# Deleting Items
 
 # del
 s = {1,2,3,4,5}
-# print(s)
-# del s[0]
-# print(s)
-# discard
-# s.discard(50)
-# print(s)
-# remove
-# s.remove(50)
-# print(s)
-# pop
-# s.pop()
-# clear
+print(s)
+
+del s[0] # Error
+print(s)
+
+# discard - item wise deletion - does not throws an error if the element is not present in the set
+s.discard(50)
+print(s)
+
+# remove - item wise deletion - throws an error if the element is not present in the set
+s.remove(50)
+print(s)
+
+# pop - delete any item at random
+s.pop()
+
+# clear - removes all the items
 s.clear()
 print(s)
 
-"""### Set Operation"""
+# Set Operation
 
 s1 = {1,2,3,4,5}
 s2 = {4,5,6,7,8}
-s1 | s2
+
 # Union(|)
+s1 | s2
 # Intersection(&)
 s1 & s2
 # Difference(-)
@@ -279,13 +290,15 @@ s1 - s2
 s2 - s1
 # Symmetric Difference(^)
 s1 ^ s2
+
 # Membership Test
 1 not in s1
+
 # Iteration
 for i in s1:
   print(i)
 
-"""### Set Functions"""
+# Set Functions
 
 # len/sum/min/max/sorted
 s = {3,1,4,5,2,7}
@@ -302,7 +315,7 @@ s2 = {4,5,6,7,8}
 # s1 | s2
 s1.union(s1)
 
-s1.update(s2)
+s1.update(s2) # s1 will get updated
 print(s1)
 print(s2)
 
@@ -340,7 +353,7 @@ print(s2)
 s1 = {1,2,3,4}
 s2 = {7,8,5,6}
 
-s1.isdisjoint(s2)
+s1.isdisjoint(s2) # No any similar elements in both sets
 
 s1 = {1,2,3,4,5}
 s2 = {3,4,5}
@@ -354,35 +367,31 @@ s2 = s1.copy()
 print(s1)
 print(s2)
 
-"""### Frozenset
-Frozen set is just an immutable version of a Python set object
-"""
+# Frozenset - Frozen set is just an immutable version of a Python set object
 
 # create frozenset
 fs1 = frozenset([1,2,3])
 fs2 = frozenset([3,4,5])
 
-fs1 | fs2
+fs1 | fs2 # update functions will not work on frozen sets
 
 # what works and what does not
 # works -> all read functions
 # does't work -> write operations
 
-# When to use
-# 2D sets
+# When to use - read only application
+
+# 2D sets - possible
 fs = frozenset([1,2,frozenset([3,4])])
 fs
 
-"""### Set Comprehension"""
-
-# examples
-
+# Set Comprehension
 {i**2 for i in range(1,11) if i>5}
 
 
 
-"""# Dictionary
-
+# Dictionary - associative arrays
+'''
 Dictionary in Python is a collection of keys values, used to store data values like a map, which, unlike other data types which hold only a single value as an element.
 
 In some languages it is known as map or assosiative arrays.
@@ -392,22 +401,25 @@ dict = { 'name' : 'nitish' , 'age' : 33 , 'gender' : 'male' }
 Characterstics:
 
 - Mutable
-- Indexing has no meaning
-- keys can't be duplicated
+- Indexing has no meaning - values only assicable through keys
+- keys can't be duplicated - duplicate keys are possible (The last occurance will be considered for each unique key)
 - keys can't be mutable items
+'''
 
-### Create Dictionary
-"""
+# Create Dictionary
 
 # empty dictionary
 d = {}
-d
+print(d)
+
 # 1D dictionary
 d1 = { 'name' : 'nitish' ,'gender' : 'male' }
-d1
+print(d1)
+
 # with mixed keys
 d2 = {(1,2,3):1,'hello':'world'}
-d2
+print(d2)
+
 # 2D dictionary -> JSON
 s = {
     'name':'nitish',
@@ -419,20 +431,24 @@ s = {
          'english':34
      }
 }
-s
+print(s)
+
 # using sequence and dict function
 d4 = dict([('name','nitish'),('age',32),(3,3)])
-d4
+d4 = dict([['name','nitish'],['age',32],[3,3]]) # Both are possible
+print(d4)
+
 # duplicate keys
 d5 = {'name':'nitish','name':'rahul'}
-d5
+print(d5)
+
 # mutable items as keys
-d6 = {'name':'nitish',(1,2,3):2}
+d6 = {'name':'nitish', [1,2,3]: 2} # Error
 print(d6)
 
-"""### Accessing items"""
-
+# Accessing items
 my_dict = {'name': 'Jack', 'age': 26}
+
 # []
 my_dict['age']
 # get
@@ -440,29 +456,33 @@ my_dict.get('age')
 
 s['subjects']['maths']
 
-"""### Adding key-value pair"""
+# Adding key-value pair
 
 d4['gender'] = 'male'
-d4
+print(d4)
+
 d4['weight'] = 72
-d4
+print(d4)
 
 s['subjects']['ds'] = 75
-s
+print(s)
 
-"""### Remove key-value pair"""
+# Remove key-value pair
 
 d = {'name': 'nitish', 'age': 32, 3: 3, 'gender': 'male', 'weight': 72}
 # pop
-#d.pop(3)
-#print(d)
+d.pop(3) # Provide key
+print(d)
+
 # popitem
-#d.popitem()
-# d.popitem()
-# print(d)
+d.popitem() # Popping last element
+d.popitem()
+print(d)
+
 # del
-#del d['name']
-#print(d)
+del d['name']
+print(d)
+
 # clear
 d.clear()
 print(d)
@@ -470,32 +490,30 @@ print(d)
 del s['subjects']['maths']
 s
 
-"""### Editing key-value pair"""
+# Editing key-value pair
 
 s['subjects']['dsa'] = 80
-s
-
-"""### Dictionary Operations
-
-- Membership
-- Iteration
-"""
-
 print(s)
 
-'name' in s
+# Dictionary Operations
+'''
+- Membership
+- Iteration
+'''
+
+'name' in s # Default search in keys
 
 d = {'name':'nitish','gender':'male','age':33}
 
 for i in d:
   print(i,d[i])
 
-"""### Dictionary Functions"""
+# Dictionary Functions
 
 # len/sorted
 len(d)
 print(d)
-sorted(d,reverse=True)
+sorted(d,reverse=True) # Sorts the keys only and return ans into list
 max(d)
 
 # items/keys/values
@@ -509,11 +527,10 @@ print(d.values())
 d1 = {1:2,3:4,4:5}
 d2 = {4:7,6:8}
 
-d1.update(d2)
+d1.update(d2) # The keys which are present in d1 the values of those keys will be updated by values of d2
 print(d1)
 
-"""### Dictionary Comprehension
-"""
+# Dictionary Comprehension
 
 # print 1st 10 numbers and their squares
 {i:i**2 for i in range(1,11)}
