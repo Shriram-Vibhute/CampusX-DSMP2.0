@@ -295,8 +295,8 @@ s=SmartPhone(20000, "Samsung", 12, "Android", 2)
 print(s.os)
 print(s.brand)
 
-"""##### Inheritance in summary
-
+# Inheritance in summary
+"""
 - A class can inherit from another class.
 
 - Inheritance improves code reuse
@@ -344,6 +344,7 @@ class Child(Parent):
         self.var=200
 
     def show(self):
+        # This is an intersting code - why self.num able to print -> Because self is an object of child class and child class inherited from parent so it has the capabilities of accessing parent public attributes.
         print(self.num)
         print(self.var)
 
