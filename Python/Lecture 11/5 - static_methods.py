@@ -1,0 +1,25 @@
+class marathon:
+    race_number = 0
+    def __init__(self, name, id):
+        self.name = name
+        self.id = id
+    
+    @staticmethod
+    def race_count():
+        marathon.race_number += 1
+
+print(marathon.race_number)
+t1 = marathon('t1', 1)
+t2 = marathon('t2', 2)
+t3 = marathon('t3', 3)
+t4 = marathon('t4', 4)
+t5 = marathon('t5', 5)
+
+marathon.race_count()
+print(marathon.race_number)
+t6 = marathon('t6', 6)
+t7 = marathon('t7', 7)
+t8 = marathon('t8', 8)
+
+marathon.race_count()
+print(marathon.race_number)
