@@ -6,7 +6,7 @@ print(type(a))  # prints the type of 'a', which is now <class 'float'>
 b = None  # 'None' is a special object representing the absence of value, of type 'NoneType'
 print("The type of b is : ", type(b))  # prints the type of 'b', which is <class 'NoneType'>
 
-print(type('python'))  # prints the type of the string literal, which is <class 'str'>
+print(type('python')) # prints the type of the string literal, which is <class 'str'>
 
 c = [1, "dexter", {"age": 21}, 4.6]  # a list object containing different types of elements, lists are mutable
 d = (1, "dexter", {"age": 21}, 4.6)  # a tuple object containing different types of elements, tuples are immutable

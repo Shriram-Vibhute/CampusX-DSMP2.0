@@ -6,7 +6,7 @@ while number != 0:
   result = digits[number % 10] + result
   number = number // 10
 
-print(result) # The time complexity -> O(n)
+print(result) # The time complexity -> O(log(n))
 
 
 L = [1,2,3,4]
@@ -52,8 +52,9 @@ print(L) # O(n)
 n = 10
 k = 0;
 for i in range(n//2,n):
-  for j in range(2,n,pow(2,j)):
-        k = k + n / 2; 
+  for j in range(2,n,pow(2,2)):
+    print('j = ', j)
+    k = k + n / 2; 
 
 print(k) # O(n * log(n))
 
@@ -81,12 +82,3 @@ def fib(n):
     return 1
   else:
     return fib(n-1) + fib(n-2) # How the time complexity is measured here - Basically you have to count the number of function calls for a giver input - Here for each function call two sub function calls are executing from n to 0 (roughly) and for those 2 sub-calls next two sub-calls are running for each - TC - O(2 ^ n) - meaning for each fn calls how many sub fn calls are running.
-
-# Subset Algo
-
-"""{3T(n-1) if n>0 
-    T(n) = {1, otherwise
-
-{2T(n-1)-1 if n>0
-    T(n) = {1, otherwise
-""" 

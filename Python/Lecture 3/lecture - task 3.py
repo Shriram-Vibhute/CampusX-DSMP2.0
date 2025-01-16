@@ -70,10 +70,9 @@ for i in range(0, n):
   total_sum += addition_factor
 print(total_sum)
 
-"""###`Problem 8`: Write a program to print all the unique combinations of 1,2,3 and 4
-
-`Output`:
-```
+#`Problem 8`: Write a program to print all the unique combinations of 1,2,3 and 4
+'''
+output: 
 1 2 3 4
 1 2 4 3
 1 3 2 4
@@ -88,10 +87,24 @@ print(total_sum)
 .
 .
 and so on
-```
-"""
+'''
+def permute(nums, start, end):
+    if start == end:
+        print(" ".join(map(str, nums)))
+    else:
+        for i in range(start, end + 1):
+            # Swap the current index with the start
+            nums[start], nums[i] = nums[i], nums[start]
+            # Recurse with the next index
+            permute(nums, start + 1, end)
+            # Backtrack to restore the original list
+            nums[start], nums[i] = nums[i], nums[start]
 
-# Code here
+# Define the numbers
+numbers = [1, 2, 3, 4]
+
+# Generate permutations
+permute(numbers, 0, len(numbers) - 1)
 
 """###`Problem 9`: Write a program that will take a decimal number as input and prints out the binary equivalent of the number"""
 def decimal_to_binary(decimal_number):
@@ -118,6 +131,7 @@ print(f"The binary equivalent of {decimal_number} is {binary_equivalent}")
 a = int(input("Enter the 1st number : "))
 b = int(input("Enter the 2st number : "))
 
+# Brute Force
 small_number = a if a <= b else b
 for i in range(small_number, 0, -1):
   if int(a % i) == 0 and int(b % i) == 0:
@@ -127,38 +141,35 @@ for i in range(small_number, 0, -1):
 
 print('LCM ->', a * b / HCF)
 
-"""### **Problem 11:** Create Short Form from initial character
+# Optimized solution
+def hcf(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+def lcm(a, b):
+    return (a * b) // hcf(a, b)
+
+# Example usage
+num1 = 12
+num2 = 14
+
+hcf_value = hcf(num1, num2)
+lcm_value = lcm(num1, num2)
+
+print(f"HCF of {num1} and {num2} is: {hcf_value}")
+print(f"LCM of {num1} and {num2} is: {lcm_value}")
+
+
+# Problem 11: Create Short Form from initial character
+'''
 Given a string create short form ofthe string from Initial character. Short form should be capitalised.
-
-Example:
-
-`Input:`
-```
-Data science mentorship program
-```
-
-`Output:`
-```
-DSMP
-```
-"""
+'''
 string = input("Your string : ")
 lst = string.split()
 print(''.join([i[0].upper() for i in lst]))
 
-"""###`Problem 12`: Append second string in the middle of first string
-
-`Input:`
-```
-campusx
-data
-```
-`Output`:
-
-```
-camdatapusx
-```
-"""
+# Problem 12: Append second string in the middle of first string
 string = input("Your string : ")
 additional_string = input("additional string : ")
 updated_str = string[:int(len(string) / 2)] + additional_string
@@ -183,19 +194,16 @@ while left != right:
 print("".join(string))
 
 
-"""### `Problem 14:`Take a alphanumeric string input and print the sum and average of the digits that appear in the string, ignoring all other characters.
-
+# `Problem 14:`Take a alphanumeric string input and print the sum and average of the digits that appear in the string, ignoring all other characters.
+'''
 Input:
-
 `hel123O4every093`
-
 Output:
-
 ```
 Sum: 22
 Avg: 3.142
 ```
-"""
+'''
 string = input("Enter your string : ")
 total_sum, total_digits = 0, 0
 for i in string:
@@ -206,9 +214,9 @@ for i in string:
 print("Total sum : ", total_sum)
 print("Average : ", total_sum / total_digits)
 
-"""### `Problem 16`: Check whether the string is Symmetrical.
-
-**Statement:** Given a string. the task is to check if the string is symmetrical or not. A string is said to be symmetrical if both the halves of the string are the same.
+# `Problem 16`: Check whether the string is Symmetrical.
+'''
+Statement: Given a string. the task is to check if the string is symmetrical or not. A string is said to be symmetrical if both the halves of the string are the same.
 
 **Example 1:**
 
@@ -223,7 +231,7 @@ khokho
 ```bash
 The entered string is symmetrical
 ```
-"""
+'''
 
 string = input("Enter your string : ")
 def isSymmetric(string: str) -> bool:

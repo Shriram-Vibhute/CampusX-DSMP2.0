@@ -1,4 +1,4 @@
-# Implicit TypeCasting
+# Implicit Type Conversion
 a = 1.9  # float
 b = 8    # integer
 

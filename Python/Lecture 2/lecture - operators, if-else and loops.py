@@ -34,9 +34,9 @@ print(not 1)
 print(2 & 3)  # bitwise and
 print(2 | 3)  # bitwise or
 print(2 ^ 3)  # bitwise xor
-print(~3)
-print(4 >> 2)  # The newly introduced bits are dependent on the interpreter
-print(5 << 2)  # The newly introduced bits are 0
+print(~3)     # bitwise not
+print(4 >> 2)  # bitwise right-shift The newly introduced bits are chosen by interpreter
+print(5 << 2)  # bitwise left-shift The newly introduced bits are 0
 
 # Assignment Operators
 a = 2

@@ -57,10 +57,20 @@ print("6 not in lst:", 6 not in lst)  # True
 # Identity Operators
 f = 10
 g = 10
+h = 1e34
+i = 1e34
 
 print("\nIdentity Operators:")
 print("f is g:", f is g)          # True, because integers are immutable and 'f' and 'g' point to the same object
+print(h is i)
+# Immutability of Integers: In Python, integers are immutable. This means that once an integer object is created, its value cannot be changed. When you perform an operation that seems to modify an integer (like assigning a new value), Python actually creates a new integer object instead of modifying the existing one
+# This is only possible with integers and booleans
+
 print("f is not g:", f is not g)  # False
+
+a = True
+b = True
+print(a is b)
 
 h = [1, 2, 3]
 i = [1, 2, 3]
