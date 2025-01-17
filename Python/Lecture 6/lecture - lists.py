@@ -56,7 +56,7 @@ print(id(d))
 M = L # The address of L is initialized to M
 print(M is L)
 
-a, b, *c = L
+a, b, *c = L # List unpacking concept
 print(c[1] is L[len(L) - 2])
 
 # Python does not create multiple instances of a single value. Instead, it creates one instance of a value at the start of initialization and reuses the same instance, changing the address locations of variables as needed.
@@ -70,7 +70,7 @@ print(c[1] is L[len(L) - 2])
 - are dynamic
 - can be nested
 - items can be accessed
-- can contain any kind of objects in python
+- can contain any kind of objects in python - even the predefined functions as well.
 '''
 
 # Creating a List  
@@ -114,12 +114,16 @@ L = [1,2,3,4,5]
 L.extend([6,7,8])
 print(L)
 
-L = [1,2,3,4,5]
-L.append([6,7,8]) 
-print(L)
+l = [1,2,3]
+l.extend((4,5,6)) # Extending tuple to a list
+print(l)
 
 L = [1,2,3,4,5]
 L.extend('delhi')
+print(L)
+
+L = [1,2,3,4,5]
+L.append([6,7,8]) 
 print(L)
 
 # insert
@@ -224,7 +228,7 @@ L = [2,1,5,7,0]
 print(L)
 print(sorted(L))
 print(L)
-L.sort() # Permanently solve the list
+L.sort() # Permanently sort the list
 print(L)
 
 # copy -> shallow
