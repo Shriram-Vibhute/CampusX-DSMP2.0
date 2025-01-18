@@ -55,7 +55,7 @@ power(b=3,a=2)
 
 # *args - allows us to pass a variable number of non-keyword arguments to a function.
 
-def multiply(*args): # Accept all the arguments as tuple
+def multiply(*args): # Accept all the positional arguments as tuple
   product = 1
 
   for i in args:
@@ -66,7 +66,7 @@ def multiply(*args): # Accept all the arguments as tuple
 
 multiply(1,2,3,4,5,6,7,8,9,10,12)
 
-# **kwargs - kw -> keyword
+# **kwargs - kw -> keyword only arguments
 '''
 **kwargs allows us to pass any number of keyword arguments.
 Keyword arguments mean that they contain a key-value pair, like a Python dictionary.
@@ -78,7 +78,7 @@ def display(**kwargs): # Accept all the arguments as dictonary
 
 display(india='delhi',srilanka='colombo',nepal='kathmandu',pakistan='islamabad') # Everything must be keyword args
 
-# Points to remember while using `*args and **kwargs
+# Points to remember while using `*args and **kwargs 
 '''
 - order of the arguments matter(normal -> `*args` -> `**kwargs`)
 - The words “args” and “kwargs” are only a convention, you can use any name of your choice
@@ -113,11 +113,11 @@ x = 5
 g(x)
 print(x)
 
+x = 5
 def f(y):
-    x = 1 # This is local
+    # x = 1 # This is local
     x += 1
     print(x)
-x = 5
 f(x)
 print(x)
 
@@ -193,7 +193,7 @@ In general the datatypes are called as 1st class citizens but in Python the func
 def square(num):
   return num**2
 
-type(square)
+print(type(square)) # class function
 id(square)
 
 # reassign
