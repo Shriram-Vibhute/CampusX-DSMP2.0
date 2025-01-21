@@ -78,6 +78,9 @@ p.gender # Error
 p.gender = 'male' # There is no error
 print(p.gender) 
 
+p._Person__studied = "IIT"
+print(p._Person__studied) # We can also create private methods like this
+
 """### Reference Variables
 
 - Reference variables hold the objects

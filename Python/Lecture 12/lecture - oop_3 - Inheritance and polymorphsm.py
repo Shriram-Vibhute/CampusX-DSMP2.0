@@ -134,10 +134,11 @@ class Phone:
 
 class SmartPhone(Phone):
     def check(self):
-        print(self.__price)
+        print(self.__price) # Here we cannot access private variables directly but with - _Phone__price does
 
 s=SmartPhone(20000, "Apple", 13)
 s.show()
+s.check()
 
 class Parent:
 
@@ -209,7 +210,7 @@ s=SmartPhone(20000, "Apple", 13)
 
 s.buy()
 
-"""### Super Keyword"""
+""" Super Keyword """
 
 class Phone:
     def __init__(self, price, brand, camera):
@@ -387,7 +388,7 @@ class Child(Parent):
 obj=Child()
 obj.show()
 
-"""### Types of Inheritance
+""" Types of Inheritance
 
 - Single Inheritance
 - Multilevel Inheritance
@@ -543,7 +544,7 @@ class C(B):
 obj=C()
 print(obj.m1())
 
-"""### Polymorphism
+""" Polymorphism
 
 - Method Overriding
 - Method Overloading
@@ -569,7 +570,7 @@ print(s.area(3,4))
 
 [1,2,3] + [4,5]
 
-"""### Abstraction"""
+"""Abstraction"""
 
 from abc import ABC,abstractmethod
 class BankApp(ABC):
@@ -601,4 +602,3 @@ mob = MobileApp()
 mob.security()
 
 obj = BankApp()
-

@@ -45,3 +45,25 @@ Usage: Instance methods are used to access or modify instance-specific data and 
 
 Access: It can access both instance variables and class variables. It can also call other instance methods.
 '''
+
+# Difference between @classmethod and @staticmethod
+class Example:
+    count = 0  # Class variable
+
+    def __init__(self, value):
+        self.value = value  # Instance variable
+
+    @classmethod
+    def increment_count(cls):
+        cls.count += 1
+        print(f"Count incremented to {cls.count}")
+
+    @staticmethod
+    def utility_method(param):
+        print(f"Utility method called with {param}")
+
+# Using the class method
+Example.increment_count()  # Outputs: Count incremented to 1
+
+# Using the static method
+Example.utility_method("test")  # Outputs: Utility method called with test
