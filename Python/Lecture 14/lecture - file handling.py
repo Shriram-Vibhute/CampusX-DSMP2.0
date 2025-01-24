@@ -23,13 +23,20 @@
 f = open('sample.txt','w') # f is a 'file handler object'
 f.write('Hello world')
 f.close()
+print(f) # Not the file handler get deleted
 # since file is closed hence this will not work
 f.write('hello')
 
 # write multiline strings
 f = open('sample1.txt','w')
 f.write('hello world')
-f.write('\nhow are you?')
+f.write('\nhow are you?') # Its not like everytime you write in your file and the data which is already get deleted
+f.write(
+  """
+  Hey buddy,
+  light weight baby.
+  """
+)
 f.close()
 
 # case 2 - if the file is already present
@@ -114,6 +121,12 @@ with open('sample.txt','r') as f:
   print(f.read(10))
   print(f.read(10))
 
+
+with open('sample1.txt', 'r') as f:
+  print(f.read())
+  print(f.read())
+
+
 # benefit? -> to load a big file in memory
 big_L = ['hello world ' for i in range(1000)]
 
@@ -178,11 +191,11 @@ d = {
      'gender':'male'
 }
 
-with open('sample.txt','w') as f:
+with open('sample1.txt','w') as f:
   f.write(str(d))
 
 with open('sample.txt','r') as f:
-  print(dict(f.read()))# Throws an error - string cannot able to convert into dictonary
+  print(dict(f.read())) # Throws an error - string cannot able to convert into dictonary
 
 # Serialization and Deserialization
 '''
@@ -209,13 +222,18 @@ d = {
 }
 
 with open('demo.json','w') as f:
-  json.dump(d,f,indent=4) # Serialization
+  json.dump(d, f, indent=4) # Serialization
+
 
 # deserialization
 import json
 
+with open('demo.json', 'r') as f:
+  j = json.load(f)
+  print(j['name'])
+
 with open('demo.json','r') as f:
-  d = json.load(f)
+  d = json.load(f) # d is an object by which you can access all the keys
   print(d)
   print(type(d))
 
@@ -229,7 +247,7 @@ with open('demo.json','w') as f:
   # When you deserialize it the result is also in the from of list only
 
 # serialize and deserialize a nested dict
-
+import json
 d = {
     'student':'nitish',
      'marks':[23,14,34,45,56]
@@ -239,6 +257,7 @@ with open('demo.json','w') as f:
   json.dump(d,f)
 
 # Serializing and Deserializing custom objects
+import json
 class Person:
 
   def __init__(self,fname,lname,age,gender):
@@ -255,15 +274,13 @@ person = Person('Nitish','Singh',33,'male')
 # As a string
 import json
 
+# Note - You have to searilize an object in different way else error - Object of type Person is not JSON serializable
 def show_object(person):
   if isinstance(person,Person):
     return "{} {} age -> {} gender -> {}".format(person.fname,person.lname,person.age,person.gender)
 
-with open('demo.json','w') as f:
-  json.dump(person,f,default=show_object)
-
-# As a dict
 import json
+# As a dict
 
 def show_object(person):
   if isinstance(person,Person):
@@ -281,7 +298,7 @@ import json
 with open('demo.json','r') as f:
   d = json.load(f)
   print(d)
-  print(type(d))
+  print(type(d)) # The type is what you stored during writing into the file
 
 # Pickling
 '''
