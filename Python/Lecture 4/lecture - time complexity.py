@@ -81,4 +81,17 @@ def fib(n):
   if n == 1 or n == 0:
     return 1
   else:
-    return fib(n-1) + fib(n-2) # How the time complexity is measured here - Basically you have to count the number of function calls for a giver input - Here for each function call two sub function calls are executing from n to 0 (roughly) and for those 2 sub-calls next two sub-calls are running for each - TC - O(2 ^ n) - meaning for each fn calls how many sub fn calls are running.
+    return fib(n-1) + fib(n-2) # How the time complexity is measured here - Basically you have to count the number of function calls for a giver input - Here for each function call two sub function calls are executing from n to 0 (roughly) and for those 2 sub-calls next two sub-calls are running for each - TC - O(2 ^ n) - meaning for each fn calls how many sub fn calls are running.   
+  
+# How to imporve the fibonacchi recursion
+def fib(n, d: dict):
+  if n == 1 or n == 0:
+    return 1
+  if n in d:
+    return d[n]
+  else:
+    val = fib(n-1) + fib(n-2)
+    d[n] = val
+    return val
+
+print(fib(5))

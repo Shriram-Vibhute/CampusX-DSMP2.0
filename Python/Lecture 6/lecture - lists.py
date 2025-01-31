@@ -217,6 +217,8 @@ L.count(5)
 L = [1,2,1,3,4,1,5]
 L.index(1) # throws an error if element is not present 
 
+# unlike strings there is no find method for lists
+
 # reverse
 L = [2,1,5,7,0]
 # permanently reverses the list
@@ -296,6 +298,8 @@ L2 = [5,6,7,8]
 
 [i*j for i in L1 for j in L2] # Double for loop in one comprehension
 
+print([i * j for i in range(3) for j in range(3)]) # Nested Loop to create 1D list - runs 9 times
+
 # 2 ways to traverse a list
 '''
 - itemwise
@@ -312,7 +316,7 @@ L = [1,2,3,4]
 for i in range(0,len(L)):
   print(L[i])
 
-## Zip
+# Zip
 '''
 The zip() function returns a zip object, which is an iterator of tuples where the first item in each passed iterator is paired together, and then the second item in each passed iterator are paired together.
 
