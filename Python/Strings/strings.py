@@ -58,13 +58,14 @@ print('D' in 'delhi')
 
 # Common Functions
 print(len('hello world'))
-print(max('hello world'))
-print(min('hello world'))
+print(max('hello world')) # Max ASCII valued character
+print(min('hello world')) # Why this code is not returning anything ?
 print(sorted('hello world', reverse=True))
 
 # Capitalize/Title/Upper/Lower/Swapcase
 s = 'hello world'
 print(s.capitalize())
+print("#hello".capitalize()) # If first letter is not a character -> Does not throw an error
 print(s.title())
 print(s.upper())
 print('Hello World'.lower())

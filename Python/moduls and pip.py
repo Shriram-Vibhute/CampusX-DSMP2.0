@@ -1,3 +1,29 @@
+"""Modules in Python
+- math
+- keywords
+- random
+- datetime
+"""
+
+# math
+import math
+math.sqrt(196)
+
+# keyword
+import keyword
+print(keyword.kwlist) # Return all the keywords in python
+
+# random
+import random
+print(random.randint(1,100))
+
+# datetime
+import datetime
+print(datetime.datetime.now())
+
+help('modules') # List of all the modules provided by python including the ones we have installed
+
+# My Code
 '''
 pip is the package installer for Python."pip" does not have a universally accepted full form in Python. It allows you to install, manage, and update Python libraries and packages from the Python Package Index (PyPI) and other repositories. Essentially, it's a tool that helps you easily add external libraries to your Python environment, which can provide additional functionality or simplify development tasks.
 '''

@@ -117,3 +117,62 @@ b = 1000
 print(a == b)  # True
 print(a is b)  # True (due to internal optimization in CPython for small integers)
 '''
+
+# Lecture
+"""
+Operators in Python
+- Arithmetic Operators
+- Relational Operators
+- Logical Operators
+- Bitwise Operators
+- Assignment Operators
+- Membership Operators
+"""
+
+# Arithmetic Operators
+print(5 + 6)
+print(5 - 6)
+print(5 * 6)
+print(5 / 2)
+print(5 // 2)
+print(5 % 2)
+print(5 ** 2)
+
+# Relational Operators
+print(4 > 5)
+print(4 < 5)
+print(4 >= 4)
+print(4 <= 4)
+print(4 == 4)
+print(4 != 4)
+
+# Logical Operators
+print(1 and 0)
+print(1 or 0)
+print(not 1)
+
+# Bitwise Operators
+print(2 & 3)  # bitwise and
+print(2 | 3)  # bitwise or
+print(2 ^ 3)  # bitwise xor
+print(~3)     # bitwise not
+print(4 >> 2)  # bitwise right-shift The newly introduced bits are chosen by interpreter
+print(5 << 2)  # bitwise left-shift The newly introduced bits are 0
+
+# Assignment Operators
+a = 2
+a %= 2  # a = a % 2
+print(a)
+
+# Membership Operators
+print('D' not in 'Delhi')
+print(1 in [2, 3, 4, 5, 6])
+
+# Program - Find the sum of a 3 digit number entered by the user
+number = int(input('Enter a 3 digit number: '))
+a = number % 10
+number = number // 10
+b = number % 10
+number = number // 10
+c = number % 10
+print(a + b + c)
