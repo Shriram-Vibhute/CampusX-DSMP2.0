@@ -354,3 +354,10 @@ a.append(4)
 print(a)
 print(b)
 # lists are mutable
+
+# Interview Question
+for i in range(len(L)):
+  del L[i] # In this code we definately face index error because modifaction of the list(length of list) while iterating over it is ambigious.
+# Solution ->
+for i in range(len(L) - 1, -1, -1):
+  del L[i] # Deletion of element from backword
