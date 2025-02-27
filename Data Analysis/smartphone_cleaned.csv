@@ -1,0 +1,983 @@
+brand,os,rating,has_5G,has_IR_blasters,has_NFC,has_5G,has_IR_blasters,has_NFC,RAM,internal_storage,battery_capacity,charger_power,screen_size,screen_resolution,refresh_rate,rear_max_camera,total_rear_cameras,total_front_cameras,front_max_camera,supports_memory_card,price
+oneplus,android,89.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,100,6.7 inches,1440 x 3216 px,120 Hz,50,3,1,16,False,54999
+oneplus,android,81.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.59 inches,1080 x 2412 px,120 Hz,64,3,1,16,True,19989
+samsung,android,75.0,True,False,False,True,False,False,4 GB RAM,64 GB inbuilt,5000,15,6.6 inches,1080 x 2408 px,90 Hz,50,3,1,13,True,16499
+motorola,android,81.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,,6.55 inches,1080 x 2400 px,120 Hz,50,3,1,16,True,14999
+realme,android,82.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,67,6.7 inches,1080 x 2412 px,120 Hz,108,3,1,16,False,24999
+samsung,android,80.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,25,6.6 inches,1080 x 2408 px,120 Hz,50,3,1,8,True,16999
+apple,ios,81.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,3279,,6.1 inches,1170 x 2532 px,,12,2,1,12,False,65999
+xiaomi,android,86.0,True,True,False,True,True,False,8 GB RAM,256 GB inbuilt,4980,120,6.67 inches,1080 x 2400 px,120 Hz,200,3,1,16,False,29999
+nothing,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,33,6.55 inches,1080 x 2400 px,120 Hz,50,2,1,16,False,26749
+oneplus,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,80,6.43 inches,1080 x 2400 px,90 Hz,50,3,1,32,False,28999
+realme,android,82.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.72 inches,1080 x 2400 px,120 Hz,108,2,1,16,True,18999
+oppo,android,79.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,33,6.56 inches,720 x 1612 px,90 Hz,50,2,1,8,True,18999
+xiaomi,android,79.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,24762
+vivo,android,80.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,120 Hz,50,3,1,16,True,16990
+samsung,android,,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5000,45,6.8 inches,1440 x 3088 px,120 Hz,200,4,1,12,False,114990
+apple,ios,79.0,True,False,True,True,False,True,4 GB RAM,128 GB inbuilt,3240,,6.1 inches,1170 x 2532 px,,12,2,1,12,False,62999
+vivo,android,65.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,10,6.51 inches,720 x 1600 px,,13,2,1,5,True,9999
+oppo,android,86.0,True,False,True,True,False,True,16 GB RAM,256 GB inbuilt,4700,80,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,32,False,45999
+oneplus,android,86.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,80,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,32999
+vivo,android,72.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.55 inches,720 x 1612 px,,50,2,1,8,True,14499
+oneplus,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,100,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,39999
+vivo,android,85.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4830,66,6.56 inches,1080 x 2376 px,120 Hz,64,3,1,32,False,35999
+poco,android,80.0,True,True,False,True,True,False,6 GB RAM,64 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,64,3,1,16,True,14999
+xiaomi,android,76.0,True,True,False,True,True,False,4 GB RAM,128 GB inbuilt,5000,33,6.67 inches,1080 x 2400 px,120 Hz,48,3,1,13,True,17859
+vivo,android,87.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4800,100,6.7 inches,1080 x 2400 px,120 Hz,64,3,1,32,False,42990
+samsung,android,88.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,,6.5 inches,1080 x 2400 px,120 Hz,12,3,1,32,True,31239
+oneplus,android,84.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.59 inches,1080 x 2412 px,120 Hz,64,3,1,16,True,21995
+apple,ios,76.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4323,,6.7 inches,1290 x 2796 px,120 Hz,48,3,1,12,False,129990
+vivo,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4500,44,6.44 inches,1080 x 2408 px,90 Hz,64,3,1,50,True,27999
+oneplus,android,,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,100,6.7 inches,1440 x 3216 px,120 Hz,50,3,1,16,False,69999
+realme,android,84.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.72 inches,1080 x 2400 px,120 Hz,108,2,1,16,True,19999
+poco,android,81.0,True,True,True,True,True,True,6 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,16,False,20999
+vivo,android,83.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,4700,67,6.56 inches,1080 x 2400 px,120 Hz,64,3,1,50,True,27990
+apple,ios,73.0,False,False,True,False,False,True,4 GB RAM,64 GB inbuilt,3110,,6.1 inches,828 x 1792 px,,12,2,1,12,False,38999
+samsung,android,85.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,25,6.7 inches,1080 x 2400 px,120 Hz,108,4,1,32,True,23790
+samsung,android,87.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,25,6.4 inches,1080 x 2340 px,120 Hz,12,3,1,32,False,39999
+oppo,android,87.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5000,66,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,16,True,29990
+samsung,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,45,6.8 inches,1440 x 3080 px,120 Hz,108,4,1,40,False,91999
+xiaomi,android,83.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5200,210,6.67 inches,1080 x 2460 px,120 Hz,108,4,1,32,True,32999
+oppo,android,83.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4500,67,6.7 inches,1080 x 2412 px,120 Hz,64,2,1,32,False,28499
+oneplus,android,83.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,67,6.7 inches,1080 x 2412 px,120 Hz,108,3,1,16,True,21999
+xiaomi,android,83.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,16,True,19999
+motorola,android,87.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,30,6.67 inches,1080 x 2400 px,90 Hz,108,3,1,32,True,18999
+realme,android,85.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,5000,67,6.7 inches,1080 x 2412 px,120 Hz,108,3,1,16,False,27999
+vivo,android,80.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,44,6.58 inches,1080 x 2408 px,90 Hz,50,3,1,16,True,18499
+samsung,android,81.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,6000,25,6.6 inches,1080 x 2400 px,120 Hz,50,4,1,8,True,17478
+xiaomi,android,76.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,90 Hz,50,4,1,13,True,11936
+realme,android,64.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,50,2,1,5,True,8950
+vivo,android,68.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,10,6.51 inches,720 x 1600 px,,13,2,1,5,True,12489
+samsung,android,,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,33,6.7 inches,1080 x 2412 px,120 Hz,108,4,1,32,True,42999
+samsung,android,79.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,15,6.6 inches,1080 x 2408 px,90 Hz,50,3,1,13,True,18999
+iqoo,android,82.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5000,120,6.78 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,29999
+jio,android,64.0,True,False,False,True,False,False,4 GB RAM,32 GB inbuilt,5000,18,6.5 inches,720 x 1600 px,90 Hz,13,1,1,8,True,11990
+motorola,android,83.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,30,6.6 inches,1080 x 2400 px,120 Hz,50,3,1,16,True,18999
+realme,android,74.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.4 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,13999
+realme,android,75.0,True,False,False,True,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.6 inches,1080 x 2408 px,90 Hz,50,3,1,8,True,14965
+apple,ios,82.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4325,,6.7 inches,1284 x 2778 px,,12,2,1,12,False,74999
+xiaomi,android,78.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,,64,4,1,13,True,10999
+samsung,android,89.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4700,45,6.6 inches,1080 x 2340 px,120 Hz,50,3,1,12,False,84990
+motorola,android,75.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.55 inches,1080 x 2400 px,90 Hz,50,3,1,16,True,10499
+xiaomi,android,78.0,True,True,True,True,True,True,6 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2460 px,120 Hz,108,3,1,16,False,17990
+vivo,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4600,66,6.78 inches,1080 x 2400 px,120 Hz,64,3,1,50,False,29990
+samsung,android,79.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,25,6.6 inches,1080 x 2408 px,,50,4,1,8,True,18499
+vivo,android,75.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.55 inches,720 x 1612 px,,50,2,1,8,True,16499
+poco,android,81.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,14999
+vivo,android,86.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4600,66,6.78 inches,1080 x 2400 px,120 Hz,50,3,1,50,False,35499
+oneplus,android,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,80,6.7 inches,1440 x 3216 px,120 Hz,50,3,1,32,False,60999
+xiaomi,android,87.0,True,True,False,True,True,False,12 GB RAM,256 GB inbuilt,4980,120,6.67 inches,1080 x 2400 px,120 Hz,200,3,1,16,False,32999
+samsung,android,78.0,True,False,True,True,False,True,4 GB RAM,128 GB inbuilt,5000,25,6.6 inches,1080 x 2408 px,120 Hz,50,3,1,8,True,15999
+oppo,Undefined,,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5000,67,7.1 inches,1792 x 1920 px,120 Hz,64,3,1,32,False,99990
+oppo,android,62.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,,6.56 inches,720 x 1612 px,,8,1,1,5,True,9499
+vivo,android,86.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,4200,44,6.44 inches,1080 x 2400 px,90 Hz,64,3,2,50,True,27994
+iqoo,android,75.0,True,False,False,True,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,120 Hz,50,2,1,8,True,13989
+oneplus,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4800,150,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,44999
+xiaomi,android,79.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,8,True,13999
+gionee,HarmonyOS v2,,False,False,False,False,False,False,4 GB RAM,32 GB inbuilt,3500,,6.26 inches,720 x 1600 px,,13,2,1,5,True,6190
+apple,ios,83.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,3095,,6.1 inches,1170 x 2532 px,120 Hz,12,3,1,12,False,119900
+oppo,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4800,67,6.58 inches,1080 x 2400 px,120 Hz,64,3,1,32,True,27660
+samsung,android,75.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,33,6.5 inches,1080 x 2400 px,90 Hz,48,4,1,13,True,24999
+xiaomi,android,66.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,1,1,5,True,8388
+motorola,android,83.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,5000,33,6.55 inches,1080 x 2400 px,120 Hz,108,3,1,16,True,15999
+samsung,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,15,6.6 inches,1080 x 2408 px,90 Hz,50,3,1,13,True,20999
+realme,android,75.0,True,False,False,True,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,16,True,13999
+vivo,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,120 Hz,50,3,1,16,True,19990
+samsung,android,75.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,15,6.5 inches,720 x 1600 px,90 Hz,50,2,1,5,True,13999
+motorola,android,83.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4020,33,6.5 inches,1080 x 2400 px,144 Hz,50,3,1,32,False,22999
+samsung,android,79.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,25,6.6 inches,1080 x 2408 px,120 Hz,50,4,1,8,True,22999
+oppo,android,79.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.56 inches,720 x 1612 px,90 Hz,48,2,1,8,True,16999
+xiaomi,android,80.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,90 Hz,50,4,1,13,True,14290
+samsung,android,,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,25,6.7 inches,1080 x 2400 px,120 Hz,108,4,1,32,True,41999
+vivo,android,69.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.51 inches,720 x 1600 px,,13,2,1,8,True,13489
+oneplus,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,,6.59 inches,1080 x 2412 px,120 Hz,64,3,1,16,False,22990
+motorola,android,84.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,,6.55 inches,1080 x 2400 px,120 Hz,50,3,1,16,True,16499
+vivo,android,,True,True,True,True,True,True,12 GB RAM,256 GB inbuilt,4700,80,6.78 inches,1440 x 3200 px,120 Hz,50,4,1,32,False,73999
+realme,android,67.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,50,2,1,5,True,9999
+realme,android,75.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.6 inches,1080 x 2412 px,90 Hz,50,3,1,16,True,12499
+oppo,android,72.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.56 inches,720 x 1612 px,,50,2,1,5,True,12499
+iqoo,android,88.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5000,120,6.78 inches,1440 x 3200 px,144 Hz,50,3,1,16,False,59999
+vivo,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4600,66,8.03 inches,1916 x 2160 px,120 Hz,50,4,1,16,False,106990
+vivo,android,78.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,120 Hz,50,3,1,16,True,15990
+apple,ios,75.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,3200,,6.1 inches,1179 x 2556 px,120 Hz,48,3,1,12,False,119990
+xiaomi,android,83.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5200,33,6.67 inches,1080 x 2400 px,120 Hz,108,4,1,32,True,19999
+motorola,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4400,68,6.55 inches,1080 x 2460 px,144 Hz,50,3,1,32,False,23990
+realme,android,80.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2408 px,90 Hz,50,2,1,8,True,12999
+oppo,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4310,50,6.43 inches,1080 x 2400 px,,48,4,1,16,True,19990
+xiaomi,android,,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,4820,120,6.73 inches,1440 x 3200 px,120 Hz,50,3,1,32,False,58990
+vivo,android,87.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,5000,120,6.73 inches,1080 x 2400 px,144 Hz,108,3,1,32,False,43999
+samsung,android,86.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,3700,25,6.1 inches,1080 x 2340 px,120 Hz,50,3,1,10,False,49999
+vivo,android,79.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,44,6.44 inches,1080 x 2408 px,,50,3,1,16,True,15999
+oneplus,android,87.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,80,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,36999
+tecno,android,85.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5160,45,6.8 inches,1080 x 2400 px,120 Hz,64,3,1,32,False,39999
+apple,ios,74.0,True,False,True,True,False,True,4 GB RAM,64 GB inbuilt,,,6.1 inches,1170 x 2532 px,,12,2,1,12,False,51999
+xiaomi,android,82.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5080,67,6.6 inches,1080 x 2460 px,144 Hz,64,3,1,16,False,22999
+samsung,android,87.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,25,6.5 inches,1080 x 2400 px,120 Hz,64,4,1,32,True,31999
+xiaomi,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,10,6.52 inches,720 x 1600 px,,8,2,1,5,True,6171
+oppo,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,80,6.43 inches,1080 x 2400 px,90 Hz,50,3,1,32,False,29340
+samsung,android,87.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,25,6.7 inches,1080 x 2400 px,120 Hz,108,4,1,32,True,25289
+iqoo,android,78.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,4700,66,6.44 inches,1080 x 2404 px,90 Hz,64,3,1,16,False,21788
+tesla,android,83.0,True,False,True,True,False,True,16 GB RAM,512 GB inbuilt,5000,120,6.73 inches,1080 x 2448 px,165 Hz,50,3,1,32,False,69999
+samsung,android,88.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,3900,25,6.1 inches,1080 x 2340 px,120 Hz,50,3,1,12,False,70990
+motorola,android,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4800,68,6.7 inches,1080 x 2400 px,144 Hz,50,3,1,60,False,34999
+oneplus,android,85.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,80,6.43 inches,1080 x 2400 px,90 Hz,50,3,1,32,False,33900
+google,android,71.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4410,,6.14 inches,1080 x 2400 px,,12,2,1,8,False,29999
+infinix,android,84.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.7 inches,1080 x 2400 px,,108,3,1,16,True,18999
+samsung,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,6000,25,6.6 inches,1080 x 2400 px,120 Hz,50,4,1,8,True,19499
+vivo,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4200,44,6.44 inches,1080 x 2400 px,90 Hz,64,3,2,50,False,24994
+motorola,android,78.0,False,False,True,False,False,True,4 GB RAM,64 GB inbuilt,5000,20,6.47 inches,1080 x 2400 px,,50,3,1,16,True,10999
+oneplus,android,85.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,5000,33,6.59 inches,1080 x 2412 px,120 Hz,64,3,1,16,True,24999
+samsung,android,82.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,25,6.4 inches,1080 x 2400 px,90 Hz,48,4,1,13,True,25999
+google,android,69.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4410,,6.1 inches,1080 x 2400 px,90 Hz,12,2,1,8,False,34990
+xiaomi,android,74.0,True,True,False,True,True,False,4 GB RAM,64 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,90 Hz,50,2,1,5,True,13466
+xiaomi,android,76.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,5020,18,6.67 inches,1080 x 2400 px,,48,4,1,16,True,9999
+motorola,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.5 inches,720 x 1600 px,90 Hz,48,3,1,8,True,7999
+nothing,android,86.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4500,33,6.55 inches,1080 x 2400 px,120 Hz,50,2,1,16,False,28249
+poco,android,82.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,64,3,1,16,True,16499
+xiaomi,android,87.0,True,True,False,True,True,False,8 GB RAM,256 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,16,True,22999
+apple,ios,75.0,False,False,True,False,False,True,4 GB RAM,128 GB inbuilt,3110,,6.1 inches,828 x 1792 px,,12,2,1,12,False,46999
+realme,android,74.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.6 inches,1080 x 2408 px,90 Hz,50,3,1,8,True,13999
+oppo,android,78.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.59 inches,1080 x 2412 px,90 Hz,50,3,1,16,True,13490
+iqoo,android,82.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,4700,80,6.62 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,28999
+iqoo,android,78.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,120 Hz,50,3,1,16,True,15499
+oppo,android,86.0,True,False,True,True,False,True,16 GB RAM,256 GB inbuilt,4500,67,6.7 inches,1080 x 2412 px,120 Hz,50,2,1,32,False,39999
+poco,android,76.0,True,True,False,True,True,False,4 GB RAM,64 GB inbuilt,5000,33,6.6 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,12999
+jio,android,,False,False,False,False,False,False,2 GB RAM,64 GB inbuilt,2800,,5 inches,720 x 1280 px,,5,1,1,2,True,4499
+oneplus,android,69.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,18,6.52 inches,720 x 1560 px,,13,3,1,8,True,14999
+samsung,android,68.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,15,6.5 inches,720 x 1600 px,,13,2,1,5,True,8499
+iqoo,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4400,66,6.62 inches,1080 x 2400 px,120 Hz,48,3,1,16,False,24990
+samsung,android,84.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,6000,25,6.5 inches,1080 x 2400 px,120 Hz,64,4,1,32,True,16999
+xiaomi,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,18,6.7 inches,720 x 1600 px,,50,2,1,5,True,9589
+apple,ios,74.0,True,False,True,True,False,True,4 GB RAM,64 GB inbuilt,,,5.4 inches,1080 x 2340 px,,12,2,1,12,False,40999
+xiaomi,android,79.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5000,33,6.67 inches,1080 x 2400 px,120 Hz,48,3,1,13,True,19988
+motorola,android,75.0,False,False,True,False,False,True,4 GB RAM,64 GB inbuilt,5000,33,6.6 inches,2460 x 1080 px,90 Hz,50,3,1,16,True,11999
+apple,ios,79.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4352,25,6.68 inches,1284 x 2778 px,120 Hz,50,3,1,12,False,142990
+oppo,android,87.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,67,6.7 inches,1080 x 2412 px,120 Hz,108,2,1,16,True,30990
+infinix,android,85.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,5000,33,6.78 inches,1080 x 2460 px,120 Hz,50,3,1,16,True,19499
+realme,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,8,1,1,5,True,5299
+oppo,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4500,33,6.43 inches,1080 x 2400 px,,64,3,1,16,True,25969
+realme,android,82.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,65,6.4 inches,1080 x 2400 px,120 Hz,64,3,1,32,True,28999
+oppo,other,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4520,67,7.1 inches,1792 x 1920 px,120 Hz,50,3,2,32,False,94990
+realme,android,81.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.4 inches,1080 x 2400 px,90 Hz,108,3,1,16,True,14999
+cola,android,74.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.4 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,14999
+apple,ios,84.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4352,,6.7 inches,1284 x 2778 px,120 Hz,12,3,1,12,False,129900
+oppo,android,88.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4700,80,6.73 inches,1080 x 2412 px,120 Hz,64,4,1,32,False,58990
+vivo,android,88.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,4810,120,6.78 inches,1260 x 2800 px,120 Hz,50,3,1,32,False,41990
+samsung,android,74.0,False,False,True,False,False,True,4 GB RAM,64 GB inbuilt,6000,15,6.6 inches,2408 x 1080 px,,50,3,1,8,True,10999
+xiaomi,android,79.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,,64,4,1,13,True,11999
+realme,android,79.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.4 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,16999
+iqoo,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,66,6.62 inches,1080 x 2400 px,120 Hz,48,3,1,16,False,30990
+infinix,android,75.0,True,False,False,True,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.6 inches,1080 x 2408 px,120 Hz,50,2,1,8,True,17999
+letv,android,,False,False,False,False,False,False,4 GB RAM,32 GB inbuilt,4000,,6.54 inches,720 x 1560 px,,8,2,1,5,False,5499
+xiaomi,android,83.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5200,67,6.67 inches,1080 x 2460 px,120 Hz,108,4,1,32,True,20499
+realme,android,81.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.4 inches,1080 x 2400 px,90 Hz,48,3,1,16,True,20490
+oppo,android,77.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,8,True,15490
+apple,ios,61.0,False,False,True,False,False,True,3 GB RAM,64 GB inbuilt,2050,,4.7 inches,750 x 1334 px,,12,1,1,7,False,29990
+iqoo,android,79.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,120 Hz,50,2,1,8,True,15499
+xiaomi,android,80.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,,64,4,1,13,True,11999
+realme,android,74.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.6 inches,1080 x 2412 px,120 Hz,50,3,1,16,True,10999
+vivo,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,,50,3,1,16,True,21990
+vivo,android,85.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,4500,44,6.44 inches,1080 x 2408 px,90 Hz,64,3,1,50,True,31999
+poco,android,77.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,90 Hz,64,3,1,16,True,11999
+infinix,android,89.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,4500,180,6.8 inches,1080 x 2400 px,120 Hz,200,3,1,32,True,36999
+tecno,android,62.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,10,6.56 inches,720 x 1600 px,,13,2,1,5,True,6999
+motorola,android,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4600,125,6.7 inches,1080 x 2400 px,165 Hz,50,3,1,60,False,39999
+samsung,android,78.0,True,False,True,True,False,True,4 GB RAM,128 GB inbuilt,5000,25,6.6 inches,1080 x 2408 px,120 Hz,50,3,1,8,True,14999
+realme,android,79.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2408 px,90 Hz,50,3,1,8,True,14499
+oneplus,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4200,120,6.43 inches,1080 x 2400 px,90 Hz,50,3,1,32,False,27999
+motorola,android,86.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,30,6.6 inches,1080 x 2400 px,120 Hz,50,3,1,16,True,20499
+ikall,android,60.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,13,1,1,8,True,8099
+leeco,android,65.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,,13,2,1,5,False,10999
+realme,android,63.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,4000,,6.1 inches,720 x 1560 px,,13,2,1,5,True,3499
+duoqin,android,,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,2150,,3.54 inches,640 x 960 px,,8,1,1,2,True,9990
+samsung,android,85.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,6000,25,6.67 inches,1080 x 2412 px,90 Hz,64,3,1,32,True,34999
+nokia,android,,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,6000,65,6.9 inches,1400 x 3200 px,120 Hz,200,1,1,32,True,46999
+motorola,android,88.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4400,68,6.55 inches,1080 x 2400 px,144 Hz,50,3,1,32,False,39999
+realme,android,70.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.6 inches,1080 x 2408 px,,50,3,1,8,True,11828
+oppo,android,86.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,80,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,32,False,45999
+oneplus,android,81.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.59 inches,1080 x 2412 px,120 Hz,50,3,1,16,True,18999
+poco,android,84.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,64,3,1,16,True,17999
+samsung,android,66.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,15,6.5 inches,720 x 1600 px,,13,2,1,5,True,8499
+oppo,android,76.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.56 inches,720 x 1600 px,90 Hz,50,2,1,8,True,17999
+samsung,android,75.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,25,6.6 inches,1080 x 2408 px,,50,4,1,8,True,14450
+motorola,android,,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4610,125,6.67 inches,1080 x 2400 px,144 Hz,200,3,1,60,False,54999
+xiaomi,android,,True,True,True,True,True,True,12 GB RAM,256 GB inbuilt,5000,120,6.6 inches,1440 x 3200 px,120 Hz,108,4,1,32,False,71999
+motorola,android,79.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,5000,33,6.6 inches,2460 x 1080 px,90 Hz,50,3,1,16,True,12999
+poco,android,75.0,True,True,False,True,True,False,4 GB RAM,64 GB inbuilt,5000,18,6.58 inches,1080 x 2400 px,90 Hz,50,2,1,8,True,11499
+nothing,android,87.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,33,6.55 inches,1080 x 2400 px,120 Hz,50,2,1,16,False,35999
+samsung,android,76.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,25,6.4 inches,1080 x 2400 px,120 Hz,50,3,1,32,True,34999
+tecno,android,73.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,6000,18,6.82 inches,720 x 1600 px,90 Hz,50,2,1,8,True,11999
+xiaomi,android,82.0,True,True,False,True,True,False,8 GB RAM,256 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,27994
+apple,ios,77.0,True,False,True,True,False,True,6 GB RAM,256 GB inbuilt,4323,,6.7 inches,1290 x 2796 px,120 Hz,48,3,1,12,False,139990
+vivo,android,86.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,4830,66,6.56 inches,1080 x 2376 px,120 Hz,64,3,1,32,False,39999
+realme,android,79.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,16,True,15499
+realme,android,80.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2412 px,120 Hz,64,3,1,16,True,18999
+lava,android,73.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,5000,,6.5 inches,1600 x 720 px,90 Hz,50,3,1,8,True,10999
+honor,android,81.0,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,5100,40,6.67 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,27999
+google,android,,True,False,True,True,False,True,12 GB RAM,128 GB inbuilt,5000,30,6.7 inches,1440 x 3120 px,120 Hz,50,3,1,10,False,81999
+tecno,android,74.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,7000,33,6.95 inches,1080 x 2460 px,90 Hz,50,3,1,8,True,9999
+vivo,android,85.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4300,44,6.56 inches,1080 x 2376 px,90 Hz,108,3,2,50,False,31994
+samsung,android,65.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,13,2,1,5,True,9299
+xiaomi,android,84.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5500,67,6.67 inches,1440 x 3200 px,120 Hz,64,3,1,16,False,29990
+realme,android,78.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,4500,60,6.4 inches,1080 x 2400 px,90 Hz,50,3,1,16,False,25900
+realme,android,78.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.6 inches,1080 x 2408 px,90 Hz,50,3,1,8,True,16999
+motorola,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4020,33,6.5 inches,1080 x 2400 px,144 Hz,50,3,1,32,False,24999
+xiaomi,android,79.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,90 Hz,50,4,1,13,True,12188
+vivo,android,,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,10,6.51 inches,720 x 1600 px,,8,1,1,5,True,8999
+poco,android,68.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,3,1,5,True,7499
+realme,android,79.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2400 px,90 Hz,48,3,1,16,True,17999
+realme,android,79.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,80,6.62 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,24999
+oppo,android,86.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,80,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,32,False,45999
+oneplus,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,80,6.7 inches,1440 x 3216 px,120 Hz,50,3,1,32,False,65499
+iqoo,android,89.0,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,4700,200,6.78 inches,1440 x 3200 px,144 Hz,50,3,1,16,False,58990
+vivo,android,74.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,90 Hz,50,2,1,8,True,11999
+xiaomi,android,77.0,False,True,False,False,True,False,8 GB RAM,128 GB inbuilt,6000,18,6.7 inches,720 x 1650 px,,50,2,1,5,True,11999
+oppo,android,76.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.56 inches,720 x 1612 px,90 Hz,50,2,1,8,True,18990
+vivo,android,77.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,44,6.44 inches,1080 x 2408 px,,50,3,1,16,True,14499
+xiaomi,android,,True,True,True,True,True,True,12 GB RAM,256 GB inbuilt,4500,67,8.02 inches,1914 x 2160 px,120 Hz,50,3,1,20,False,106990
+vivo,android,66.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,10,6.51 inches,720 x 1600 px,,13,2,1,5,True,10499
+oppo,android,86.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4500,33,6.43 inches,1080 x 2400 px,,64,3,1,16,True,26990
+vivo,android,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4050,44,6.44 inches,1080 x 2400 px,,50,3,1,44,True,19990
+xiaomi,android,89.0,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,4300,120,6.67 inches,1080 x 2400 px,120 Hz,200,3,1,16,True,24999
+oppo,android,69.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.56 inches,720 x 1612 px,,13,2,1,8,True,13969
+samsung,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,67,6.7 inches,1080 x 2412 px,120 Hz,108,4,1,32,True,44999
+vivo,android,84.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4700,66,6.44 inches,1080 x 2404 px,90 Hz,64,3,1,16,True,24999
+google,android,86.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4355,30,6.3 inches,1080 x 2400 px,90 Hz,50,2,1,10,False,53100
+xiaomi,android,81.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,16999
+oppo,android,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4500,33,6.43 inches,1080 x 2400 px,90 Hz,64,3,1,32,True,21899
+apple,ios,82.0,True,False,True,True,False,True,6 GB RAM,256 GB inbuilt,3279,,6.1 inches,1170 x 2532 px,,12,2,1,12,False,75999
+motorola,android,85.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5000,30,6.5 inches,1080 x 2400 px,120 Hz,50,2,1,16,True,25999
+nubia,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,6000,80,6.8 inches,1116 x 2480 px,120 Hz,50,3,1,16,False,46990
+motorola,android,75.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,20,6.47 inches,1080 x 2400 px,,50,3,1,13,True,9999
+tecno,android,89.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5160,45,6.8 inches,1080 x 2400 px,120 Hz,50,3,1,32,False,49999
+infinix,android,87.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,4500,45,6.7 inches,1080 x 2400 px,90 Hz,108,3,1,60,True,17999
+iqoo,android,80.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,120 Hz,50,3,1,16,True,16940
+xiaomi,android,81.0,True,True,False,True,True,False,6 GB RAM,64 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,16,True,17990
+oppo,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4800,67,6.7 inches,1080 x 2412 px,120 Hz,108,2,1,16,True,20990
+samsung,android,79.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4200,33,6.4 inches,1080 x 2400 px,120 Hz,12,3,1,32,False,51999
+samsung,android,87.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,45,6.6 inches,1080 x 2340 px,120 Hz,50,3,1,10,False,64449
+vivo,android,71.0,True,False,False,True,False,False,6 GB RAM,64 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,90 Hz,13,2,1,8,False,8990
+motorola,android,77.0,False,False,True,False,False,True,4 GB RAM,128 GB inbuilt,5000,30,6.5 inches,720 x 1600 px,90 Hz,50,3,1,16,True,19999
+poco,android,79.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2400 px,90 Hz,50,2,1,8,True,13499
+tecno,android,78.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,6000,18,6.9 inches,1080 x 2460 px,120 Hz,50,3,1,16,True,15499
+poco,android,65.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,3,1,5,True,6499
+apple,ios,60.0,False,False,True,False,False,True,4 GB RAM,64 GB inbuilt,3060,,6.1 inches,828 x 1792 px,,12,2,1,7,False,71999
+samsung,android,89.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5000,25,6.5 inches,1080 x 2400 px,120 Hz,64,4,1,32,True,36499
+infinix,android,78.0,True,False,False,True,False,False,6 GB RAM,64 GB inbuilt,5000,33,6.7 inches,1080 x 2400 px,,50,3,1,16,True,15999
+oppo,android,87.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,65,6.55 inches,1080 x 2400 px,90 Hz,50,3,1,32,True,31994
+oneplus,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,100,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,34999
+redmi,android,81.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,108,4,1,16,True,18999
+nothing,android,88.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4700,66,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,32,False,39990
+samsung,android,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,15,6.4 inches,1080 x 2400 px,90 Hz,64,4,1,20,True,16499
+google,android,89.0,True,False,True,True,False,True,12 GB RAM,128 GB inbuilt,5003,30,6.71 inches,1440 x 3120 px,120 Hz,50,3,1,11,False,54300
+infinix,android,73.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.7 inches,1080 x 2400 px,,50,3,1,8,True,9999
+xiaomi,android,77.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,90 Hz,50,2,1,5,True,15990
+xiaomi,android,86.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,16,True,22700
+xiaomi,android,89.0,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,4600,120,6.73 inches,1440 x 3200 px,120 Hz,50,3,1,32,False,50990
+apple,ios,79.0,True,False,True,True,False,True,4 GB RAM,128 GB inbuilt,2438,,5.4 inches,1080 x 2340 px,,12,2,1,12,False,64900
+tecno,android,77.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,7000,33,6.9 inches,1080 x 2460 px,90 Hz,50,3,1,8,True,13799
+realme,android,65.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.52 inches,720 x 1600 px,,13,3,1,5,True,8999
+asus,android,88.0,True,False,True,True,False,True,18 GB RAM,512 GB inbuilt,6000,65,6.78 inches,1080 x 2448 px,165 Hz,50,3,1,12,False,89999
+vivo,android,84.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4050,44,6.44 inches,1080 x 2400 px,,50,3,1,44,True,21994
+apple,ios,70.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,3500,,5.42 inches,1080 x 2340 px,,12,2,1,12,False,69990
+xiaomi,android,75.0,True,True,False,True,True,False,4 GB RAM,64 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,8,True,12999
+iqoo,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,120,6.78 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,24990
+samsung,android,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,25,6.6 inches,1080 x 2408 px,,50,4,1,8,True,19990
+xiaomi,android,82.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,26999
+xiaomi,android,81.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,19999
+infinix,android,83.0,False,False,False,False,False,False,8 GB RAM,256 GB inbuilt,5000,33,6.7 inches,1080 x 2400 px,,108,3,1,16,True,16900
+infinix,android,78.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.6 inches,1080 x 2408 px,120 Hz,50,2,1,8,True,19999
+apple,ios,78.0,True,False,True,True,False,True,6 GB RAM,1 TB inbuilt,4323,,6.7 inches,1290 x 2796 px,120 Hz,48,3,1,12,False,182999
+samsung,android,75.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,6000,15,6.6 inches,1080 x 2400 px,,50,3,1,8,True,12999
+poco,android,82.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,15999
+xiaomi,android,82.0,False,True,False,False,True,False,8 GB RAM,128 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,,64,4,1,13,True,13999
+realme,android,61.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.52 inches,720 x 1600 px,,8,1,1,5,True,7749
+samsung,android,81.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,25,6.6 inches,1080 x 2408 px,120 Hz,50,4,1,8,True,24999
+motorola,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4610,125,6.67 inches,1080 x 2400 px,144 Hz,200,3,1,60,False,59999
+oppo,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4500,33,6.43 inches,1080 x 2400 px,,64,3,1,16,True,25895
+xiaomi,android,89.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,4500,67,6.36 inches,1080 x 2400 px,120 Hz,50,3,1,32,False,46990
+xiaomi,android,64.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,1,1,5,True,7499
+vivo,android,60.0,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,10,6.51 inches,720 x 1600 px,,8,1,1,5,True,7790
+xiaomi,android,85.0,True,True,False,True,True,False,8 GB RAM,256 GB inbuilt,5080,67,6.6 inches,1080 x 2460 px,144 Hz,64,3,1,16,False,25999
+realme,android,60.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,8,1,1,5,True,6299
+motorola,android,77.0,True,False,True,True,False,True,4 GB RAM,64 GB inbuilt,5000,,6.8 inches,1080 x 2400 px,120 Hz,50,3,1,13,True,12999
+xiaomi,android,75.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,6000,18,6.7 inches,720 x 1600 px,,50,2,1,5,True,11999
+xiaomi,android,83.0,True,True,True,True,True,True,6 GB RAM,128 GB inbuilt,4250,33,6.55 inches,1080 x 2400 px,90 Hz,64,3,1,20,True,21890
+samsung,other,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,3300,15,6.7 inches,1080 x 2640 px,120 Hz,12,2,1,10,False,69999
+apple,ios,75.0,True,False,True,True,False,True,4 GB RAM,128 GB inbuilt,,,6.1 inches,1170 x 2532 px,,12,2,1,12,False,55999
+oneplus,android,87.0,True,False,True,True,False,True,16 GB RAM,256 GB inbuilt,4800,150,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,55999
+samsung,android,75.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,25,6.6 inches,1080 x 2408 px,,50,4,1,8,True,14999
+oppo,android,85.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4500,65,6.43 inches,1080 x 2400 px,90 Hz,64,3,1,32,True,25994
+oneplus,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,,6.62 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,42999
+samsung,android,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,25,6.5 inches,1080 x 2400 px,120 Hz,64,4,1,32,True,33499
+samsung,android,,True,False,True,True,False,True,12 GB RAM,512 GB inbuilt,5000,45,6.8 inches,1440 x 3080 px,120 Hz,108,4,1,40,False,118999
+motorola,android,80.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,33,6.4 inches,1080 x 2400 px,,50,3,1,16,False,16999
+itel,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,4000,,6.6 inches,1600 x 720 px,,8,3,1,8,True,6990
+vivo,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,66,6 inches,1080 x 2400 px,120 Hz,50,3,2,50,False,29990
+samsung,android,71.0,True,False,False,True,False,False,4 GB RAM,64 GB inbuilt,5000,15,6.5 inches,720 x 1600 px,90 Hz,50,2,1,5,True,12944
+poco,android,84.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5000,80,6.7 inches,1080 x 2400 px,144 Hz,64,3,1,32,False,29990
+honor,android,80.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4800,66,6.81 inches,1080 x 2388 px,,48,3,1,16,False,16999
+iqoo,android,89.0,True,False,True,True,False,True,16 GB RAM,256 GB inbuilt,5000,120,6.78 inches,1440 x 3200 px,144 Hz,50,3,1,16,False,64999
+samsung,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4400,25,7.6 inches,1812 x 2176 px,120 Hz,50,3,2,10,False,154998
+royole,other,87.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4450,,7.8 inches,1440 x 1920 px,,64,3,1,32,True,109999
+apple,ios,83.0,True,False,True,True,False,True,6 GB RAM,256 GB inbuilt,4325,,6.7 inches,1284 x 2778 px,,12,2,1,12,False,84999
+samsung,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,25,6.4 inches,1080 x 2400 px,90 Hz,48,4,1,13,True,27499
+tecno,android,69.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,,6.6 inches,720 x 1600 px,90 Hz,13,2,1,8,True,8999
+google,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4614,30,6.4 inches,1080 x 2400 px,90 Hz,50,2,1,8,False,40480
+xiaomi,android,81.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5020,33,6.67 inches,1080 x 2400 px,120 Hz,64,4,1,16,True,17999
+samsung,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,25,6.8 inches,1440 x 3200 px,120 Hz,108,4,1,40,False,105999
+infinix,android,67.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,18,6.82 inches,720 x 1640 px,90 Hz,13,2,1,8,True,8999
+vivo,android,77.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,90 Hz,50,2,1,8,True,14999
+oppo,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4500,33,6.5 inches,1080 x 2400 px,90 Hz,64,3,1,32,True,19990
+iqoo,android,80.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4700,66,6.44 inches,1080 x 2404 px,90 Hz,64,3,1,16,False,23399
+samsung,android,,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5000,25,6.7 inches,1080 x 2400 px,120 Hz,108,4,1,32,True,41990
+realme,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,30,6.6 inches,1080 x 2412 px,144 Hz,48,3,1,16,True,22998
+poco,android,82.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4500,67,6.67 inches,1080 x 2400 px,120 Hz,64,3,1,20,False,25999
+infinix,android,74.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.7 inches,2400 x 1080 px,,50,3,1,16,True,11700
+samsung,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,8,1,1,5,True,6499
+motorola,android,84.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,6000,20,6.78 inches,1080 x 2460 px,120 Hz,108,3,1,32,True,15999
+oneplus,android,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,65,6.7 inches,1440 x 3216 px,120 Hz,48,4,1,16,False,64800
+xiaomi,android,80.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,90 Hz,108,4,1,16,True,14590
+xiaomi,android,68.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,2,1,5,True,7499
+tecno,android,82.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,33,6.8 inches,1080 x 2460 px,120 Hz,64,3,1,16,False,21999
+samsung,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,50,2,1,5,True,11999
+poco,android,79.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,90 Hz,64,3,1,16,True,12999
+oneplus,android,81.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4500,33,6.43 inches,1080 x 2400 px,,64,3,1,16,True,20990
+apple,ios,79.0,True,False,True,True,False,True,4 GB RAM,256 GB inbuilt,3240,,6.1 inches,1170 x 2532 px,,12,2,1,12,False,72999
+oppo,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4700,120,6.78 inches,1080 x 2400 px,120 Hz,50,3,1,32,False,77990
+vivo,android,,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,4870,120,6.78 inches,1260 x 2800 px,120 Hz,50,3,1,32,False,56999
+motorola,android,79.0,True,False,True,True,False,True,4 GB RAM,128 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,120 Hz,50,2,1,16,True,21999
+motorola,android,75.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,20,6.53 inches,720 x 1600 px,90 Hz,50,4,1,16,True,9499
+xiaomi,android,66.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,10,6.53 inches,720 x 1600 px,,13,1,1,5,True,7499
+jio,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,3500,,5.45 inches,720 x 1440 px,,13,1,1,8,True,4649
+vivo,android,62.0,False,False,False,False,False,False,4 GB RAM,32 GB inbuilt,4030,,6.2 inches,1520 x 720 px,,13,2,1,8,True,18000
+xiaomi,android,85.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5000,120,6.67 inches,1440 x 3200 px,120 Hz,54,3,1,16,False,38999
+realme,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,,8,1,1,5,True,7145
+vivo,android,77.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,18,6.55 inches,1612 x 720 px,90 Hz,50,2,1,8,True,14990
+oppo,android,70.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.56 inches,720 x 1600 px,,50,2,1,8,True,15499
+xiaomi,android,69.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,1,1,5,True,9999
+poco,android,86.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,67,6.67 inches,1080 x 2400 px,120 Hz,64,3,1,20,False,29999
+realme,android,84.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.4 inches,1080 x 2400 px,90 Hz,108,3,1,16,True,15999
+xiaomi,android,89.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5000,120,6.67 inches,1220 x 2712 px,120 Hz,200,3,1,20,False,59990
+iqoo,android,84.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4350,120,6.56 inches,1080 x 2376 px,120 Hz,48,3,1,16,False,34990
+apple,ios,75.0,True,False,True,True,False,True,4 GB RAM,128 GB inbuilt,,,5.4 inches,1080 x 2340 px,,12,2,1,12,False,45999
+samsung,android,85.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,5100,45,6.83 inches,1200 x 2860 px,144 Hz,200,4,1,60,False,119990
+oppo,other,88.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4300,44,6.8 inches,1200 x 2400 px,120 Hz,50,2,1,32,False,89990
+oneplus,android,87.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4800,150,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,50999
+tecno,android,65.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.6 inches,720 x 1600 px,90 Hz,13,2,1,8,True,7999
+samsung,android,88.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4500,25,6.4 inches,1080 x 2340 px,120 Hz,12,3,1,32,False,43999
+xiaomi,android,83.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,18499
+sony,android,,True,False,True,True,False,True,12 GB RAM,512 GB inbuilt,4500,30,6.5 inches,1644 x 3840 px,120 Hz,12,3,1,8,True,134999
+vivo,android,85.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4300,33,6.44 inches,1080 x 2400 px,,64,4,2,44,False,32999
+poco,android,80.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,6000,33,6.67 inches,1080 x 2400 px,120 Hz,64,4,1,20,True,13499
+samsung,android,86.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,4500,25,6.5 inches,1080 x 2400 px,120 Hz,12,3,1,32,True,35489
+google,android,78.0,False,False,True,False,False,True,6 GB RAM,64 GB inbuilt,2800,,5.7 inches,1080 x 2280 px,,16,2,2,8,False,20120
+samsung,android,81.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,4100,15,6.4 inches,1440 x 3040 px,,16,3,2,10,True,42999
+realme,android,78.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,4200,66,6.4 inches,1080 x 2400 px,90 Hz,50,3,1,16,False,24999
+oppo,android,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4500,33,6.5 inches,1080 x 2400 px,90 Hz,64,3,1,32,True,20999
+realme,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,65,6.62 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,28994
+samsung,android,88.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4000,25,6.2 inches,1080 x 2400 px,120 Hz,64,3,1,10,False,48900
+samsung,android,86.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4500,25,6.7 inches,1080 x 2400 px,,64,4,1,32,True,22494
+vivo,android,61.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,10,6.51 inches,720 x 1600 px,,8,1,1,5,True,8990
+letv,android,,False,False,False,False,False,False,4 GB RAM,32 GB inbuilt,4000,,6.5 inches,720 x 1560 px,,13,3,1,8,False,6999
+tecno,android,63.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.6 inches,720 x 1612 px,90 Hz,13,2,1,8,True,8890
+iqoo,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,120 Hz,50,3,1,16,True,18498
+vivo,android,81.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,4700,66,6.44 inches,1080 x 2404 px,90 Hz,64,3,1,16,True,23999
+realme,android,81.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4500,60,6.4 inches,1080 x 2400 px,90 Hz,50,3,1,16,False,22994
+samsung,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,15,6.5 inches,720 x 1600 px,90 Hz,50,3,1,5,True,12990
+realme,android,78.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2412 px,90 Hz,50,3,1,16,True,14999
+realme,android,80.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,16,True,18499
+oppo,android,78.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.4 inches,1080 x 2400 px,,48,3,1,16,True,14990
+oppo,other,88.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4300,44,6.8 inches,1080 x 2520 px,120 Hz,50,2,1,32,False,70990
+samsung,android,75.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,15,6.4 inches,1080 x 2400 px,90 Hz,64,4,1,20,True,12120
+oukitel,android,84.0,False,False,True,False,False,True,8 GB RAM,256 GB inbuilt,21000,33,6.78 inches,1080 x 2400 px,,64,3,1,16,True,29990
+realme,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2412 px,120 Hz,64,3,1,16,True,20999
+xiaomi,android,80.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5020,18,6.67 inches,1080 x 2400 px,,48,4,1,16,True,11999
+samsung,android,73.0,True,False,True,True,False,True,4 GB RAM,64 GB inbuilt,5000,15,6.5 inches,720 x 1600 px,90 Hz,50,3,1,5,True,17990
+xiaomi,android,77.0,True,True,False,True,True,False,4 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,14990
+itel,android,,False,False,False,False,False,False,1 GB RAM,16 GB inbuilt,5000,,6.5 inches,1600 x 720 px,,8,2,1,8,False,6490
+realme,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4600,240,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,34999
+apple,ios,79.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4700,,6.73 inches,1290 x 2796 px,120 Hz,48,3,1,12,False,149900
+poco,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,10,6.52 inches,720 x 1600 px,,8,2,1,5,True,6499
+samsung,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,67,6.71 inches,1440 x 3214 px,120 Hz,200,3,1,10,True,104999
+realme,android,75.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2412 px,90 Hz,50,3,1,16,True,13999
+xiaomi,android,79.0,True,True,False,True,True,False,6 GB RAM,64 GB inbuilt,5000,33,6.6 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,16999
+vivo,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4700,80,6.78 inches,1440 x 3200 px,120 Hz,50,4,1,32,False,79999
+oppo,android,87.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,65,6.55 inches,1080 x 2400 px,90 Hz,64,4,1,32,False,36760
+xiaomi,android,81.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5160,67,6.67 inches,2400 x 1080 px,120 Hz,108,3,1,16,True,23499
+asus,android,87.0,True,False,True,True,False,True,18 GB RAM,256 GB inbuilt,6000,120,6.8 inches,1080 x 2448 px,165 Hz,64,3,1,32,False,75990
+oppo,android,76.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.56 inches,720 x 1600 px,90 Hz,48,2,1,8,True,21990
+realme,android,80.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,30,6.6 inches,1080 x 2412 px,144 Hz,48,3,1,16,True,18999
+samsung,android,66.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,15,6.5 inches,720 x 1560 px,,48,2,1,5,True,7249
+oneplus,android,75.0,True,False,True,True,False,True,4 GB RAM,64 GB inbuilt,5000,18,6.49 inches,1080 x 2400 px,90 Hz,13,3,1,16,True,16990
+xiaomi,android,80.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,4520,33,6.67 inches,1080 x 2400 px,120 Hz,48,3,1,20,False,23890
+oppo,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4300,65,6.43 inches,1080 x 2400 px,90 Hz,64,3,1,32,False,26380
+realme,android,87.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4200,65,6.44 inches,1080 x 2400 px,90 Hz,64,4,2,32,False,27999
+xiaomi,android,70.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,1,1,5,True,10850
+redmi,android,81.0,True,True,True,True,True,True,6 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,16,False,19999
+apple,ios,76.0,True,False,True,True,False,True,6 GB RAM,256 GB inbuilt,3200,,6.1 inches,1179 x 2556 px,120 Hz,48,3,1,12,False,129990
+motorola,android,81.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,33,6.5 inches,1080 x 2400 px,120 Hz,108,3,1,16,False,19990
+motorola,android,,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4450,125,6.67 inches,1080 x 2400 px,144 Hz,200,3,1,60,False,41990
+xiaomi,android,,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,4860,67,6.73 inches,1440 x 3200 px,120 Hz,50,3,1,32,False,69990
+honor,android,88.0,True,False,True,True,False,True,12 GB RAM,512 GB inbuilt,4800,66,6.67 inches,1080 x 2400 px,120 Hz,54,3,1,32,False,39990
+oneplus,android,,True,False,True,True,False,True,12 GB RAM,512 GB inbuilt,5000,80,6.7 inches,1440 x 3216 px,120 Hz,50,3,1,32,False,74999
+vivo,android,87.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,4300,44,6.56 inches,1080 x 2376 px,90 Hz,108,3,2,50,False,36994
+oppo,android,76.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.51 inches,720 x 1600 px,,50,3,1,16,True,14700
+xiaomi,android,86.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5000,120,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,16,False,34990
+nokia,android,76.0,True,False,False,True,False,False,6 GB RAM,64 GB inbuilt,6000,33,6.81 inches,1080 x 2400 px,,108,4,1,32,True,34999
+xiaomi,android,75.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,,48,4,1,13,True,13990
+vertu,android,62.0,False,False,True,False,False,True,2 GB RAM,64 GB inbuilt,2275,,4.7 inches,1080 x 1920 px,,13,1,1,2,False,650000
+samsung,android,79.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,6000,15,6.4 inches,1080 x 2400 px,90 Hz,64,4,1,20,True,14859
+tecno,android,84.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,5000,33,6.8 inches,1080 x 2460 px,120 Hz,64,3,1,32,True,17999
+poco,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4700,67,6.7 inches,1080 x 2400 px,120 Hz,64,3,1,32,False,34990
+blu,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,,6.8 inches,1080 x 2460 px,,48,4,1,16,True,14990
+oppo,android,65.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,4230,,6.52 inches,720 x 1600 px,,13,1,1,5,True,8999
+motorola,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,90 Hz,50,2,1,8,True,8999
+xiaomi,android,84.0,False,True,False,False,True,False,8 GB RAM,128 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,90 Hz,108,4,1,16,True,15824
+apple,ios,,True,False,True,True,False,True,,64 GB inbuilt,,,4.7 inches,750 x 1334 px,,12,1,1,7,False,43900
+samsung,android,86.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4500,25,6.5 inches,1080 x 2400 px,90 Hz,64,4,1,32,True,22494
+poco,android,82.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5160,33,6.67 inches,1080 x 2400 px,120 Hz,48,4,1,20,True,19650
+xiaomi,android,61.0,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,1,1,5,True,6999
+samsung,android,80.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,15,6.4 inches,1080 x 2400 px,90 Hz,64,4,1,20,True,16499
+motorola,android,75.0,False,False,True,False,False,True,4 GB RAM,128 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,90 Hz,50,3,1,8,True,15999
+asus,android,88.0,True,False,True,True,False,True,16 GB RAM,256 GB inbuilt,6000,65,6.78 inches,1080 x 2448 px,165 Hz,50,3,1,12,False,72999
+xiaomi,android,84.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,4980,120,6.67 inches,1080 x 2400 px,120 Hz,200,3,1,16,False,26999
+infinix,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.6 inches,720 x 1600 px,,8,2,1,5,True,6999
+apple,ios,75.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,,,6.06 inches,1170 x 2532 px,120 Hz,50,3,1,12,False,130990
+realme,android,71.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.6 inches,1080 x 2408 px,90 Hz,50,3,1,8,True,12787
+infinix,android,72.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,18,6.82 inches,720 x 1640 px,90 Hz,50,3,1,8,True,9999
+vivo,android,86.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4500,80,6.78 inches,1080 x 2400 px,120 Hz,50,3,1,32,False,54999
+vivo,android,79.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,19,6.58 inches,1080 x 2408 px,,64,3,1,16,True,15490
+tecno,android,84.0,False,False,False,False,False,False,8 GB RAM,256 GB inbuilt,4700,33,6.7 inches,1080 x 2340 px,90 Hz,50,3,2,48,False,25999
+samsung,android,68.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,15,6.5 inches,720 x 1600 px,,13,2,1,5,True,9499
+redmi,android,70.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.71 inches,720 x 1650 px,,50,2,1,5,True,7999
+asus,android,86.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4300,30,5.9 inches,1080 x 2400 px,120 Hz,50,2,1,12,False,63990
+sony,android,73.0,False,False,True,False,False,True,4 GB RAM,64 GB inbuilt,4000,,6.2 inches,720 x 1680 px,,13,3,1,8,True,15990
+iqoo,android,85.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,66,6.62 inches,1080 x 2400 px,120 Hz,48,3,1,16,False,34949
+tecno,android,72.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.8 inches,1080 x 2460 px,,48,3,1,8,True,8799
+xiaomi,android,74.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,6000,18,6.5 inches,1080 x 2400 px,90 Hz,50,4,1,8,True,12390
+samsung,android,73.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,,6.4 inches,720 x 1600 px,90 Hz,48,4,1,13,True,11499
+xiaomi,android,,True,False,False,True,False,False,12 GB RAM,512 GB inbuilt,4050,40,7.92 inches,2088 x 2250 px,,108,3,1,0,False,199990
+oppo,android,86.0,True,False,True,True,False,True,16 GB RAM,256 GB inbuilt,5000,120,6.73 inches,1080 x 2412 px,120 Hz,50,2,1,32,False,42990
+nubia,android,82.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,80,6.67 inches,1080 x 2400 px,144 Hz,64,3,1,16,False,34999
+samsung,android,75.0,False,False,True,False,False,True,4 GB RAM,128 GB inbuilt,6000,15,6.6 inches,2408 x 1080 px,,50,3,1,8,True,11999
+nokia,android,70.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,10,6.52 inches,720 x 1600 px,90 Hz,50,2,1,8,True,10499
+infinix,android,66.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,18,6.82 inches,1640 x 720 px,90 Hz,13,2,1,8,True,8910
+vivo,android,85.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4700,80,6.62 inches,1080 x 2400 px,120 Hz,64,3,1,16,True,24990
+oppo,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,33,6.43 inches,1080 x 2400 px,,64,3,1,16,True,17999
+xiaomi,android,86.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,4250,33,6.55 inches,1080 x 2400 px,90 Hz,64,3,1,20,True,22999
+realme,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,8,1,1,5,True,6490
+infinix,android,85.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4500,45,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,16,True,21990
+samsung,android,76.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,15,6.4 inches,1080 x 2400 px,90 Hz,64,4,1,20,True,12364
+samsung,android,86.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4500,25,6.71 inches,1440 x 3200 px,120 Hz,64,3,1,10,True,39990
+xiaomi,android,77.0,False,False,False,False,False,False,6 GB RAM,64 GB inbuilt,4000,,6.18 inches,1080 x 2246 px,,12,2,1,20,True,11999
+vivo,android,,False,False,False,False,False,False,1 GB RAM,16 GB inbuilt,1900,,4.5 inches,480 x 854 px,,5,1,1,2,True,7499
+lyf,android,60.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,3500,,5.5 inches,1080 x 1920 px,,13,2,1,5,True,3990
+motorola,android,65.0,False,False,False,False,False,False,2 GB RAM,64 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,,13,1,1,5,True,10499
+tecno,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.56 inches,720 x 1600 px,,8,2,1,5,True,6299
+itel,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,3020,,5 inches,854 x 480 px,,2,1,1,0,True,5990
+vivo,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4730,80,8.03 inches,1916 x 2160 px,120 Hz,50,4,2,16,False,113990
+huawei,Hongmeng OS v3.0,81.0,False,True,True,False,True,True,,512 GB inbuilt,4700,66,6.74 inches,1212 x 2616 px,120 Hz,50,3,1,13,True,239999
+samsung,android,84.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,7000,33,6.7 inches,1080 x 2400 px,,64,4,1,32,True,21999
+iqoo,android,80.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,44,6.44 inches,1080 x 2400 px,120 Hz,50,3,1,16,True,15999
+nokia,other,,False,False,False,False,False,False,512 MB RAM,4 GB inbuilt,1500,,2.8 inches,240 x 320 px,,2,1,1,0,True,6899
+sony,android,86.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4000,21,6.1 inches,1080 x 2520 px,120 Hz,12,3,1,8,True,69990
+vivo,android,71.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,,6.35 inches,720 x 1544 px,,13,3,1,16,True,12990
+sony,android,,True,False,True,True,False,True,12 GB RAM,512 GB inbuilt,5000,30,6.5 inches,1644 x 3840 px,120 Hz,12,4,1,12,True,92980
+tecno,android,74.0,False,False,False,False,False,False,8 GB RAM,256 GB inbuilt,6000,45,6.66 inches,720 x 1600 px,90 Hz,50,2,1,8,True,15999
+huawei,android,84.0,False,False,True,False,False,True,8 GB RAM,256 GB inbuilt,4500,66,6.67 inches,1080 x 2160 px,90 Hz,108,3,1,16,True,23999
+vivo,android,75.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,90 Hz,50,2,1,8,True,12999
+nubia,android,86.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,135,6.8 inches,1080 x 2400 px,120 Hz,64,3,1,8,False,60990
+motorola,android,67.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.5 inches,720 x 1600 px,90 Hz,16,3,1,8,True,8859
+iqoo,android,84.0,True,True,False,True,True,False,12 GB RAM,256 GB inbuilt,4700,80,6.62 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,33749
+samsung,android,63.0,False,False,False,False,False,False,6 GB RAM,64 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,48,3,1,8,True,15990
+poco,android,84.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5080,67,6.6 inches,1080 x 2460 px,144 Hz,64,3,1,16,False,24990
+realme,android,76.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2400 px,90 Hz,48,3,1,16,True,14999
+vivo,android,76.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,4500,80,6.64 inches,1080 x 2388 px,120 Hz,50,2,1,8,True,17990
+honor,android,75.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4300,66,6.67 inches,1080 x 2340 px,120 Hz,64,3,1,16,False,24990
+xiaomi,android,74.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,5000,18,6.58 inches,1080 x 2400 px,90 Hz,50,3,1,8,True,11600
+realme,android,62.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.52 inches,720 x 1600 px,,13,3,1,5,True,8299
+motorola,android,78.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,20,6.47 inches,1080 x 2400 px,,50,3,1,13,True,11999
+samsung,other,88.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,3700,25,6.7 inches,1080 x 2640 px,120 Hz,12,2,1,10,False,89999
+oneplus,android,77.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,3300,,6.28 inches,1080 x 2280 px,,20,2,1,16,False,27999
+google,android,69.0,False,False,True,False,False,True,4 GB RAM,128 GB inbuilt,3520,,6 inches,1440 x 2880 px,,12,1,1,8,False,15990
+xiaomi,android,60.0,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,10,6.52 inches,720 x 1600 px,,8,2,1,5,True,7289
+honor,android,86.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4800,66,6.67 inches,1080 x 2400 px,120 Hz,54,3,1,32,False,30990
+realme,android,77.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.6 inches,1080 x 2412 px,120 Hz,50,3,1,16,True,15499
+vivo,android,66.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.51 inches,720 x 1600 px,,13,2,1,8,True,8499
+samsung,android,80.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,6000,15,6.4 inches,1080 x 2400 px,90 Hz,64,4,1,20,True,14490
+samsung,android,80.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,15,6.6 inches,1080 x 2408 px,90 Hz,64,3,1,8,True,15490
+realme,android,78.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,60,6.6 inches,1080 x 2412 px,120 Hz,50,3,1,16,True,14990
+poco,android,75.0,True,True,False,True,True,False,4 GB RAM,64 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,8,True,15999
+google,android,82.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4080,18,6 inches,1080 x 2340 px,90 Hz,16,2,1,8,False,36000
+oneplus,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4800,150,6.73 inches,1440 x 3412 px,144 Hz,108,3,1,32,False,69999
+xiaomi,android,86.0,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,4300,210,6.67 inches,1080 x 2400 px,120 Hz,200,3,1,16,False,26990
+samsung,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,15,6.6 inches,1080 x 2400 px,,50,3,1,8,True,10630
+oppo,android,85.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4500,80,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,32,False,42990
+vivo,android,77.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4500,,6.58 inches,1080 x 2400 px,90 Hz,50,3,1,16,False,24990
+iqoo,android,77.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,44,6.44 inches,1080 x 2400 px,120 Hz,50,3,1,16,True,14489
+oppo,android,73.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.56 inches,720 x 1612 px,90 Hz,13,2,1,8,True,16490
+realme,android,82.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,4500,60,6.4 inches,1080 x 2400 px,90 Hz,50,3,1,16,False,24494
+vivo,android,61.0,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.51 inches,720 x 1600 px,,8,1,1,5,True,7999
+motorola,android,85.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.8 inches,1080 x 2460 px,144 Hz,108,3,1,16,False,23990
+realme,android,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,65,6.7 inches,1440 x 3216 px,120 Hz,50,3,1,32,False,49959
+apple,ios,83.0,True,False,True,True,False,True,6 GB RAM,256 GB inbuilt,3095,,6.1 inches,1170 x 2532 px,120 Hz,12,3,1,12,False,129900
+vivo,android,80.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4000,33,6.44 inches,1080 x 2400 px,,64,3,1,16,True,19990
+samsung,android,67.0,False,False,True,False,False,True,4 GB RAM,64 GB inbuilt,5000,25,6.62 inches,2408 x 1080 px,,50,3,1,16,True,14990
+vivo,android,85.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4000,33,6.44 inches,1080 x 2400 px,,64,3,1,44,True,23269
+xiaomi,android,75.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,5020,18,6.67 inches,1080 x 2400 px,,48,4,1,16,True,13999
+oneplus,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,80,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,35389
+google,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5003,30,6.71 inches,1440 x 3120 px,120 Hz,50,3,1,11,False,79700
+nokia,android,62.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5050,10,6.74 inches,720 x 1600 px,,13,3,1,5,True,9499
+infinix,android,76.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,18,6.6 inches,720 x 1612 px,90 Hz,50,2,1,8,True,12340
+poco,android,74.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,5000,18,6.58 inches,1080 x 2400 px,90 Hz,50,3,1,8,True,10799
+xiaomi,android,73.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,6000,18,6.7 inches,720 x 1600 px,,50,2,1,5,True,14990
+zte,android,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,65,6.8 inches,1116 x 2480 px,120 Hz,64,3,1,16,False,61990
+xiaomi,android,,True,True,True,True,True,True,12 GB RAM,256 GB inbuilt,4600,120,6.73 inches,1440 x 3200 px,120 Hz,50,3,1,32,False,51880
+oppo,android,80.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.59 inches,1080 x 2412 px,90 Hz,50,3,1,16,True,16990
+huawei,android,84.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,4000,66,6.78 inches,1080 x 2388 px,90 Hz,108,4,1,16,True,19990
+samsung,android,87.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,3700,25,6.1 inches,1080 x 2340 px,120 Hz,50,3,1,10,False,57999
+lenovo,android,87.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5600,68,6.92 inches,1080 x 2460 px,144 Hz,64,2,1,16,False,46990
+vivo,android,77.0,True,False,True,True,False,True,4 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,,50,3,1,8,True,20990
+nokia,android,82.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4470,18,6.67 inches,1080 x 2400 px,,48,4,1,16,True,17990
+realme,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.5 inches,1080 x 2400 px,90 Hz,64,3,1,16,True,17499
+realme,android,80.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.5 inches,1080 x 2400 px,90 Hz,64,3,1,16,True,17999
+nokia,android,,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,6000,44,6.51 inches,1080 x 2408 px,144 Hz,200,4,1,32,True,49990
+poco,android,74.0,True,True,False,True,True,False,4 GB RAM,128 GB inbuilt,5000,33,6.67 inches,1080 x 2400 px,120 Hz,48,3,1,8,False,14999
+xiaomi,android,82.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5020,33,6.67 inches,1080 x 2400 px,120 Hz,108,4,1,16,True,19980
+iqoo,android,85.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4400,66,6.62 inches,1080 x 2400 px,120 Hz,48,3,1,16,False,35990
+realme,android,78.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,30,6.4 inches,1080 x 2400 px,,64,4,1,16,True,15999
+samsung,android,88.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,4000,25,6.2 inches,1440 x 3200 px,120 Hz,64,3,1,10,True,41999
+xiaomi,android,83.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5500,67,6.67 inches,1440 x 3200 px,120 Hz,48,3,1,20,False,25999
+motorola,android,65.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,18,6.5 inches,720 x 1600 px,90 Hz,16,3,1,8,True,7990
+oneplus,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,80,6.43 inches,1080 x 2400 px,90 Hz,50,3,1,32,False,29990
+oppo,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4500,65,6.43 inches,1080 x 2460 px,90 Hz,50,4,1,16,True,27990
+poco,android,84.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5500,67,6.67 inches,1440 x 3200 px,120 Hz,64,3,1,16,False,29999
+oppo,android,68.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,4230,,6.52 inches,720 x 1600 px,,13,1,1,5,True,8999
+poco,android,81.0,False,True,False,False,True,False,8 GB RAM,128 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,90 Hz,64,3,1,16,True,13999
+realme,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,18,6.5 inches,720 x 1600 px,,50,3,1,8,True,11499
+asus,android,87.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,6000,65,6.78 inches,1080 x 2448 px,144 Hz,64,3,1,24,False,39999
+realme,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4300,65,6.43 inches,1080 x 2400 px,120 Hz,64,3,1,32,False,27999
+samsung,android,79.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,15,6.5 inches,720 x 1600 px,90 Hz,48,4,1,13,True,24499
+nubia,android,86.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,165,6.8 inches,1116 x 2480 px,120 Hz,50,3,1,16,False,60999
+samsung,android,89.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4400,25,7.6 inches,1768 x 2208 px,120 Hz,12,3,2,10,False,110999
+lg,other,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4000,,6.8 inches,1080 x 2460 px,,64,3,1,32,True,54999
+xiaomi,android,80.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,5020,33,6.67 inches,1080 x 2400 px,,64,4,1,32,True,16490
+samsung,android,83.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,4500,25,6.5 inches,1080 x 2400 px,90 Hz,64,4,1,32,True,24990
+vivo,android,,False,False,False,False,False,False,3 GB RAM,16 GB inbuilt,3360,,6 inches,720 x 1440 px,,13,1,1,5,True,25000
+samsung,android,66.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,13,2,1,5,True,9950
+oppo,android,75.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,,6.56 inches,720 x 1612 px,,13,2,1,8,True,12999
+oppo,android,83.0,False,False,True,False,False,True,8 GB RAM,256 GB inbuilt,5000,66,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,16,True,19999
+oppo,android,84.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5000,120,6.73 inches,1080 x 2412 px,120 Hz,50,3,1,32,False,32999
+nokia,android,81.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4500,20,6.58 inches,1080 x 2400 px,120 Hz,50,3,1,8,True,28498
+oppo,android,71.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,33,6.56 inches,720 x 1600 px,,50,2,1,8,True,15998
+motorola,android,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4800,125,6.7 inches,1080 x 2460 px,165 Hz,50,3,1,60,False,59990
+oppo,android,78.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,67,6.59 inches,1080 x 2412 px,120 Hz,64,3,1,16,False,16990
+iqoo,android,82.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,4700,66,6.44 inches,1080 x 2404 px,90 Hz,64,3,1,16,False,27999
+nokia,android,75.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5050,18,6.5 inches,720 x 1600 px,90 Hz,50,3,1,8,True,13499
+samsung,android,78.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,25,6.6 inches,1080 x 2408 px,,50,4,1,8,True,16499
+oppo,android,66.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,4230,,6.52 inches,720 x 1600 px,,13,1,1,5,True,10999
+xiaomi,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,18,6.7 inches,720 x 1600 px,,50,2,1,5,True,13990
+tecno,android,74.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.6 inches,1080 x 2460 px,90 Hz,48,3,1,32,True,9999
+realme,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,80,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,31994
+xiaomi,android,83.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,4500,120,6.67 inches,2400 x 1080 px,120 Hz,108,3,1,16,True,24820
+iqoo,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4700,80,6.62 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,22990
+iqoo,android,88.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4700,120,6.78 inches,1440 x 3200 px,120 Hz,50,3,1,16,False,59990
+realme,android,62.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,8,1,1,5,True,8999
+xiaomi,android,72.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,2,1,5,True,10499
+jio,android,,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,3000,,5.5 inches,720 x 1440 px,,13,1,1,8,True,7499
+xiaomi,android,75.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,4000,18,6.3 inches,1080 x 2340 px,,48,4,1,13,True,9990
+xiaomi,android,76.0,True,True,False,True,True,False,4 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,8,True,12490
+vivo,android,69.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.51 inches,720 x 1600 px,,13,3,1,8,True,13990
+samsung,android,79.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,15,6.6 inches,1080 x 2408 px,90 Hz,48,3,1,8,True,17990
+vivo,android,83.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4000,33,6.44 inches,1080 x 2400 px,90 Hz,64,3,1,44,True,24999
+realme,android,85.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4500,65,6.4 inches,1080 x 2400 px,,64,4,1,32,True,21999
+oneplus,android,77.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4300,30,6.55 inches,1080 x 2400 px,90 Hz,48,3,1,16,False,19999
+samsung,android,,True,False,True,True,False,True,12 GB RAM,128 GB inbuilt,5000,45,6.9 inches,1440 x 3200 px,,108,4,1,40,True,99999
+apple,ios,77.0,False,False,True,False,False,True,4 GB RAM,64 GB inbuilt,3500,18,6.5 inches,1242 x 2688 px,,12,3,1,12,False,109900
+apple,ios,,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,2230,,4.7 inches,750 x 1334 px,,13,1,1,7,False,52990
+sony,android,80.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,5000,33,6.5 inches,1080 x 2400 px,120 Hz,50,2,1,16,True,19990
+samsung,android,69.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,13,2,1,5,True,11499
+xiaomi,android,75.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,5000,33,6.67 inches,1080 x 2400 px,120 Hz,48,3,1,13,True,13999
+oukitel,other,82.0,False,False,False,False,False,False,12 GB RAM,256 GB inbuilt,9800,66,6.78 inches,1080 x 2400 px,120 Hz,64,3,1,0,True,22990
+vivo,android,84.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,5000,80,6.7 inches,1080 x 2400 px,120 Hz,108,3,1,32,True,28990
+poco,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,67,6.67 inches,1080 x 2400 px,120 Hz,64,3,1,20,False,27999
+xiaomi,android,82.0,True,True,True,True,True,True,6 GB RAM,128 GB inbuilt,5080,67,6.6 inches,1080 x 2460 px,144 Hz,64,3,1,16,True,19990
+realme,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.4 inches,1080 x 2400 px,90 Hz,48,3,1,16,True,22999
+vivo,android,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,44,6.44 inches,1080 x 2408 px,,50,3,1,16,True,17999
+xiaomi,android,81.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,90 Hz,108,4,1,16,True,15499
+lava,android,84.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,30,6.78 inches,1080 x 2460 px,90 Hz,64,4,1,16,True,17990
+realme,android,77.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.6 inches,1080 x 2412 px,120 Hz,50,3,1,16,True,13999
+oppo,android,73.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.51 inches,720 x 1600 px,,50,3,1,16,True,13499
+poco,android,79.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,8,True,14799
+realme,android,62.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,13,3,1,5,True,6999
+oppo,android,69.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.52 inches,720 x 1600 px,,13,3,1,8,True,11999
+vivo,android,85.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4000,33,6.44 inches,1080 x 2400 px,90 Hz,64,3,1,44,True,23994
+nokia,RTOS (Series 30+),,False,False,False,False,False,False,64 MB RAM,128 MB inbuilt,1150,,2.4 inches,240 x 320 px,,0,1,1,0,True,3589
+apple,ios,80.0,True,False,True,True,False,True,6 GB RAM,512 GB inbuilt,,,6.1 inches,1170 x 2532 px,,12,3,1,12,False,139900
+sony,android,89.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4000,21,6.5 inches,1644 x 3840 px,,12,4,1,8,True,69999
+motorola,android,89.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,18,6.7 inches,1080 x 2340 px,90 Hz,108,3,1,25,False,57999
+samsung,android,87.0,False,False,True,False,False,True,8 GB RAM,256 GB inbuilt,4300,25,6.7 inches,1080 x 2400 px,,64,3,1,10,False,86000
+samsung,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,15,6.5 inches,720 x 1560 px,,48,4,1,8,True,11999
+xiaomi,android,77.0,False,True,True,False,True,True,6 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,14999
+realme,android,81.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,80,6.62 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,26499
+realme,android,62.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,,8,1,1,5,True,8990
+apple,ios,82.0,True,False,True,True,False,True,6 GB RAM,512 GB inbuilt,3279,,6.1 inches,1170 x 2532 px,,12,2,1,12,False,95999
+iqoo,android,85.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,4700,120,6.78 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,47990
+tecno,android,81.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.8 inches,1080 x 2460 px,120 Hz,64,3,1,32,False,17990
+oneplus,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,33,6.59 inches,1080 x 2412 px,120 Hz,64,3,1,16,True,22999
+samsung,android,,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,45,6.8 inches,1440 x 3080 px,120 Hz,108,4,1,40,False,99990
+poco,android,86.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,4700,120,6.67 inches,1080 x 2400 px,120 Hz,64,3,1,20,False,39999
+xiaomi,android,88.0,True,True,True,True,True,True,12 GB RAM,256 GB inbuilt,5000,120,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,16,False,38999
+vivo,android,63.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,,6.51 inches,720 x 1600 px,,13,2,1,8,False,12490
+samsung,android,86.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4500,25,6.71 inches,1440 x 3200 px,120 Hz,64,3,1,10,True,39990
+vivo,android,80.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,,50,3,1,16,True,16685
+huawei,Harmony v2.0,,False,True,True,False,True,True,8 GB RAM,128 GB inbuilt,4400,66,6.76 inches,1344 x 2772 px,90 Hz,50,3,2,13,True,69990
+micromax,android,66.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.52 inches,720 x 1600 px,,13,2,1,5,True,6999
+asus,android,86.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,6000,65,6.78 inches,1080 x 2448 px,165 Hz,50,3,1,12,False,71999
+realme,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,50,6.43 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,26999
+realme,android,75.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,16,True,16499
+oppo,android,74.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,13,3,1,8,True,17990
+xiaomi,android,68.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,2,1,5,True,8999
+apple,ios,63.0,False,False,True,False,False,True,3 GB RAM,64 GB inbuilt,1821,18,4.7 inches,750 x 1334 px,,12,1,1,7,False,39900
+letv,android,60.0,False,False,False,False,False,False,6 GB RAM,64 GB inbuilt,4000,10,6.5 inches,720 x 1560 px,,8,2,1,5,False,5999
+oneplus,android,76.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,120,6.57 inches,1080 x 2400 px,120 Hz,64,3,1,32,False,34999
+vivo,android,77.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,6000,44,6.58 inches,1080 x 2408 px,,50,2,1,8,False,16990
+oppo,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4800,33,6.58 inches,1080 x 2400 px,120 Hz,50,3,1,32,True,22990
+vivo,android,84.0,False,False,False,False,False,False,8 GB RAM,256 GB inbuilt,4500,44,6.44 inches,1080 x 2400 px,90 Hz,64,3,1,32,True,19990
+infinix,android,74.0,False,False,False,False,False,False,6 GB RAM,64 GB inbuilt,5000,18,6.6 inches,720 x 1612 px,90 Hz,50,2,1,8,True,10850
+realme,android,75.0,True,False,False,True,False,False,4 GB RAM,64 GB inbuilt,5000,33,6.6 inches,1080 x 2400 px,90 Hz,48,3,1,16,True,13499
+itel,android,61.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,18,6.6 inches,1612 x 720 px,,8,2,1,5,True,6699
+oppo,android,80.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.59 inches,1080 x 2412 px,90 Hz,50,2,1,16,True,17999
+xiaomi,android,69.0,True,True,False,True,True,False,4 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,90 Hz,50,2,1,5,False,13990
+honor,android,,True,False,True,True,False,True,12 GB RAM,512 GB inbuilt,4600,120,6.76 inches,1344 x 2772 px,120 Hz,50,4,2,13,False,94990
+tecno,android,72.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.6 inches,1080 x 2408 px,,50,3,1,8,True,8968
+infinix,android,60.0,False,False,False,False,False,False,2 GB RAM,64 GB inbuilt,5000,,6.6 inches,720 x 1600 px,,8,2,1,5,True,7320
+realme,android,69.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.5 inches,1600 x 720 px,,50,3,1,8,True,8999
+samsung,android,75.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,15,6.5 inches,720 x 1560 px,,48,4,1,8,True,13999
+tecno,android,79.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,5000,18,6.8 inches,1080 x 2460 px,,64,3,1,16,True,14746
+xiaomi,android,83.0,True,True,True,True,True,True,6 GB RAM,128 GB inbuilt,5000,67,6.6 inches,1080 x 2400 px,120 Hz,64,3,1,16,True,16999
+xiaomi,android,83.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,4520,33,6.67 inches,1080 x 2400 px,120 Hz,48,3,1,20,False,25990
+xiaomi,android,78.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,,48,4,1,13,True,16499
+xiaomi,android,81.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,5020,33,6.67 inches,1080 x 2400 px,120 Hz,108,4,1,16,True,19999
+xiaomi,android,80.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,33,6.67 inches,2400 x 1080 px,144 Hz,64,3,1,20,False,23500
+lg,android,85.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4300,25,6.8 inches,1080 x 2460 px,,48,3,1,16,True,54999
+motorola,android,80.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1080 x 2340 px,,64,4,1,16,True,19499
+lg,other,,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,,6.8 inches,1080 x 2460 px,,64,3,1,10,True,79990
+samsung,android,83.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,4500,25,6.7 inches,1080 x 2400 px,,12,3,1,32,True,39999
+samsung,android,89.0,True,True,True,True,True,True,12 GB RAM,256 GB inbuilt,4300,,6.8 inches,1440 x 3040 px,,12,4,1,10,True,92999
+iqoo,android,84.0,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,5000,120,6.78 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,32990
+samsung,android,72.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,15,6.5 inches,720 x 1600 px,90 Hz,50,3,1,5,True,14499
+vivo,android,70.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,5000,15,6.51 inches,720 x 1600 px,,13,2,1,5,True,13999
+vivo,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,10,6.51 inches,720 x 1600 px,,8,1,1,5,True,7999
+itel,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,18,6.6 inches,1612 x 720 px,,8,2,1,5,True,5785
+xiaomi,android,73.0,True,True,False,True,True,False,4 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2400 px,90 Hz,13,2,1,5,True,12990
+poco,android,84.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,5100,120,6.73 inches,1080 x 2400 px,120 Hz,108,3,1,32,True,19990
+oppo,android,79.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,5000,33,6.56 inches,1080 x 2400 px,90 Hz,48,2,1,8,True,23990
+samsung,android,77.0,False,False,False,False,False,False,6 GB RAM,64 GB inbuilt,4000,15,6.4 inches,1080 x 2408 px,,48,3,1,16,True,17999
+infinix,android,80.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,120,6.91 inches,1080 x 2460 px,,108,4,1,16,True,16999
+honor,android,68.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,13,1,1,5,True,9999
+infinix,android,63.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,,6.82 inches,720 x 1600 px,,8,2,1,5,True,8299
+sony,android,89.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5000,30,6.1 inches,1080 x 2520 px,120 Hz,12,3,1,12,True,82199
+nubia,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,80,6.67 inches,1080 x 2400 px,144 Hz,64,3,1,16,False,49990
+nokia,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5050,18,6.5 inches,720 x 1600 px,90 Hz,50,3,1,8,True,11999
+xiaomi,android,82.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4300,67,6.55 inches,1080 x 2400 px,120 Hz,108,3,1,32,False,29990
+oppo,android,,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4500,33,7.1 inches,1792 x 1920 px,120 Hz,50,3,1,32,False,92249
+apple,ios,84.0,True,False,True,True,False,True,6 GB RAM,256 GB inbuilt,4352,,6.7 inches,1284 x 2778 px,120 Hz,12,3,1,12,False,139900
+vivo,android,74.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.51 inches,720 x 1600 px,,50,3,1,8,True,14990
+oppo,android,79.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.43 inches,1080 x 2400 px,,48,3,1,16,True,15988
+samsung,android,76.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,15,6.4 inches,1080 x 2340 px,,48,3,1,20,True,11725
+oppo,android,80.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4310,30,6.43 inches,1080 x 2400 px,,48,4,1,16,True,17994
+oppo,android,86.0,False,False,False,False,False,False,8 GB RAM,256 GB inbuilt,4000,45,7.4 inches,1440 x 3200 px,,64,3,1,16,False,134999
+oneplus,android,81.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4300,30,6.49 inches,1080 x 2400 px,90 Hz,64,4,1,16,True,25595
+gionee,android,67.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,4000,,6.2 inches,720 x 1520 px,,16,1,1,13,True,7499
+poco,android,74.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,5000,18,6.53 inches,1080 x 2340 px,,13,4,1,8,True,10890
+oppo,android,83.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4015,30,6.43 inches,1080 x 2400 px,,48,4,2,16,True,18990
+motorola,android,82.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,20,6.67 inches,1080 x 2400 px,,48,3,1,16,True,19990
+samsung,android,80.0,False,False,True,False,False,True,4 GB RAM,128 GB inbuilt,4000,15,6.4 inches,1080 x 2340 px,,48,3,1,32,True,15990
+samsung,android,89.0,False,False,True,False,False,True,12 GB RAM,256 GB inbuilt,4300,45,6.8 inches,1440 x 3040 px,,12,4,1,10,True,58999
+vivo,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.35 inches,720 x 1544 px,,13,3,1,16,True,12500
+vivo,android,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4500,18,6.38 inches,1080 x 2340 px,,48,4,1,32,True,29999
+vivo,android,86.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,4700,80,6.67 inches,1080 x 2408 px,120 Hz,64,3,1,32,True,31990
+vivo,android,86.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4000,33,6.44 inches,1080 x 2400 px,90 Hz,64,3,1,44,True,29999
+asus,other,,True,False,True,True,False,True,16 GB RAM,512 GB inbuilt,6000,65,6.78 inches,1080 x 2448 px,165 Hz,50,3,1,12,False,107990
+motorola,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4020,68,6.28 inches,1080 x 2400 px,120 Hz,64,2,1,32,False,31990
+xiaomi,android,87.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5000,120,6.67 inches,1220 x 2712 px,120 Hz,108,3,1,20,False,48990
+huawei,Hongmeng OS v4.0,85.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4500,66,6.76 inches,1440 x 3200 px,120 Hz,64,3,1,13,False,99990
+realme,android,65.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.52 inches,720 x 1600 px,,13,3,1,5,True,9499
+huawei,other,89.0,False,True,True,False,True,True,8 GB RAM,512 GB inbuilt,4600,66,7.8 inches,2200 x 2480 px,120 Hz,50,3,1,10,True,162990
+iqoo,android,80.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,67,6.62 inches,1080 x 2412 px,144 Hz,50,3,1,16,True,24999
+apple,ios,72.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,3285,,6.06 inches,1170 x 2532 px,,50,2,1,13,False,82990
+infinix,android,79.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.95 inches,1080 x 2460 px,120 Hz,50,3,1,16,True,15999
+tecno,android,64.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.52 inches,720 x 1600 px,,16,2,1,8,True,8999
+oppo,android,73.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,13,2,1,8,True,17990
+vivo,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,120,6.78 inches,1440 x 3200 px,120 Hz,50,4,1,32,False,82990
+xiaomi,android,77.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,6000,18,6.5 inches,1080 x 2400 px,90 Hz,50,4,1,8,True,12999
+huawei,HarmonyOS v2.0,83.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,4300,66,6.57 inches,1080 x 2340 px,120 Hz,50,4,1,32,False,29990
+tecno,android,,False,False,False,False,False,False,1 GB RAM,16 GB inbuilt,4000,,6.1 inches,720 x 1520 px,,5,2,1,5,True,6999
+huawei,HarmonyOS v2.0,,False,True,True,False,True,True,8 GB RAM,256 GB inbuilt,4360,66,6.6 inches,1288 x 2700 px,120 Hz,50,4,1,13,True,60999
+xiaomi,android,83.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5500,67,6.67 inches,1440 x 3200 px,120 Hz,48,3,1,20,False,27990
+nokia,android,,False,False,False,False,False,False,2 GB RAM,16 GB inbuilt,3000,,5.45 inches,720 x 1440 px,,5,1,1,5,True,5249
+realme,android,80.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,30,6.5 inches,1080 x 2400 px,120 Hz,48,3,1,16,True,14999
+oppo,android,87.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,65,6.55 inches,1080 x 2400 px,90 Hz,50,4,1,32,False,44990
+motorola,android,87.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,20,6.7 inches,1080 x 2520 px,90 Hz,64,4,2,16,True,22490
+oppo,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,65,6.7 inches,1440 x 3216 px,120 Hz,50,4,1,32,False,50990
+poco,android,75.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,6000,18,6.53 inches,1080 x 2340 px,,48,3,1,8,True,11499
+itel,android,,False,False,False,False,False,False,1 GB RAM,16 GB inbuilt,4000,,6.5 inches,1600 x 720 px,,8,3,1,8,True,5990
+vivo,android,84.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4000,33,6.44 inches,1080 x 2400 px,,64,3,2,44,False,27000
+xiaomi,android,86.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5000,33,6.67 inches,1080 x 2400 px,144 Hz,108,3,1,20,False,29999
+vivo,android,84.0,False,False,False,False,False,False,8 GB RAM,256 GB inbuilt,4500,33,6.44 inches,1080 x 2400 px,,48,4,2,32,True,27990
+samsung,android,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4000,25,6.2 inches,1440 x 3200 px,,64,3,1,10,True,74999
+vivo,android,72.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.53 inches,1080 x 2340 px,,16,3,1,16,True,9990
+oppo,android,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4000,30,6.4 inches,1080 x 2340 px,,64,4,1,32,True,19990
+realme,android,75.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,4000,20,6.4 inches,1080 x 2340 px,,64,4,1,16,True,13279
+vivo,android,68.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,,6.35 inches,720 x 1544 px,,13,3,1,8,True,11000
+xiaomi,android,78.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,4000,,6.18 inches,1080 x 2246 px,,12,2,1,20,True,12999
+poco,android,61.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,10,6.52 inches,720 x 1600 px,,8,2,1,5,True,7299
+ikall,android,61.0,False,False,False,False,False,False,4 GB RAM,32 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,20,1,1,13,True,7999
+xiaomi,android,86.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5000,67,6.73 inches,1440 x 3200 px,120 Hz,50,3,1,20,False,54990
+vivo,android,77.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,120,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,32,False,49990
+honor,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4500,100,6.78 inches,1200 x 2652 px,120 Hz,200,3,1,50,False,54990
+apple,ios,60.0,True,False,True,True,False,True,,64 GB inbuilt,,,6.1 inches,750 x 1580 px,,12,1,1,10,False,49990
+tecno,android,71.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,6000,18,6.8 inches,1080 x 2400 px,120 Hz,50,2,1,8,True,15499
+apple,ios,78.0,True,False,True,True,False,True,6 GB RAM,512 GB inbuilt,4323,,6.7 inches,1290 x 2796 px,120 Hz,48,3,1,12,False,169900
+google,android,75.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4830,67,6.6 inches,1080 x 2400 px,120 Hz,50,2,1,10,False,53990
+vivo,android,80.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,6000,44,6.58 inches,1080 x 2408 px,120 Hz,50,2,1,16,False,18990
+motorola,android,76.0,True,False,True,True,False,True,4 GB RAM,64 GB inbuilt,5000,33,6.6 inches,2460 x 1080 px,90 Hz,50,3,1,16,True,16999
+motorola,android,86.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4200,67,6.5 inches,1080 x 2412 px,144 Hz,50,3,1,32,False,34999
+vivo,android,,True,True,True,True,True,True,12 GB RAM,512 GB inbuilt,5000,80,7 inches,1440 x 3080 px,120 Hz,50,4,1,16,False,82990
+realme,android,89.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,65,6.7 inches,1440 x 3216 px,120 Hz,50,3,1,32,False,46999
+vivo,android,66.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.51 inches,720 x 1600 px,,13,2,1,8,True,8499
+honor,android,76.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,4000,22.5,6.7 inches,1080 x 2388 px,90 Hz,64,4,1,16,False,16999
+samsung,android,69.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,15,6.5 inches,720 x 1560 px,,48,2,1,5,True,11499
+samsung,android,88.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4500,45,6.6 inches,1080 x 2340 px,120 Hz,50,3,1,10,False,88999
+vivo,android,81.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,90 Hz,50,3,1,16,True,15990
+xiaomi,android,83.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,5160,67,6.67 inches,2400 x 1080 px,120 Hz,108,3,1,16,True,24990
+oppo,android,,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,5000,80,6.7 inches,1440 x 3216 px,120 Hz,50,3,1,32,False,79990
+tecno,android,61.0,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.51 inches,720 x 1600 px,,13,2,1,8,True,6249
+vivo,android,69.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,18,6.51 inches,720 x 1600 px,,13,2,1,8,True,12499
+xiaomi,android,61.0,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,1,1,5,True,6499
+apple,ios,86.0,True,False,True,True,False,True,6 GB RAM,1 TB inbuilt,4352,,6.7 inches,1284 x 2778 px,120 Hz,12,3,1,12,False,179900
+vivo,android,68.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,,6.51 inches,720 x 1600 px,,13,3,1,8,True,11990
+vivo,android,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4050,44,6.44 inches,1080 x 2400 px,,64,3,1,50,False,26990
+samsung,android,76.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,6000,,6.4 inches,720 x 1600 px,90 Hz,48,4,1,13,True,13499
+xiaomi,android,,True,True,True,True,True,True,12 GB RAM,256 GB inbuilt,4800,67,6.73 inches,1440 x 3200 px,120 Hz,50,3,1,20,False,75999
+micromax,android,60.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.52 inches,720 x 1600 px,,8,1,1,5,True,5999
+samsung,android,67.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,15,6.5 inches,720 x 1600 px,,13,3,1,5,True,8499
+oppo,android,71.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,,6.51 inches,1600 x 720 px,,13,3,1,16,True,11990
+xiaomi,android,77.0,True,True,False,True,True,False,4 GB RAM,128 GB inbuilt,5000,18,6.43 inches,1080 x 2340 px,90 Hz,48,4,1,13,True,10990
+xiaomi,android,,True,True,True,True,True,True,12 GB RAM,256 GB inbuilt,5020,67,8.01 inches,1860 x 2480 px,90 Hz,108,3,1,20,False,109990
+realme,android,80.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,90 Hz,48,3,1,16,True,16999
+oppo,android,70.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.51 inches,1600 x 720 px,,13,3,1,16,True,12199
+oppo,android,72.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,4230,,6.52 inches,720 x 1600 px,,13,3,1,8,True,11490
+itel,android,,False,False,False,False,False,False,1 GB RAM,16 GB inbuilt,4000,,6 inches,720 x 1600 px,,8,2,1,5,True,5490
+xiaomi,android,74.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,6000,18,6.53 inches,1080 x 2340 px,,48,4,1,8,True,11499
+samsung,android,88.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4800,25,6.7 inches,1080 x 2400 px,120 Hz,64,3,1,10,False,59450
+poco,android,76.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,5000,33,6.67 inches,1080 x 2400 px,,48,4,1,16,True,12799
+samsung,android,88.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,4500,25,6.7 inches,1440 x 3200 px,120 Hz,64,4,1,10,True,83000
+realme,android,80.0,False,False,False,False,False,False,6 GB RAM,64 GB inbuilt,4300,30,6.6 inches,1080 x 2400 px,90 Hz,64,4,2,16,True,14490
+huawei,android,,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4200,40,6.58 inches,1200 x 2640 px,90 Hz,50,4,2,32,True,82990
+vivo,android,64.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.35 inches,720 x 1544 px,,13,2,1,8,True,9490
+vivo,android,78.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,3700,,6.39 inches,1080 x 2316 px,,48,3,1,32,True,25000
+vivo,android,65.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,4030,,6.22 inches,1520 x 720 px,,13,2,1,20,True,15000
+vivo,android,70.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,3315,,6.3 inches,1080 x 2280 px,,16,2,1,25,True,20990
+samsung,android,78.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,3500,,6.2 inches,1440 x 2960 px,,12,2,1,8,True,34999
+realme,android,80.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,120,6.73 inches,1080 x 2400 px,144 Hz,50,3,1,16,False,29999
+vivo,android,67.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,6000,15,6.51 inches,720 x 1600 px,,13,2,1,5,False,11999
+samsung,android,72.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,50,2,1,5,True,12999
+leitz,android,89.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,,6.6 inches,1260 x 2730 px,240 Hz,47,2,1,12,True,124990
+xiaomi,android,85.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,5080,120,6.67 inches,1080 x 2460 px,120 Hz,50,3,1,32,False,28999
+infinix,android,77.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,18,6.78 inches,1080 x 2460 px,,50,2,1,8,True,12999
+realme,android,82.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,5000,80,6.62 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,28499
+apple,ios,83.0,True,False,True,True,False,True,6 GB RAM,512 GB inbuilt,4325,,6.7 inches,1284 x 2778 px,,12,2,1,12,False,104999
+apple,ios,77.0,True,False,True,True,False,True,6 GB RAM,1 TB inbuilt,3200,,6.1 inches,1179 x 2556 px,120 Hz,48,3,1,12,False,172999
+xiaomi,android,79.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5100,18,6.73 inches,1080 x 2408 px,120 Hz,64,2,1,16,True,17990
+xiaomi,android,76.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2400 px,90 Hz,50,3,1,8,True,13774
+nokia,android,64.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5050,,6.52 inches,720 x 1600 px,,13,2,1,5,True,8999
+oneplus,android,75.0,True,False,True,True,False,True,4 GB RAM,64 GB inbuilt,5000,33,6.56 inches,720 x 1612 px,90 Hz,48,2,1,16,True,18990
+tecno,android,77.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,5000,18,6.8 inches,1080 x 2400 px,90 Hz,48,3,1,32,False,14999
+realme,android,61.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,,8,1,1,5,True,7999
+xiaomi,android,85.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,5000,120,6.67 inches,1220 x 2712 px,144 Hz,108,3,1,20,False,39999
+oppo,android,67.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,33,6.56 inches,720 x 1612 px,,13,2,1,8,True,11990
+infinix,android,77.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.7 inches,2400 x 1080 px,,50,3,1,16,True,12999
+samsung,android,77.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,,6.5 inches,1080 x 2400 px,,64,4,1,32,False,54999
+samsung,android,72.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,6000,,6.7 inches,1080 x 2400 px,,64,3,1,32,True,24990
+vivo,android,88.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,4500,80,6.78 inches,1080 x 2400 px,120 Hz,50,3,1,32,False,59999
+poco,android,72.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,,6.67 inches,1080 x 2400 px,120 Hz,64,4,1,32,True,19999
+infinix,android,79.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.7 inches,1080 x 2400 px,,50,3,1,16,True,16999
+samsung,android,60.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,,6.5 inches,720 x 1600 px,,48,3,1,8,True,14999
+vivo,android,76.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4500,67,6.44 inches,1080 x 2408 px,90 Hz,50,3,1,16,True,29990
+xiaomi,android,69.0,True,True,False,True,True,False,4 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,90 Hz,50,2,1,5,False,13990
+xiaomi,android,81.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,108,4,1,16,True,17999
+realme,android,73.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.6 inches,1080 x 2408 px,,50,3,1,8,True,11399
+vivo,android,79.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,6000,18,6.58 inches,1080 x 2408 px,,50,2,1,8,False,19990
+vivo,android,74.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.51 inches,1600 x 720 px,90 Hz,50,3,1,8,True,15499
+gionee,android,,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,4800,,6.8 inches,720 x 1600 px,,13,1,1,5,True,6999
+xiaomi,android,77.0,False,True,False,False,True,False,4 GB RAM,128 GB inbuilt,5020,18,6.67 inches,1080 x 2400 px,,48,4,1,16,True,12499
+apple,ios,80.0,True,False,True,True,False,True,4 GB RAM,512 GB inbuilt,3240,,6.1 inches,1170 x 2532 px,,12,2,1,12,False,91999
+infinix,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.78 inches,1080 x 2480 px,90 Hz,50,3,1,8,True,9690
+realme,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,65,6.55 inches,1080 x 2400 px,120 Hz,50,3,1,32,False,32990
+xiaomi,android,87.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,4500,67,6.28 inches,1080 x 2400 px,120 Hz,50,3,1,32,False,42990
+cat,other,,False,False,False,False,False,False,2 GB RAM,16 GB inbuilt,2000,,4 inches,480 x 640 px,,5,1,1,2,True,14999
+xiaomi,android,82.0,False,True,False,False,True,False,8 GB RAM,128 GB inbuilt,4250,33,6.55 inches,1080 x 2400 px,90 Hz,64,3,1,16,True,18699
+realme,android,76.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1080 x 2400 px,,48,3,1,16,True,10990
+xiaomi,android,85.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,4520,33,6.67 inches,1080 x 2400 px,120 Hz,108,3,1,20,False,30990
+lenovo,android,89.0,True,False,True,True,False,True,16 GB RAM,512 GB inbuilt,5000,120,6.5 inches,1080 x 2400 px,144 Hz,64,2,1,20,False,59999
+samsung,android,83.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,7000,,6.71 inches,1080 x 2400 px,,64,4,1,32,True,23999
+realme,android,69.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.5 inches,720 x 1600 px,,13,3,1,8,False,9999
+apple,ios,80.0,True,False,True,True,False,True,6 GB RAM,256 GB inbuilt,,,6.1 inches,1170 x 2532 px,,12,3,1,12,False,119900
+xiaomi,android,67.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,10,6.53 inches,720 x 1600 px,,13,1,1,5,True,9299
+realme,android,77.0,False,False,False,False,False,False,6 GB RAM,64 GB inbuilt,4300,30,6.5 inches,1080 x 2400 px,90 Hz,64,4,1,16,True,12989
+samsung,android,,False,False,False,False,False,False,1 GB RAM,16 GB inbuilt,3000,,5.3 inches,720 x 1480 px,,8,1,1,5,True,4999
+oppo,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4300,65,6.43 inches,1080 x 2400 px,,64,4,1,32,False,29990
+oppo,android,72.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,4230,,6.5 inches,720 x 1600 px,,12,3,1,8,True,12490
+sony,android,75.0,False,False,True,False,False,True,4 GB RAM,128 GB inbuilt,3600,18,6 inches,1080 x 2520 px,90 Hz,12,3,1,8,True,27999
+vivo,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,4030,,6.22 inches,720 x 1520 px,,13,1,1,5,True,8199
+huawei,android,81.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4200,40,6.4 inches,1080 x 2340 px,,48,4,1,16,True,21990
+vivo,android,73.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.53 inches,1080 x 2340 px,,16,3,1,16,True,20000
+vivo,android,74.0,False,False,False,False,False,False,6 GB RAM,64 GB inbuilt,5000,18,6.53 inches,1080 x 2340 px,,16,3,1,16,True,11990
+xiaomi,android,75.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,5020,22.5,6.53 inches,1080 x 2340 px,,48,4,1,13,True,11989
+xiaomi,android,66.0,False,True,False,False,True,False,4 GB RAM,64 GB inbuilt,5000,18,6.22 inches,720 x 1520 px,,12,2,1,8,True,11490
+motorola,android,68.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,4000,10,6.2 inches,720 x 1520 px,,13,3,1,8,True,11490
+google,android,67.0,False,False,True,False,False,True,4 GB RAM,64 GB inbuilt,3700,18,6 inches,1080 x 2160 px,,12,1,1,8,False,15999
+samsung,android,69.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,3100,15,5.9 inches,1080 x 2340 px,,16,2,1,25,True,17990
+samsung,android,86.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4500,25,6.7 inches,1440 x 3040 px,,16,3,1,10,True,78990
+huawei,android,66.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,3000,,5.84 inches,1080 x 2280 px,,13,2,1,16,True,10949
+xiaomi,android,65.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,4100,,5.5 inches,1080 x 1920 px,,13,1,1,5,True,10300
+doogee,android,88.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,22000,33,6.58 inches,1080 x 2408 px,120 Hz,108,3,1,32,True,45999
+huawei,EMUI v12,63.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,22.5,6.52 inches,720 x 1600 px,,50,3,1,5,True,21990
+iqoo,android,76.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,45,6.67 inches,1080 x 2412 px,120 Hz,64,3,1,16,True,19990
+vivo,android,84.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,5000,80,6.67 inches,1080 x 2400 px,120 Hz,64,3,1,32,True,32990
+poco,android,77.0,False,True,False,False,True,False,6 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2400 px,90 Hz,50,3,1,8,True,14499
+nokia,android,85.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4200,33,6.43 inches,1080 x 2400 px,90 Hz,50,2,1,16,True,41990
+tecno,android,67.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,7000,,6.82 inches,720 x 1600 px,90 Hz,16,2,1,8,True,13990
+vivo,android,67.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,,6.51 inches,720 x 1600 px,,13,2,1,8,True,10490
+huawei,HarmonyOS,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4000,66,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,60,False,29990
+huawei,EMUI v12,82.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,5000,40,6.7 inches,1080 x 2388 px,90 Hz,50,4,1,8,True,22990
+samsung,android,80.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,,6.7 inches,1080 x 2400 px,,48,3,1,16,False,47990
+infinix,android,84.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4500,120,6.7 inches,1080 x 2400 px,120 Hz,108,3,1,16,True,19999
+oneplus,android,83.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,80,6.43 inches,1080 x 2412 px,120 Hz,50,3,1,32,False,29999
+realme,android,74.0,False,False,False,False,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.6 inches,1080 x 2408 px,,50,3,1,8,True,11879
+oneplus,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,150,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,28990
+iqoo,android,85.0,True,False,False,True,False,False,12 GB RAM,256 GB inbuilt,4350,120,6.56 inches,1080 x 2376 px,120 Hz,48,3,1,16,False,39990
+xiaomi,android,78.0,True,True,False,True,True,False,6 GB RAM,64 GB inbuilt,5000,33,6.52 inches,1080 x 2400 px,90 Hz,64,3,1,16,True,15999
+oppo,android,82.0,True,False,False,True,False,False,8 GB RAM,256 GB inbuilt,4500,33,6.43 inches,1080 x 2400 px,,48,2,1,16,True,22990
+royole,other,87.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,3360,,7.2 inches,1440 x 1920 px,,64,3,1,32,True,149999
+tecno,android,75.0,False,False,True,False,False,True,4 GB RAM,128 GB inbuilt,5000,18,6.8 inches,1080 x 2460 px,90 Hz,48,3,1,16,False,11499
+tecno,android,84.0,False,False,False,False,False,False,8 GB RAM,256 GB inbuilt,5000,44,6.7 inches,1080 x 2400 px,120 Hz,50,4,2,48,False,22999
+tecno,android,70.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.6 inches,720 x 1600 px,,50,2,1,8,True,7999
+realme,android,82.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,65,6.62 inches,2400 x 1080 px,120 Hz,64,3,1,16,False,31999
+sony,android,78.0,True,False,True,True,False,True,6 GB RAM,64 GB inbuilt,4500,30,6 inches,1080 x 2520 px,,12,3,1,8,True,30990
+realme,android,64.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,6000,,6.52 inches,720 x 1600 px,,13,3,1,5,True,7999
+tecno,android,74.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,7000,18,6.95 inches,1080 x 2460 px,,48,4,1,8,True,10999
+poco,android,79.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,67,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,16,True,14990
+motorola,android,77.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,20,6.78 inches,1080 x 2460 px,120 Hz,64,3,1,16,True,14499
+oneplus,android,86.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,65,6.55 inches,1080 x 2400 px,120 Hz,108,4,1,16,False,44999
+realme,android,83.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,30,6.4 inches,1080 x 2400 px,,64,4,1,16,True,17999
+realme,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,30,6.5 inches,1080 x 2400 px,120 Hz,48,3,1,16,True,19999
+itel,android,,False,False,False,False,False,False,1 GB RAM,8 GB inbuilt,2400,,5 inches,854 x 480 px,,5,1,1,2,False,3999
+samsung,android,,True,False,True,True,False,True,12 GB RAM,128 GB inbuilt,5000,25,6.8 inches,1440 x 3200 px,120 Hz,108,4,1,40,False,101999
+oppo,android,84.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4350,65,6.53 inches,1080 x 2400 px,90 Hz,64,4,1,32,False,38700
+oneplus,android,73.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,4500,65,6.3 inches,1080 x 2400 px,,48,4,1,13,True,19999
+samsung,android,72.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,15,6.5 inches,720 x 1600 px,90 Hz,48,4,1,8,True,10999
+oneplus,android,68.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.52 inches,720 x 1600 px,90 Hz,13,3,1,8,True,16990
+apple,ios,75.0,True,False,True,True,False,True,4 GB RAM,256 GB inbuilt,,,5.4 inches,1080 x 2340 px,,12,2,1,12,False,55999
+apple,ios,76.0,True,False,True,True,False,True,4 GB RAM,256 GB inbuilt,,,6.1 inches,1170 x 2532 px,,12,2,1,12,False,67999
+oppo,android,66.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,4230,,6.52 inches,720 x 1600 px,,13,3,1,5,True,9999
+xiaomi,android,77.0,False,True,False,False,True,False,4 GB RAM,128 GB inbuilt,5020,18,6.67 inches,1080 x 2400 px,,48,4,1,16,True,14439
+oppo,android,64.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,4230,,6.22 inches,1520 x 720 px,,13,2,1,5,True,9990
+realme,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4200,65,6.44 inches,1080 x 2400 px,90 Hz,64,4,2,32,False,24999
+samsung,android,,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,25,6.7 inches,1440 x 3200 px,,64,4,1,10,True,85990
+xiaomi,android,88.0,False,False,True,False,False,True,8 GB RAM,256 GB inbuilt,4000,27,6.39 inches,1080 x 2340 px,,48,3,1,20,False,480000
+xiaomi,android,78.0,False,True,False,False,True,False,6 GB RAM,64 GB inbuilt,4500,18,6.53 inches,1080 x 2340 px,,64,4,1,20,True,16999
+realme,android,,False,False,False,False,False,False,2 GB RAM,16 GB inbuilt,4000,,6.2 inches,720 x 1520 px,,13,2,1,8,True,8999
+oppo,android,62.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,3200,,6 inches,1080 x 2160 px,,13,1,1,16,True,15990
+lyf,android,,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,2500,,5 inches,1080 x 1920 px,,13,1,1,13,True,3890
+apple,ios,75.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4532,,6.71 inches,1284 x 2778 px,120 Hz,12,2,1,12,False,84990
+vivo,android,78.0,True,False,True,True,False,True,4 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2408 px,,50,3,1,8,True,21999
+lava,android,66.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,13,3,1,8,True,8999
+tecno,android,79.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,33,6.83 inches,1080 x 2460 px,120 Hz,50,3,1,16,False,20999
+oppo,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,80,6.43 inches,1080 x 2400 px,90 Hz,50,3,1,32,False,32990
+motorola,android,70.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,90 Hz,16,2,1,8,True,9022
+xiaomi,android,61.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,10,6.52 inches,720 x 1600 px,,8,2,1,5,True,8399
+infinix,android,64.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,,6.6 inches,720 x 1612 px,,13,2,1,8,True,9999
+tecno,android,63.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,,6.6 inches,720 x 1600 px,90 Hz,13,2,1,8,True,8390
+zte,android,82.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4200,55,6.9 inches,1080 x 2460 px,120 Hz,50,4,1,16,True,19999
+honor,android,71.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,,50,3,1,5,True,13999
+xiaomi,android,85.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,4500,67,6.55 inches,1080 x 2400 px,120 Hz,50,3,2,32,False,29999
+tcl,android,60.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,3000,10,6 inches,720 x 1440 px,,13,1,1,5,True,8990
+samsung,android,,True,False,True,True,False,True,12 GB RAM,1 TB inbuilt,4400,25,7.6 inches,1812 x 2176 px,120 Hz,50,3,2,10,False,163980
+nothing,android,80.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,33,6.55 inches,1080 x 2400 px,120 Hz,50,2,1,16,False,24990
+motorola,android,,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4450,125,6.67 inches,1080 x 2340 px,144 Hz,200,3,1,60,False,59990
+oneplus,android,86.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4800,150,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,47990
+realme,android,86.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,100,6.7 inches,1080 x 2412 px,120 Hz,50,3,1,16,False,40990
+samsung,android,74.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,6000,,6.5 inches,1080 x 2400 px,,64,3,1,32,True,22999
+samsung,android,63.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.5 inches,720 x 1560 px,,48,2,1,5,True,12990
+infinix,android,79.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,33,6.7 inches,2400 x 1080 px,,50,3,1,16,True,14999
+poco,android,86.0,True,True,True,True,True,True,8 GB RAM,128 GB inbuilt,4500,150,6.67 inches,1080 x 2412 px,120 Hz,64,3,1,20,False,42999
+iqoo,android,78.0,True,False,False,True,False,False,4 GB RAM,128 GB inbuilt,5000,18,6.58 inches,1080 x 2412 px,120 Hz,50,3,1,16,True,14999
+vivo,android,83.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,5000,44,6.44 inches,1080 x 2400 px,120 Hz,50,3,1,16,True,22990
+vivo,android,,True,False,True,True,False,True,12 GB RAM,512 GB inbuilt,4600,66,8.03 inches,1916 x 2160 px,120 Hz,50,4,1,16,False,118990
+oppo,android,81.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,80,6.62 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,29990
+tecno,android,62.0,False,False,False,False,False,False,3 GB RAM,64 GB inbuilt,5000,,6.6 inches,720 x 1612 px,90 Hz,13,2,1,8,True,7399
+iqoo,android,80.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,4200,55,6.67 inches,1080 x 2400 px,120 Hz,50,3,1,16,False,17999
+infinix,android,77.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,33,6.7 inches,1080 x 2400 px,,50,3,1,16,True,12799
+xiaomi,android,86.0,True,True,False,True,True,False,8 GB RAM,128 GB inbuilt,4500,120,6.67 inches,2400 x 1080 px,120 Hz,108,3,1,16,True,26999
+samsung,android,82.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,15,6.6 inches,1080 x 2408 px,90 Hz,64,3,1,8,True,22999
+apple,ios,84.0,True,False,True,True,False,True,6 GB RAM,1 TB inbuilt,3095,,6.1 inches,1170 x 2532 px,120 Hz,12,3,1,12,False,147900
+nubia,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5050,30,6.8 inches,1080 x 2400 px,165 Hz,64,3,1,8,False,44999
+micromax,android,68.0,False,False,False,False,False,False,6 GB RAM,64 GB inbuilt,5000,,6.52 inches,720 x 1600 px,,13,2,1,5,True,7790
+nokia,Harmony v2.0,87.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,6000,33,6.51 inches,1080 x 2400 px,144 Hz,200,4,1,16,True,39990
+vivo,android,65.0,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,5000,,6.51 inches,720 x 1600 px,,13,2,1,8,True,9999
+oppo,android,80.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,4000,18,6.5 inches,1080 x 2400 px,90 Hz,64,4,1,16,True,22990
+poco,android,79.0,True,True,False,True,True,False,6 GB RAM,128 GB inbuilt,5065,67,6.67 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,32999
+honor,android,85.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4300,66,6.57 inches,1080 x 2340 px,120 Hz,108,4,1,32,False,32990
+oppo,android,74.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,,6.51 inches,1600 x 720 px,,13,3,1,16,True,14999
+realme,android,74.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,18,6.6 inches,1080 x 2412 px,120 Hz,50,3,1,16,True,12499
+iqoo,android,84.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4000,66,6.62 inches,1080 x 2400 px,120 Hz,48,3,1,16,False,39990
+realme,android,61.0,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.52 inches,720 x 1600 px,,8,1,1,5,True,6499
+samsung,android,76.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,15,6.4 inches,720 x 1600 px,,48,4,1,13,True,18499
+realme,android,85.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,65,6.43 inches,1080 x 2400 px,120 Hz,64,3,1,16,False,30994
+google,android,78.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,4620,18,6.34 inches,1080 x 2400 px,,16,2,1,8,False,32999
+samsung,android,73.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,15,6.5 inches,720 x 1600 px,90 Hz,48,4,1,8,True,10499
+samsung,android,82.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,6000,15,6.4 inches,1080 x 2340 px,,64,3,1,32,True,19999
+samsung,android,75.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,48,4,1,13,True,17499
+xiaomi,android,69.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,,6.53 inches,720 x 1600 px,,13,1,1,5,True,10990
+vivo,android,82.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4100,33,6.44 inches,1080 x 2400 px,,48,3,1,32,True,19000
+oppo,android,70.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,18,6.5 inches,1600 x 720 px,90 Hz,13,3,1,16,True,13990
+realme,android,72.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,6000,18,6.5 inches,720 x 1600 px,,48,3,1,8,True,10499
+itel,android,,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,4000,,6.09 inches,1520 x 720 px,,8,2,1,5,True,5890
+realme,android,61.0,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,5000,,6.5 inches,720 x 1600 px,,13,2,1,5,True,6490
+xiaomi,android,88.0,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,4780,30,6.67 inches,1080 x 2340 px,90 Hz,108,4,1,20,False,54999
+vivo,android,65.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.5 inches,720 x 1544 px,,13,2,1,13,True,9990
+oneplus,android,79.0,False,False,False,False,False,False,8 GB RAM,128 GB inbuilt,4300,30,6.55 inches,1080 x 2400 px,90 Hz,64,3,1,16,False,24999
+sharp,android,88.0,False,False,True,False,False,True,12 GB RAM,256 GB inbuilt,3730,,6.5 inches,1440 x 3168 px,,48,3,1,16,True,59990
+huawei,android,,True,True,True,True,True,True,12 GB RAM,512 GB inbuilt,4500,,6.53 inches,1176 x 2400 px,,40,4,2,32,True,214990
+samsung,android,63.0,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,4000,15,6.4 inches,720 x 1560 px,,13,3,1,8,True,9990
+realme,android,,False,False,False,False,False,False,2 GB RAM,16 GB inbuilt,4000,,6.1 inches,1560 x 720 px,,13,2,1,5,True,6999
+huawei,other,,True,True,True,True,True,True,8 GB RAM,512 GB inbuilt,4500,55,8 inches,2200 x 2480 px,,48,4,1,0,True,169000
+samsung,android,78.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,3400,,6.4 inches,1080 x 2340 px,,24,3,1,24,True,39990
+samsung,android,70.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,3300,,6 inches,2220 x 1080 px,,24,3,1,24,True,21490
+vivo,android,,False,False,False,False,False,False,3 GB RAM,16 GB inbuilt,2730,,5.2 inches,720 x 1280 px,,13,1,1,5,True,13490
+poco,android,70.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.71 inches,720 x 1650 px,,50,2,1,5,True,7999
+blackview,android,67.0,True,False,True,True,False,True,4 GB RAM,64 GB inbuilt,5180,10,6.1 inches,720 x 1560 px,,13,2,1,8,True,8990
+honor,android,75.0,False,False,False,False,False,False,6 GB RAM,128 GB inbuilt,5000,22.5,6.75 inches,720 x 1600 px,90 Hz,50,4,1,8,True,13999
+oppo,android,72.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,10,6.56 inches,720 x 1612 px,90 Hz,13,2,1,8,True,13990
+doogee,android,84.0,False,False,True,False,False,True,8 GB RAM,128 GB inbuilt,6000,33,6.3 inches,1080 x 2340 px,,108,3,1,32,True,14999
+lava,android,,False,False,False,False,False,False,3 GB RAM,32 GB inbuilt,4000,,6.5 inches,1600 x 720 px,,8,2,1,5,True,6999
+motorola,android,87.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,4500,68,6.67 inches,1080 x 2400 px,144 Hz,50,3,1,32,False,42990
+ikall,android,61.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,,6.82 inches,720 x 1560 px,,20,1,1,13,True,6799
+oukitel,android,72.0,False,False,True,False,False,True,6 GB RAM,128 GB inbuilt,8000,,5.86 inches,720 x 1520 px,,16,3,1,8,True,25899
+xiaomi,android,89.0,True,True,True,True,True,True,12 GB RAM,256 GB inbuilt,5000,67,6.43 inches,1440 x 3200 px,120 Hz,50,3,1,32,False,54999
+motorola,android,89.0,True,False,True,True,False,True,8 GB RAM,128 GB inbuilt,5000,68,6.6 inches,1080 x 2400 px,144 Hz,50,3,2,32,False,49990
+xiaomi,android,86.0,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,5000,80,6.7 inches,1080 x 2400 px,120 Hz,64,3,2,32,False,32990
+realme,android,64.0,False,False,False,False,False,False,4 GB RAM,64 GB inbuilt,5000,10,6.5 inches,720 x 1600 px,,8,1,1,5,True,8720
+oppo,android,89.0,True,False,True,True,False,True,8 GB RAM,256 GB inbuilt,4700,120,6.73 inches,1080 x 2400 px,120 Hz,50,3,1,32,False,69990
+itel,android,,False,False,False,False,False,False,2 GB RAM,32 GB inbuilt,3020,,5 inches,854 x 480 px,,2,1,1,0,False,4787
+google,android,80.0,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,5000,67,6.73 inches,1440 x 3120 px,120 Hz,50,3,1,12,False,70990
+vivo,android,,True,False,True,True,False,True,12 GB RAM,256 GB inbuilt,4800,66,8.03 inches,1916 x 2160 px,120 Hz,50,3,1,32,False,119990
+motorola,android,83.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,68.2,6.67 inches,1080 x 2460 px,120 Hz,64,3,1,16,False,34990
+honor,android,75.0,True,False,False,True,False,False,6 GB RAM,128 GB inbuilt,5000,22.5,6.5 inches,720 x 1600 px,,48,3,1,8,True,14990
+poco,android,85.0,True,True,True,True,True,True,8 GB RAM,256 GB inbuilt,5080,67,6.6 inches,1080 x 2460 px,144 Hz,64,3,1,16,False,28990
+motorola,android,80.0,True,False,True,True,False,True,6 GB RAM,128 GB inbuilt,5000,,6.8 inches,1080 x 2400 px,,108,3,1,32,True,19990
+samsung,android,74.0,True,False,False,True,False,False,8 GB RAM,128 GB inbuilt,5000,,6.5 inches,1080 x 2400 px,,64,3,1,32,True,24990
