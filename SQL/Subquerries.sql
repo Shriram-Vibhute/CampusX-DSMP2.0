@@ -161,7 +161,7 @@ CREATE TABLE IF NOT EXISTS loyal_customers(
 	name VARCHAR(255),
     money INT
 );
-INSERT INTO loyal_customers(name)
+INSERT INTO loyal_customers(name) -- Dont write "VALUES" here if you are inserting values from another table
 SELECT t1.name
 FROM zomato.user AS t1
 JOIN zomato.orders AS t2 ON t1.user_id = t2.user_id
@@ -181,11 +181,8 @@ GROUP BY user_id) AS t2
 ON t1.user_id = t2.user_id;
 
 
--- SUbquerries with DELETE
+-- Subquerries with DELETE
 DELETE FROM zomato.user
 WHERE user_id IN (SELECT *
 					FROM user AS t1
 					WHERE user_id NOT IN (SELECT DISTINCT(user_id) FROM zomato.orders));
-
-
-
