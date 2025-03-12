@@ -1,5 +1,13 @@
-CREATE DATABASE IF NOT EXISTS db;
+CREATE DATABASE IF NOT EXISTS db; -- Exists is a clause used with only databases and tables to check whether they exists or not
 USE db;
+
+-- EXISTS Clause : The SQL EXISTS clause is primarily used to filter rows based on the existence of related records in another table or to enforce conditional logic in subqueries
+SELECT order_id 
+FROM orders 
+WHERE EXISTS (
+  SELECT 1 FROM order_items -- Return all the columns
+  WHERE orders.order_id = order_items.order_id
+);
 
 -- DATATYPES IN SQL
 CREATE TABLE IF NOT EXISTS datatypes(
@@ -45,13 +53,13 @@ CREATE TABLE IF NOT EXISTS tb(name VARCHAR(255) NOT NULL);
 
 -- 3. ALTER -> ADD, MODIFY, DROP
 ALTER TABLE datatypes
-ADD new_column_1 INT NOT NULL; -- Initially all values in the columns are initialized to 0.
+ADD new_column_1 INT NOT NULL DEFAULT 10; -- Initially all values in the columns are initialized to 0.
 
 ALTER TABLE datatypes
-MODIFY new_column_1 NUMERIC(2,2);
+MODIFY new_column_1 VARCHAR(255); -- You cannot change the datatype from string to decimal.
 
 ALTER TABLE datatypes
-ADD new_column_2 INT;
+ADD new_column_2 INT; -- But you can change from int to string, infact you can change anything to string
 
 ALTER TABLE datatypes
 DROP new_column_2;
@@ -68,66 +76,3 @@ TRUNCATE TABLE new_datatypes;
 SELECT * FROM new_datatypes;
 
 -- Difference between trucate and drop -> drop will removes the entire data with table but truncate will only deletes the data
-
--- Constraints
--- 1. NOT NULL
--- 2. UNIQUE(combo)
--- 		Another way of creating constraint
--- 3. PRIMARY KEY
--- 4. AUTO INCREMENT
--- 5. CHECK
--- 6. DEFAULT
--- 7. FOREIGN KEY
-
-CREATE TABLE constraints_2(
-	roll_no INT PRIMARY KEY -- If this key is a foreign key in another table then here in the independent table the corrosponding column must be a primary key or have a unique constraint
-);
-DROP TABLE constraints;
-CREATE TABLE constraints(
-	id INT PRIMARY KEY AUTO_INCREMENT,
-    registeration_date DATETIME DEFAULT CURRENT_TIMESTAMP, # If user didnt provided value to this column then default value will be inserted at this place
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    roll_no INT, -- While you are inserting all values in the table you dont need to pass the value of this column
-    age INT CHECK (age > 18 AND age < 50), -- For comparing with different values
-    
-    -- Mentioning Constraints
-    CONSTRAINT db_constraints_unique UNIQUE (email), # The pattern of name - db_constraints_unique (db_name table_name constraint) is an industrial nomeenclature
-    -- whats an advatage of this complex form of assigning constraints - 
-    CONSTRAINT db_constraints_unique_2 UNIQUE (email, name), -- 1. You can combine more than one columns into one constraint
-    -- 2. You can delete this perticular constrainet since we provided the name to it.
-    CONSTRAINT db_constraint_foreign_key FOREIGN KEY (roll_no) REFERENCES constraints_2 (roll_no) -- 3. This is the only way to mention FOREIGN KEY
-);
-
-INSERT INTO constraints values (
-	1,	
-	NOW(),
-    'dexter',
-    'dexter@gmail.com',
-    1,
-    23
-);
-SELECT * FROM constraints;
-
--- Refrential Actions - What is the effect of updating or deleting date from one table (Primary Key) on another table (Foreign Key)
--- 1. RESTRICT (default) - If simply throws an error. Does not allow to make any changes
--- 2. CASCADE - The changes releted to that perticular columns will be reflected to all the similar columns of another column
--- 3. SET NULL - If you delete a record from one table then all the records releted to that record in other table will set to NULL
--- 4. SET DEFAULT - If you delete a record from one table then all the records releted to that record in other table will set to DEFAULT value passed
-
-CREATE TABLE refrential_actions(
-	id INT PRIMARY KEY,
-    name VARCHAR(255),
-    
-    CONSTRAINT db_refrential_actions_foreign_key FOREIGN KEY (name) REFERENCES refrential_actions2 (name)
-    ON DELETE CASCADE -- Thats how you mention
-	ON UPDATE CASCADE
-    
-    -- ON DELETE SET NULL
-    -- ON UPDATE SET NULL
-    
-    -- error
-    -- ON DELETE SET DEFAULT  -- Set the default value of 'name' column when the referenced row is deleted
-    -- ON UPDATE SET DEFAULT  -- Set the default value of 'name' column when the referenced row is updated
-    -- If there are multiple columns acting as foreign key then you have to mention this above lines every time you working with those columns
-);
