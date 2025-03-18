@@ -168,7 +168,7 @@ FROM db.marks;
 
 -- SEGMENTATION - Buckting the dataset
 SELECT *,
-NTILE(3) OVER(ORDER BY marks DESC) AS 'buckets'
+NTILE(3) OVER(ORDER BY marks DESC) AS 'buckets' -- Return the bucket number
 FROM marks;
 
 SELECT brand_name,model,price, 
