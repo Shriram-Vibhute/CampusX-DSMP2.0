@@ -1,19 +1,43 @@
-Problem 1-4 : NorthWinddatset https://relational.fit.cvut.cz/dataset/Northwind
-How to download the dataset
+-- 1: Rank Employee in terms of revenue generation. Show employee id, first name, revenue, and rank
+SELECT nw_employees.EmployeeID, nw_employees.FirstName , sum(nw_order_details.UnitPrice * nw_order_details.Quantity) AS revenue,
+RANK() OVER(ORDER BY sum(nw_order_details.UnitPrice * nw_order_details.Quantity) DESC) AS EmpRank
+FROM nw_orders
+INNER JOIN nw_order_details 
+ON nw_order_details.OrderID = nw_orders.OrderID
+INNER JOIN nw_employees 
+ON nw_employees.EmployeeID = nw_orders.EmployeeID
+GROUP BY nw_employees.EmployeeID, nw_employees.FirstName
+ORDER BY EmpRank;
 
-To download the dataset you need to create connection in your mysql workbench
+-- 2: Show All products cumulative sum of units sold each month. - IMP QUESTION
+SELECT nw_products.ProductID, MONTH(nw_orders.OrderDate), SUM(nw_order_details.Quantity),
+SUM(SUM(nw_order_details.Quantity)) OVER(PARTITION BY nw_products.ProductID ORDER BY MONTH(nw_orders.OrderDate) ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)
+FROM nw_products
+INNER JOIN nw_order_details
+ON nw_products.ProductID = nw_order_details.ProductID
+INNER JOIN nw_orders
+ON nw_order_details.OrderID = nw_orders.OrderID
+GROUP BY nw_products.ProductID, MONTH(nw_orders.OrderDate);
 
-The datasets are publicly available directly from MariaDB database.
+-- 3: Show Percentage of total revenue by each suppliers
+SELECT DISTINCT(T1.SupplierID),
+SUM(T3.UnitPrice * T3.Quantity) OVER(PARTITION BY T1.SupplierID) * 100 / SUM(T3.UnitPrice * T3.Quantity) OVER()
+FROM nw_suppliers AS T1
+INNER JOIN nw_products AS T2
+ON T1.SupplierID = T2.SupplierID
+INNER JOIN nw_order_details AS T3
+ON T2.ProductID = T3.ProductID;
 
-Open your favourite MariaDB client (MySQL Workbench) Use following credentials:
-  hostname: relational.fit.cvut.cz
-  port: 3306
-  username: guest
-  password: relational
-Drive link: https://drive.google.com/drive/folders/1FMi6g1KDHbn17ikJSi7bE9-THywlxhdu?usp=sharing
-Q-1: Rank Employee in terms of revenue generation. Show employee id, first name, revenue, and rank
-Q-2: Show All products cumulative sum of units sold each month.
-Q-3: Show Percentage of total revenue by each suppliers
+
+
+
+
+
+
+
+
+
+
 Q-4: Show Percentage of total orders by each suppliers
 Q-5:Show All Products Year Wise report of totalQuantity sold, percentage change from last year.
 Problem 6 - 15
