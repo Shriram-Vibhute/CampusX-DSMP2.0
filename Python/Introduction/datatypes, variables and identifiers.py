@@ -6,7 +6,7 @@ print("String - ", "Hello World")
 print("Complex - ", 1+2j) 
 
 print("Boolean - ", True)
-print("BigInt - ")
+print("BigInt - ") # In Python, there isn't actually a specific "BigInt" datatype - Python automatically handles large integers through its regular int type. This is one of Python's great features! Python's int can handle arbitrarily large numbers (limited only by your computer's memory).
 
 print("undefined - ", None) # Not yet assigned
 
@@ -39,7 +39,7 @@ Compile Time: The phase when the code is being written
 Run Time: The phase when the compiled code is executed
 '''
 
-# Multiple Assignment shorthand
+# Multiple Assignment shorthand also called as Tuple Unpacking
 a, b, c = 1, 2, 3
 c = d = e = 100
 
