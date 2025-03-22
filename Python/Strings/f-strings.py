@@ -23,5 +23,5 @@ print(type(a), ' ', a)
 a = float(a)
 
 # Another way - OP
-a = ('{0:.4}'.format(231.734628743))
+a = ('{0:.4}'.format(231.734628743)) # First value represents total number after decimal point and second value represents the total number of digits.
 print(a)

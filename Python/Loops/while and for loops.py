@@ -50,7 +50,7 @@ else:
 
 # For loop demo
 
-for i in {1, 2, 3, 4, 5}:
+for i in {1, 2, 3, 4, 5}: # Sets are unordered but you can still iterate over them.
   print(i)
 
 # For loop examples
