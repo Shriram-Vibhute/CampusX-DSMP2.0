@@ -12,8 +12,8 @@ WHERE EXISTS (
 -- DATATYPES IN SQL
 CREATE TABLE IF NOT EXISTS datatypes(
 	-- Numeric Datatypes
-    id SMALLINT, -- -2^31 to 2^31 - 1
-    age INT, -- -2^15 to 2^15 - 1
+    id INT, -- -2^31 to 2^31 - 1
+    age SMALLINT, -- -2^15 to 2^15 - 1
     phone BIGINT, -- -2^63 to 2^63 - 1
     new_column TINYINT, -- 0 to 255 
     
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS datatypes(
     weight REAL,
     
     -- Formatted Numbers -> The numbers which are relatively bigger than INT
-    num_1 DECIMAL(5, 3),
+    num_1 DECIMAL(5, 3), -- The total number of digits is specified in first number and the number of digits after the decimal point is specified in the second parameter. The maximum number for size is 65. The maximum number for d is 30. The default value for size is 10.
     num_2 NUMERIC(6, 3),
     
     -- Character string type
@@ -76,3 +76,4 @@ TRUNCATE TABLE new_datatypes;
 SELECT * FROM new_datatypes;
 
 -- Difference between trucate and drop -> drop will removes the entire data with table but truncate will only deletes the data
+-- Note: All the numeric data types may have an extra option: UNSIGNED or ZEROFILL. If you add the UNSIGNED option, MySQL disallows negative values for the column. If you add the ZEROFILL option, MySQL automatically also adds the UNSIGNED attribute to the column.
