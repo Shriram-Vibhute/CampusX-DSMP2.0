@@ -132,6 +132,15 @@ L = [1,2,3,4,5]
 L.insert(1,100)
 print(L)
 
+def insert(pos: int, arr: list, val) -> list:
+    new_arr = arr + [0]
+    for i in range(0, len(arr) - pos):
+        new_arr[len(arr) - i] = arr[len(arr) - i - 1]
+    new_arr[pos] = val
+    return new_arr
+
+print(insert(2, [1,2,3,4,5], 100))
+
 # Editing items in a List
 
 L = [1,2,3,4,5]
