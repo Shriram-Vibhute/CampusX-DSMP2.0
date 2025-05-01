@@ -1,0 +1,40 @@
+stages:
+  data_ingestion:
+    cmd: python .\src\data_ingestion.py
+    deps:
+    - .\src\data_ingestion.py
+    outs:
+    - .\data\raw
+  
+  data_preprocessing:
+    cmd: python .\src\data_preprocessing.py
+    deps:
+    - .\data\raw
+    - .\src\data_preprocessing.py
+    outs:
+    - .\data\processed
+  
+  feature_engineering:
+    cmd: python .\src\feature_engineering.py
+    deps:
+    - .\data\processed # Dont need to sepcify the file path of train and test files
+    - .\src\feature_engineering.py
+    outs:
+    - .\data\features
+
+  model_buiding:
+    cmd: python .\src\model_building.py
+    deps:
+    - .\data\features 
+    - .\src\model_building.py
+    outs:
+    - .\model.pkl
+  
+  model_evaluation:
+    cmd: python .\src\model_evaluation.py
+    deps:
+    - .\src\model_evaluation.py
+    - .\model.pkl
+    - .\data\features
+    outs:
+    - ./metrics.json

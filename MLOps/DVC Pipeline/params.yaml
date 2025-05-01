@@ -1,0 +1,2 @@
+data_ingestion:
+  test_size: 0.2 
