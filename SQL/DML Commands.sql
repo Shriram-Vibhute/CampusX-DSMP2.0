@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS dml_commands(
 );
 
 -- INSERT
-INSERT INTO dml_commands() 
+INSERT INTO dml_commands() -- There is no need to mention the () if you are inserting in all the columns 
 VALUES (1, 'jonny', 'IT'), (2, 'DEX', 'CS'), (3, 'SAM', 'MEAH');
 
 -- Different Ways of Insertion
@@ -58,5 +58,5 @@ SELECT * FROM dml_commands; -- SELECT is a DQL command
 
 -- Creating new column with default values
 SELECT
-brand_name, 'smartphone' AS 'phone'
-from smartphones;
+brand_name, 'smartphone' AS 'phone' -- `phone` is col name and `smartphone` is default value
+from dml.smartphones;
