@@ -1,6 +1,5 @@
 ''' 
 In Python, strings are a sequence of "Unicode Characters".
-
 Why Unicode? ASCII supports 8-bit characters which is very small and can only support 256 characters. Unicode supports 16-bit characters which can support emojis and 4.3 billion characters.
 '''
 
@@ -14,7 +13,7 @@ print(s)
 
 # Accessing Substrings from a String
 # Positive Indexing
-s = 'hello world'
+s = "abcdefgh"
 # print(s[41]) # Error - Index out of range
 
 # Negative Indexing
@@ -22,6 +21,8 @@ print(s[-3])
 
 # Slicing
 print(s[6:0:-2])
+
+# If step is -ve then first you reverse the string then if the first and last (6 and 0) indices are integers then those will be considered as the actual indices before reversing
 
 # Reversing
 print(s[::-1])
@@ -39,7 +40,7 @@ print('delhi'*5)
 print("*"*50)
 print('delhi' != 'delhi')
 print('mumbai' < 'mumbb') # Lexicographical(Letter by letter) Comparison
-print('Pune' > 'pune')
+print('Pune' > 'pune') # Capatical letters have higher ASCII values than small values
 
 print('hello' and 'world') # Returns the second value if first is True
 print('hello' or 'world') # Returns the first value if first is True

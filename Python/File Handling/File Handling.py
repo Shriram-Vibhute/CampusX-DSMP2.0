@@ -51,3 +51,19 @@ f.seek(5)  # Move the cursor to the 5th byte
 print(f.readline())  # Read and print the line from the current cursor position
 print(f.tell())  # Print the current cursor position
 f.close()  # Close the file
+
+with open('big.txt','r') as f:
+
+  chunk_size = 10
+
+  while len(f.read(chunk_size)) > 0:
+    print(f.read(chunk_size),end='***')
+    f.read(chunk_size)
+
+# moving within a file -> 10 char then 10 char
+with open('sample.txt','r') as f:
+  # Since you are repeatedly applying the same function on a single file handler, it will continue to read the next 10 characters each time.
+  print(f.read(10))
+  print(f.read(10))
+  print(f.read(10))
+  print(f.read(10))

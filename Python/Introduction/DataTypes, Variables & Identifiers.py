@@ -1,6 +1,7 @@
 # Discrete Data Types / Data Structures
-print("Number - ", 1e308)
-print("Null - ", None) # Does not return anything
+print("Int - ", 1e308)
+print("Float - ", 1.46)
+print("Null - ", None) # Undefined or Null
 
 print("String - ", "Hello World")
 print("Complex - ", 1+2j) 
@@ -8,7 +9,6 @@ print("Complex - ", 1+2j)
 print("Boolean - ", True)
 print("BigInt - ") # In Python, there isn't actually a specific "BigInt" datatype - Python automatically handles large integers through its regular int type. This is one of Python's great features! Python's int can handle arbitrarily large numbers (limited only by your computer's memory).
 
-print("undefined - ", None) # Not yet assigned
 
 # Collection Data-Types / Data-Structures
 print("List - ", [1, 2, 3, 4, 5])
@@ -16,8 +16,10 @@ print("Tuple - ", (1, 2, 3, 4, 5))
 print("Dictionary - ", {"Name": "John", "Age": 30})
 print("Set - ", {1, 2, 3, 4, 5})
 
+
 # type function
 print(type(1e309))
+
 
 # Dynamic Typing - Automatically detect the data type at runtime
 name = 'Dexter Morgan'
@@ -28,10 +30,6 @@ print(name)
 name = 30
 print(name)
 
-# Interview Questions - What is the difference between Static/Dynamic Typing and Static/Dynamic Binding?
-'''
-Actually, Dynamic Binding is a method resolution at runtime concept in OOPs - Which method has to get executed will be determined at runtime (Method overriding - Polymorphsm). This is also called "Late Binding"
-'''
 
 # Compile time vs Runtime
 '''
@@ -45,15 +43,12 @@ c = d = e = 100
 
 # Identifiers - Naming Conventions - Basically a name given to a variable, function, class, etc.
 _ = 10 # Used in Temporary or insignificant variable and Interpreter variable
-__ = 20 # Used in OOP - Name Mangling
+# __function_name() -> Used in OOP - Name Mangling
 
 # Perform some calculations
 result1 = 10 + 5
 print(result1)  # Output: 15
 
-# The value of the last expression can be accessed using _
-print(_)  # Output: 15
-# Throwing an error of _ is not defined
 
 # Type Conversion - Changing the data type of a variable
 # Implicit - Automatically done by the interpreter
@@ -68,13 +63,6 @@ print(int(10.5)) # 10
 print(int(3 + 4j)) # Error
 print(str(3 + 4j)) # Able to convert - In fact anything is able to convert into string
 
-# Differencing between "Type Conversion" and "Type Casting"
-'''
-- Type Casting - This is the process of explicitly changing a variable from one datatype to another
-int('5')
-- Type Conversion - Type conversion involves changing a variable from one data type to another, which can occur either implicitly or explicitly.
-a = 5 + 6.09 = 11.09 -> Int to Float
-'''
 
 # Literals - The value assigned to a variable / identifier
 a = 0b1010 # Binary Literals - started with 0b or 0B
@@ -86,13 +74,14 @@ print(d) # If you are going to print these values then it will print the human r
 
 # Float Literal
 float_1 = 10.5 
-float_2 = 1.5e2 # 1.5 * 10^2 -> Scientific Notation
+float_2 = 1.5e2 # 1.5 * 10^2
 float_3 = 1.5e-3 # 1.5 * 10^-3
 
 # Complex Literal  
 x = 3.14j # Only j character is used along with any number
 print(x, x.imag, x.real)
 
+# String Literals
 string = 'This is Python'
 strings = "This is Python"
 char = "C"
@@ -107,30 +96,6 @@ print(multiline_str)
 print(unicode)
 print(raw_str)
 
-# The purpose of "None" apart from null representation - Variable Declaration
-a = None 
-b = None
-
-# My Code
-
-# Print a simple greeting message
-print("hello world")
-
-# Define a variable with value 56
-a = 56
-
-# Print the result of adding 45 to the variable 'a'
-print(a + 45)
-
-# You can multiply string with number
-print('5' * 5)
-
-# Uncommenting the following lines will cause errors due to type mismatch:
-# Concatenation of string with an integer (not allowed)
-# print("Shriram" + 56)  # This will raise a TypeError
-
-# Adding a string and an integer (not allowed)
-# b = "shriram" + 13  # This will also raise a TypeError
 
 # Demonstrating the print function's parameters:
 # 'sep' parameter specifies the separator between the printed values
@@ -147,8 +112,7 @@ a = print(type(print(5)))  # Output: <class 'NoneType'>
 print(a)  # Output: None
 
 
-# My Code
-# Everything in Python is created by an object
+# Everything in Python is an object
 a = 10  # an integer object
 a = 5.875685  # reassigns 'a' to a float object
 print(type(a))  # prints the type of 'a', which is now <class 'float'>
@@ -158,8 +122,8 @@ print("The type of b is : ", type(b))  # prints the type of 'b', which is <class
 
 print(type('python')) # prints the type of the string literal, which is <class 'str'>
 
-c = [1, "dexter", {"age": 21}, 4.6]  # a list object containing different types of elements, lists are mutable
-d = (1, "dexter", {"age": 21}, 4.6)  # a tuple object containing different types of elements, tuples are immutable
+c = [1, "dexter", {"age": 21}, 4.6]  # Lists are mutable
+d = (1, "dexter", {"age": 21}, 4.6)  # Tuples are immutable
 
 e = {
     "name": "Dexter",
@@ -168,10 +132,10 @@ e = {
     True: "Whether redundant keys are possible to store in this",
     True: "Keys are in any form",
     None: 10
-}  # a dictionary object with mixed keys, the second True key will overwrite the first one
-print(type(e))  # prints the type of 'e', which is <class 'dict'>
+}  # Dictionary object with mixed keys, the second True key will overwrite the first one
+print(type(e))  # Prints the type of 'e', which is <class 'dict'>
 print(e[None])
-print(e[True])  # prints the value associated with the True key, which will be "Keys are in any form"
+print(e[True])  # Prints the value associated with the True key, which will be "Keys are in any form"
 
-f = {'Hello', 'World', 'Welcome'}  # a unordered set object containing unique elements, order is not guaranteed
-print(f)  # prints the set 'f', order of elements may vary
+f = {'Hello', 'World', 'Welcome'}  # An unordered set object containing unique elements, order is not guaranteed
+print(f)  # Prints the set 'f', order of elements may vary

@@ -1,37 +1,23 @@
 # if elif else ladder
 i = 25
 if (i == 10):
-    print("i is 10")
+  print("i is 10")
 elif (i == 15):
-    print("i is 15")
+  print("i is 15")
 elif (i == 20):
-    print("i is 20")
+  print("i is 20")
 else:
-    print("i is not present")
-
+  print("i is not present")
 
 # Nested If statement
 i = 10
 if (i == 10):
-  
-    #  First if statement
-    if (i < 15):
-        print("i is smaller than 15")
-        
-    # Nested - if statement
-    # Will only be executed if statement above
-    # it is true
-    if (i < 12):
-        print("i is smaller than 12 too")
-    else:
-        print("i is greater than 15")
-
-
-# Lecture
-"""If-else in Python"""
-# login program and indentation
-# email -> nitish.campusx@gmail.com
-# password -> 1234
+  if (i < 15):
+    print("i is smaller than 15")
+  if (i < 12):
+    print("i is smaller than 12 too")
+  else:
+    print("i is greater than 15")
 
 email = input('Enter email: ')
 password = input('Enter password: ')
@@ -49,12 +35,10 @@ elif email == 'nitish.campusx@gmail.com' and password != '1234':
 else:
   print('Not correct')
 
-# if-else examples
 # 1. Find the min of 3 given numbers
 # 2. Menu Driven Program
 
 # min of 3 numbers
-
 a = int(input('First number: '))
 b = int(input('Second number: '))
 c = int(input('Third number: '))
