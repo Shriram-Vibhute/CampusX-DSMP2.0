@@ -96,6 +96,7 @@ if __name__ == "__main__":
 
     # 28. partition(sep)
     print("28. partition('world'):", s.partition('world'))
+    # Difference between split and partitin -> split returns list, partition returns tuple
 
     # 29. maketrans()
     trans_table = str.maketrans('aeiou', '12345')

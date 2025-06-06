@@ -42,11 +42,19 @@ print('delhi' != 'delhi')
 print('mumbai' < 'mumbb') # Lexicographical(Letter by letter) Comparison
 print('Pune' > 'pune') # Capatical letters have higher ASCII values than small values
 
-print('hello' and 'world') # Returns the second value if first is True
-print('hello' or 'world') # Returns the first value if first is True
-print('' and 'world') # Returns the first value if first is False
-print('' or False) # Returns the second value if first is False
-print(not 'hello')
+# Both True -> and returns second | or returns first
+print('hello' and 'world') 
+print('hello' or 'world') 
+
+# Both False -> and returns first false | or returns second false
+print('' and False)
+print('' or False)
+
+# first False Second True -> and returns any false | or returns any True
+print('' and 'world') 
+print('' or "Hello")
+
+print(not 'hello') # True or False
 
 for i in 'hello':
   print(i)
@@ -57,7 +65,7 @@ for i in 'delhi':
 # Membership Operations
 print('D' in 'delhi')
 
-# Common Functions
+# Common Functions - To check ASCII value -> ord(char)
 print(len('hello world'))
 print(max('hello world')) # Max ASCII valued character
 print(min('hello world')) # Why this code is not returning anything ?
@@ -72,10 +80,10 @@ print(s.upper())
 print('Hello World'.lower())
 print('HeLlO WorLD'.swapcase())
 
-# Count/Find/Index
+# Count -> Simply counts the occurances | Find/Index -> Returns the index of first occurance of your argument
 print('my name is Rocky'.count('i'))
 print('my name is Rocky'.find('x'))
-# print('my name is Rocky'.index('x')) # will return error if not found
+print('my name is Rocky'.index('x')) # will return error if not found
 
 # endswith/startswith
 print('my name is Rocky'.endswith('sho'))
