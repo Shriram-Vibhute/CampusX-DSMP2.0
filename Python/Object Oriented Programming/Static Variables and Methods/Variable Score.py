@@ -30,6 +30,7 @@ def scope_test():
 
 scope_test()
 print("In global scope:", spam) # Value will be changed due to do_global function
+# We did not explicitely mentioned spam in global score. Since in the function global variable is mentioned which creats the variable if not possible and chenge the value - This is only possible with global and not with nonlocal
 
 
 # Note -> nonlocal only work when it find the existance of nonlocal variable and not as global variable. 
@@ -39,3 +40,9 @@ def update():
     nonlocal spam
     spam = 'spam'
 '''
+
+def temp():
+    global a
+    a = 10
+temp()
+print(a)

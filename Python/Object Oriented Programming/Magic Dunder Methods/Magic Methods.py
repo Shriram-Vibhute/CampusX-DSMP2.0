@@ -55,9 +55,9 @@ print(len(s1))  # Output: 5
 
 # Use __str__ with print() and str() function
 print(str(s1))  # Output: Student Name: Alice
-print(print(s1)) # Output: Student Name: Alice (print implicitly calls __str__)
+print(s1) # Output: Student Name: Alice (print implicitly calls __str__)
 
-# Use __repr__ with repr() function
+# Use __repr__ with repr() function - Returns a called object with its variable values
 print(repr(s1))  # Output: Student(name='Alice')
 
 # Use __call__ to call the instance like a function

@@ -21,6 +21,9 @@ print(marathon.race_number)
 t6 = marathon('t6', 6)
 t7 = marathon('t7', 7)
 t8 = marathon('t8', 8)
+t8.race_count()
+t8.race_count() # You can call them using objects as well
+# Everytime you create a new object the static method will get automatically triggred
 
 # marathon.race_count()
 print(marathon.race_number)

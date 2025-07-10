@@ -13,8 +13,6 @@ class student:
         class_name.college = 'COEP'
         class_name.branch = 'IT'
 
-        # self.name = "dummy" -> Gives Error
-
         # Indirect access of instance variables
         name = info.split("-")[0]
         id = int(info.split("-")[1])
@@ -26,6 +24,8 @@ class student:
 
 s1 = student("jonny", 17, 100)
 s2 = student.altConstructor("jack-12", 20)
+s3 = s2.altConstructor("Mark-12", 20)
+student.branch = "ABC" # This will work
 
 print(f"name: {s2.name} | id: {s2.id} | age: {s2.age}")
 s2.print_data()
