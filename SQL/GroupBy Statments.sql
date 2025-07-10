@@ -15,7 +15,7 @@ LIMIT 5;
 -- Find the phone who have 2nd largest battery - (IMP)
 SELECT brand_name, model, battery_capacity FROM dml.smartphones
 ORDER BY battery_capacity DESC
-LIMIT 1, 1; -- both values are inclusive;
+LIMIT 1, 1; -- Starting from 1st index (zero based indexing) and from that return first 1 records;
 
 -- Find the name and rating of worst rated apple phone
 SELECT model, rating
@@ -32,7 +32,7 @@ ORDER BY brand_name ASC, rating DESC;
 -- Group smartphones by brand and get the count, avg price, max rating, avg screen size and avg battery capacity
 SELECT COUNT(*), AVG(price), MAX(rating), AVG(screen_size), AVG(battery_capacity)
 FROM dml.smartphones
-GROUP BY brand_name;
+GROUP BY brand_name; -- GROUP BY in SQL does make a group of NULL values if there is null values which you applied group by.
 
 -- groupby using has_nfc and find avg_rating
 SELECT has_nfc, AVG(price), AVG(rating)

@@ -7,7 +7,7 @@ FROM orders
 WHERE EXISTS (
   SELECT 1 FROM order_items -- Return all the columns
   WHERE orders.order_id = order_items.order_id
-);
+); -- For each order_id if subquery returns anything then only that order_id will be printed
 
 CREATE DATABASE practice;
 CREATE TABLE tb(
@@ -87,7 +87,7 @@ ALTER TABLE datatypes
 ADD new_column_1 INT NOT NULL DEFAULT 10; -- Initially all values in the columns are initialized to 0.
 
 ALTER TABLE datatypes
-MODIFY new_column_1 VARCHAR(255); -- You cannot change the datatype from string to decimal.
+MODIFY new_column_1 VARCHAR(255); -- You cannot change the datatype from string to decimal unless all the values are in integer just like python
 
 ALTER TABLE datatypes
 ADD new_column_2 INT; -- But you can change from int to string, infact you can change anything to string
@@ -106,5 +106,5 @@ RENAME TABLE datatypes TO new_datatypes;
 TRUNCATE TABLE new_datatypes;
 SELECT * FROM new_datatypes;
 
--- Difference between trucate and drop -> drop will removes the entire data with table but truncate will only deletes the data
--- Note: All the numeric data types may have an extra option: UNSIGNED or ZEROFILL. If you add the UNSIGNED option, MySQL disallows negative values for the column. If you add the ZEROFILL option, MySQL automatically also adds the UNSIGNED attribute to the column.
+-- Difference between trucate and drop and delete from table_name (without where statment) -> drop will removes the entire data with table but truncate will only deletes the data
+-- Note: All the numeric data types may have an extra option: UNSIGNED or ZEROFILL. If you add the UNSIGNED option, MySQL disallows negative values for the column. If you add the ZEROFILL(depricated) option, MySQL automatically also adds the UNSIGNED attribute to the column.
