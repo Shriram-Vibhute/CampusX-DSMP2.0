@@ -1,4 +1,4 @@
-create database db;
+CREATE DATABASE db;
 USE db;
 
 CREATE TABLE marks(
@@ -7,7 +7,7 @@ CREATE TABLE marks(
     marks INT
 );
 
-INSERT INTO marks (name,branch,marks)VALUES 
+INSERT INTO marks (name,branch,marks) VALUES 
 ('Nitish','EEE',82),
 ('Rishabh','EEE',91),
 ('Anukant','EEE',69),
@@ -26,47 +26,80 @@ INSERT INTO marks (name,branch,marks)VALUES
 ('Gautam','MECH',51);
 
 SELECT * FROM marks;
+-- ----------------------------------------------------------------------------------------------------------------
 
+-- OVER Clause
 -- Find the avg marks of all the student for their respective branch
-select *, avg(marks) over(partition by branch) as avg_marks
-from marks;
+SELECT name, branch,
+AVG(marks) OVER(PARTITION BY branch) AS "avg_marks" -- we cannot do something like - ROUND(AVG(marks), 5)
+FROM marks;
 
--- Find the minimum and max marks corrosopnding all the student as per there specific branch
-select *, avg(marks) over(partition by branch), min(marks) over(partition by branch), max(marks) over(partition by branch)
-from marks;
+-- Find the minimum and max marks corrosopnding to all the student as per there specific branch
+SELECT name, branch, marks,
+MIN(marks) OVER(PARTITION BY branch) AS "Lowest Marks",
+MAX(marks) OVER(PARTITION BY branch) AS "Highest Marks"
+FROM marks;
 
 -- Find all the students who have marks higher then the avg of there respective branch
-select t1.name, t1.marks, t1.avg_marks
-from (select name, marks, avg(marks) over(partition by branch) as avg_marks from db.marks) as t1
-where t1.marks > t1.avg_marks;
+-- Using CTE
+WITH T AS (
+SELECT name, branch, marks,
+AVG(marks) OVER(PARTITION BY branch) AS "avg_marks"
+FROM marks
+)
+SELECT * FROM T
+WHERE T.marks > T.avg_marks;
+-- Using Subquery
+SELECT * FROM (SELECT name, branch, marks, AVG(marks) OVER(PARTITION BY branch) AS "avg_marks" FROM marks) AS T
+WHERE T.marks > T.avg_marks;
+-- ----------------------------------------------------------------------------------------------------------------
 
--- rank | dense_rank | row_number
-select *,
-rank() over(partition by branch order by marks desc) as 'rank', -- consider window branch_wise
-dense_rank() over(order by marks desc) as 'row_rank' -- Consider a whole dataset as 1 window
-from db.marks;
+-- ROW_NUMBER(): Unique sequential integer (1, 2, 3...) per partition.
+-- RANK(): Ranks with gaps for ties (e.g., 1, 1, 3).
+-- DENSE_RANK(): Ranks without gaps for ties (e.g., 1, 1, 2).
+-- NTILE(n): Splits rows into n groups (e.g., quartiles).
 
-select *,
-row_number() over(partition by branch order by marks desc) as 'row_rank' -- consider window branch_wise
-from db.marks;
+SELECT *,
+RANK() OVER(PARTITION BY branch ORDER BY marks) AS "rank", -- RANK() works over ORDER BY clause, if you cannot provide it then all the rows will be assigned to rank = 1
+DENSE_RANK() OVER(PARTITION BY branch ORDER BY marks) AS "dense rank", -- DENSE_RANK() works over ORDER BY clause, if you cannot provide it then all the rows will be assigned to rank = 1
+ROW_NUMBER() OVER(PARTITION BY branch) AS "row num",
+NTILE(3) OVER(PARTITION BY branch) AS "tile"
+FROM marks;
+-- If you provide ORDER BY clause in atleast any of the OVER clause then all the window functions work accordingly. Just like in the case of ROW_NUMBER
 
 -- You have to find top 2 users from each month who have the total max bill in that month
-with ref as(select monthname(date) as 'month_name', user_id, sum(amount) as total_amount,
-			rank() over(partition by monthname(date) order by sum(amount) desc) as ranked_user
-			from zomato.orders
-			group by month_name, user_id
+WITH ref AS (
+	SELECT user_id, MONTHNAME(date) AS 'month_name', SUM(amount) AS total_amount,
+	RANK() OVER(PARTITION BY MONTHNAME(date) ORDER BY SUM(amount) DESC) AS ranked_user -- SUM(amount) is tricker
+	FROM zomato.orders
+	GROUP BY month_name, user_id
 )
-select * from ref
-where ranked_user < 3;
+SELECT * FROM ref
+WHERE ranked_user < 3;
+-- ----------------------------------------------------------------------------------------------------------------
 
--- first_value | last_value | nth_value 
+-- FIRST_VALUE(column): First row in the partition.
+-- LAST_VALUE(column): Last row in the partition.
+-- NTH_VALUE(column): Nth row in the partition.
+
 -- Find the student who got highest marks in there respective branch
-select *,
-first_value(name) over(partition by branch order by marks desc)
-from db.marks;
+SELECT *,
+FIRST_VALUE(name) OVER(PARTITION BY branch ORDER BY marks DESC) AS "Topper",
+LAST_VALUE(name) OVER(PARTITION BY branch ORDER BY marks DESC ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "Back Bencher", -- Frames
+NTH_VALUE(name, 2) OVER(PARTITION BY branch ORDER BY marks ASC) AS "Avg"
+FROM marks;
+-- ----------------------------------------------------------------------------------------------------------------
 
+-- LEAD(column, offset): Access a subsequent row.
+-- LAG(column, offset): Access a preceding row
 
--- The concept of frames
+SELECT *,
+LEAD(name, 2) OVER(PARTITION BY branch),
+LAG(name, 2) OVER(PARTITION BY branch)
+FROM marks;
+-- ----------------------------------------------------------------------------------------------------------------
+
+-- Concept of Frames
 
 select *,
 last_value(name) over(partition by branch order by marks desc rows between unbounded preceding and current row)
