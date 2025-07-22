@@ -100,74 +100,53 @@ FROM marks;
 -- ----------------------------------------------------------------------------------------------------------------
 
 -- Concept of Frames
+SELECT *,
+AVG(marks) OVER(PARTITION BY branch ORDER BY marks ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS "avg_marks"
+FROM marks;
+-- ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW - default behavior - From start to current row
 
-select *,
-last_value(name) over(partition by branch order by marks desc rows between unbounded preceding and current row)
-from db.marks;
--- This is the default behavour - if you cannot mention `rows between unbounded preceding and current row`
--- meaning - From start to current row
-
-select *,
-last_value(name) over(partition by branch order by marks desc rows between unbounded preceding and unbounded following)
-from db.marks;
+SELECT *,
+AVG(marks) OVER(PARTITION BY branch ORDER BY marks ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS "avg_marks"
+FROM marks;
 -- `rows between unbounded preceding and unbounded following` - Complete Frame
 
-select *,
-last_value(name) over(partition by branch order by marks desc rows between 1 preceding and 1 following)
-from db.marks;
--- `rows between unbounded preceding and unbounded following` - 1 row above and 1 row below
-
-select *,
-last_value(name) over(partition by branch order by marks desc rows between 1 preceding and 1 following)
-from db.marks;
-
--- Find the branch topper
-select name, branch, marks from db.marks
-where (branch, marks) in (select branch, max(marks)
-from db.marks
-group by branch)
-order by marks desc;
-
--- Using Window function
-select name, branch, marks
-from (select *,
-first_value(name) over(partition by branch order by marks desc rows between unbounded preceding and unbounded following) as 'topper_name',
-first_value(marks) over(partition by branch order by marks desc rows between unbounded preceding and 1 following) as 'topper_marks'
-from db.marks) as t
-where marks = t.topper_marks and name = topper_name;
-
--- Another way to assign and use window function
-select name, branch, marks
-from (select *,
-first_value(name) over w as 'topper_name',
-first_value(marks) over w as 'topper_marks'
-from db.marks) as t
-where marks = t.topper_marks and name = topper_name
-window w as (partition by branch order by marks desc rows between unbounded preceding and unbounded following);
-
--- Lead and Lag window functions
-select *,
-lead(marks) over(order by marks desc),
-lag(marks) over(order by marks asc)
-from db.marks;
+SELECT *,
+AVG(marks) OVER(PARTITION BY branch ORDER BY marks ROWS BETWEEN 3 PRECEDING AND 0 FOLLOWING) AS "avg_marks"
+FROM marks;
+-- `rows between unbounded preceding and unbounded following` - 3 row above and 3 row below
+-- ----------------------------------------------------------------------------------------------------------------
 
 -- Calculating Cumulative Marks
 SELECT *,
-SUM(marks) OVER(PARTITION BY branch ORDER BY marks rows between unbounded preceding and current row)
-FROM db.marks;
+SUM(marks) OVER(PARTITION BY branch ORDER BY marks ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS "cumulative_marks"
+FROM marks;
 
 -- Calculating Cumulative Average
 SELECT *,
-AVG(marks) OVER(PARTITION BY branch ORDER BY marks rows between unbounded preceding and current row)
-FROM db.marks;
+AVG(marks) OVER(PARTITION BY branch ORDER BY marks ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS "average_marks"
+FROM marks;
 
 -- Calculating the running average
 SELECT *,
-AVG(marks) OVER(PARTITION BY branch ORDER BY marks rows between 5 preceding and 0 following)
+AVG(marks) OVER(PARTITION BY branch ORDER BY marks ROWS BETWEEN 5 PRECEDING AND 0 FOLLOWING)
 FROM db.marks;
 -- A proper example would be - The average marks of a student in his recent 5 exams 
 
 -- Calculating a pie chart
+-- Using CLT
+WITH T AS (
+	SELECT branch, SUM(marks) as "branch_marks"
+	FROM marks
+    GROUP BY branch
+)
+SELECT branch, branch_marks * 100 / SUM(branch_marks) OVER() AS "percantage" FROM T;
+
+-- Simple Subquery
+SELECT branch, SUM(marks) * 100 / (SELECT SUM(marks) FROM marks) AS "percentage_marks"
+FROM marks
+GROUP BY branch;
+
+-- Another Subquery
 SELECT T.branch, MAX(T.percentage_marks)
 FROM (SELECT *, SUM(marks) OVER (PARTITION BY branch) * 100 / SUM(marks) OVER() AS 'percentage_marks'
 FROM db.marks) AS T
@@ -177,8 +156,8 @@ GROUP BY T.branch;
 SELECT YEAR(Date), QUARTER(Date), SUM(views) AS 'views',
 ((SUM(views) - LAG(SUM(views)) OVER(ORDER BY YEAR(Date),QUARTER(Date)))/LAG(SUM(views)) OVER(ORDER BY YEAR(Date),QUARTER(Date)))*100 AS 'Percent_change'
 FROM youtube_views
-GROUP BY YEAR(Date),QUARTER(Date)
-ORDER BY YEAR(Date),QUARTER(Date);
+GROUP BY YEAR(Date), QUARTER(Date)
+ORDER BY YEAR(Date), QUARTER(Date);
 
 -- Calculating a weekly percentage change
 SELECT *,
@@ -216,7 +195,7 @@ FROM smartphones) t;
 
 -- Cumulative Distribution
 SELECT * FROM (SELECT *,
-CUME_DIST() OVER(ORDER BY marks) AS 'Percentile_Score'
+CUME_DIST() OVER(ORDER BY marks) AS 'Percentile_Score' -- 0 to 1
 FROM marks) t;
 
 SELECT * FROM (SELECT source,destination,airline,AVG(price) AS 'avg_fare',
