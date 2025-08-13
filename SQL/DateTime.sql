@@ -18,36 +18,42 @@ SELECT * FROM uber_rides;
 SELECT CURRENT_DATE();
 SELECT CURRENT_TIME();
 SELECT NOW();
--- It will show the time of the server on which your database is stored,
+-- It will show the current time of the server on which your database is stored,
 
 -- DateTime Extraction Functions
 SELECT
-DATE(start_time),
-TIME(start_time),
-YEAR(start_time),
-MONTH(start_time),
-MONTHNAME(start_time),
-DAY(start_time),
-DAYNAME(start_time),
-HOUR(start_time),
-MINUTE(start_time),
-SECOND(start_time),
-DAYOFYEAR(start_time), DAYOFMONTH(start_time), DAYOFWEEK(start_time),
-QUARTER(start_time),
-WEEK(start_time), WEEKOFYEAR(start_time), -- Both are same
-LAST_DAY(start_time) -- Last day in an corrosponding date
+DATE(start_time), -- complete date - YYYY-MM-DD
+TIME(start_time), -- complete time - HH:MM:SS
+YEAR(start_time), -- year - YYYY
+MONTH(start_time), -- month - MM
+MONTHNAME(start_time), -- monthname - str
+DAY(start_time), -- day - integer
+DAYNAME(start_time), -- dayname - str
+HOUR(start_time), -- hour - HH
+MINUTE(start_time), -- minute - MM
+SECOND(start_time), -- second - SS
+DAYOFYEAR(start_time), DAYOFMONTH(start_time), DAYOFWEEK(start_time), -- integer
+QUARTER(start_time), -- int
+WEEK(start_time), WEEKOFYEAR(start_time), -- Both are same - int
+LAST_DAY(start_time) -- Last day in an corrosponding month
 FROM uber_rides;
 
 -- DateTime Formatting
-SELECT start_time, DATE_FORMAT(start_time, "%d %b %y")
+SELECT start_time, DATE_FORMAT(start_time, "%d %b %y") -- %b - month name
 FROM uber_rides;
 
 SELECT start_time, TIME_FORMAT(start_time, '%l:%i %p')
 FROM uber_rides;
 
+WITH T AS (
+	SELECT start_time, TIME_FORMAT(start_time, '%l:%i %p') AS "time_format"
+	FROM uber_rides
+)
+SELECT HOUR(time_format) FROM T; 
+
 -- Time Conversion
 -- Implicit
-SELECT '2020-8-12' > '2020-8-13', '2020-8-12' > '13 AUG 2020'; -- In first comparison the implicit conversion takes place but not in 2nd comparision
+SELECT '2020-8-12' > '2020-8-13', '2020-8-12' > DATE_FORMAT('2020-8-13', "%d %b %y"); -- In first comparison the implicit conversion takes place but not in 2nd comparision
 
 -- Explicit
 SELECT STR_TO_DATE('13 AUG 2020', '%e %b %y');
@@ -64,6 +70,8 @@ SELECT DATE_ADD(CURRENT_DATE(), INTERVAL 10 QUARTER);
 SELECT DATE_SUB(CURRENT_DATE(), INTERVAL 10 DAY);
 
 -- ADDTIME and SUBTIME - Addition and Subtraction of two times
+SELECT ADDDATE(CURRENT_DATE(), "22-07-2025"); -- Adding days
+SELECT ADDTIME(CURRENT_TIME(), "10:00:00"); -- It will exceed beyond 24hrs
 
 -- Auto-Update Feature in Timestamp
 CREATE TABLE auto_update(
