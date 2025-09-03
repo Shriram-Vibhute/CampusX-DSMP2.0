@@ -20,7 +20,8 @@ def fact(num: int) -> int:
     return num * fact(num - 1)
 
 # UnMemoized Call
-print(fact(5))
+print(fact(5)) # The result of the function for the numbers below 5 are memoized 
+
 # Memoized Call
 print(fact(5))
 print(fact(4))
@@ -28,6 +29,6 @@ print(fact(3))
 print(fact(2))
 # all the function calls called through decorator the memory ones
 
-# Memoization will not done when you call each function explicitely like this 
+# Without decorators
 print(memoizer(fact)(5))
 print(memoizer(fact)(4))

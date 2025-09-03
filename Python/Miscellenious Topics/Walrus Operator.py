@@ -1,10 +1,10 @@
 # Walrus Operator - Used to assign the values inside the expressions
 
-print(a := "Hello Python") # It assigns the value to the variable and returns the assigner value
+print(a := "Hello Python") # It assigns the value to the variable and returns the assigner value and it will be accessable in current namespace
 print(a)
 
 # Using with if - else
-if(a := int(input("Enter The Value : "))) >= 18:
+if(a:= int(input("Enter The Value : "))) >= 18:
     print("You can Drive")
 else:
     print("No you can not drive")
