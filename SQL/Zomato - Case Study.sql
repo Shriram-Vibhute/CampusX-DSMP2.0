@@ -69,3 +69,46 @@ ON T1.r_id = T2.r_id
 GROUP BY T1.r_id, T2.r_name
 HAVING SUM(T1.amount) > (SELECT AVG(amount) FROM zomato.orders);
 
+-- Month wise revenue for a perticular restaurant
+SELECT MONTH(T2.date) AS "Month", SUM(T2.amount) AS "Total Amount" FROM zomato.restaurants AS T1
+INNER JOIN zomato.orders AS T2
+ON T1.r_id = T2.r_id
+WHERE T1.r_name = "kfc" -- You can choose any restaurant from dataset
+GROUP BY MONTH(T2.date)
+ORDER BY SUM(amount) ASC;
+
+-- Find the customers who never ordered
+SELECT * FROM zomato.users
+WHERE user_id NOT IN (SELECT user_id FROM zomato.orders);
+
+-- Show order details of a perticular customer in a given range
+USE zomato;
+SELECT orders.order_id, orders.date, food.f_name, orders.amount
+FROM users
+INNER JOIN orders
+ON users.user_id = orders.user_id
+INNER JOIN order_details
+ON orders.order_id = order_details.order_id
+INNER JOIN food
+on food.f_id = order_details.f_id
+WHERE users.name = "Nitish" AND orders.date BETWEEN DATE("2022-05-01") AND DATE("2022-06-30")
+ORDER BY orders.date;
+
+-- Customer's favourite food - based on how frequently he/she ordered that food
+WITH T AS (
+SELECT orders.user_id AS "user_id", order_details.f_id AS "food_id", COUNT(*) AS "freq"
+FROM orders
+INNER JOIN order_details
+ON orders.order_id = order_details.order_id
+GROUP BY order_details.f_id, orders.user_id
+)
+SELECT users.name, food.f_name, T.freq FROM T
+INNER JOIN food
+ON T.food_id = food.f_id
+INNER JOIN users
+ON T.user_id = users.user_id
+WHERE (T.user_id, T.freq) IN (
+	SELECT T.user_id, MAX(T.freq)
+    FROM T
+    GROUP BY T.user_id
+); -- We got 2 favourite foods of "User - Ankit" which is of same frequency
