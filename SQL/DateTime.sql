@@ -70,7 +70,7 @@ SELECT DATE_ADD(CURRENT_DATE(), INTERVAL 10 QUARTER);
 SELECT DATE_SUB(CURRENT_DATE(), INTERVAL 10 DAY);
 
 -- ADDTIME and SUBTIME - Addition and Subtraction of two times
-SELECT ADDDATE(CURRENT_DATE(), "22-07-2025"); -- Adding days
+SELECT ADDDATE(CURRENT_DATE(), "22-07-2026"); -- Adding days only
 SELECT ADDTIME(CURRENT_TIME(), "10:00:00"); -- It will exceed beyond 24hrs
 
 -- Auto-Update Feature in Timestamp

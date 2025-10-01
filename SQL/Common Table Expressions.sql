@@ -1,8 +1,6 @@
-create database campusX;
-
-use campusx;
-
-drop table employees;
+CREATE DATABASE campusX;
+USE campusx;
+DROP TABLE IF EXISTS employees;
 
 CREATE TABLE Employees (
     emp_id INT PRIMARY KEY,
@@ -35,118 +33,114 @@ VALUES
 (19, 'Quincy Gold', 'Finance', 66000, 720),
 (20, 'Rachel Platinum', 'Marketing', 46000, 365);
 
-select * from employees;
+SELECT * FROM employees;
 
--- CTE-  STANDS FOR COMMON TABLE EXPRESSION , THAT WE GENERALLY USE WHEN WE ARE USING A SAME SUB-QUERY MULTIPLE TIMES
--- TO ENHANCE REDABILITY ,REDUCE COMPLEXITY , ENHANCE PERFORMANCE.
+-- CTE - STANDS FOR COMMON TABLE EXPRESSION , THAT WE GENERALLY USE WHEN WE ARE USING A SAME SUB-QUERY MULTIPLE TIMES
+-- TO ENHANCE REDABILITY, REDUCE COMPLEXITY, ENHANCE PERFORMANCE.
 -- WE WRITE IT USING WITH CLAUSE.
--- CTE LIFE IS  ONLY TILL  THE EXECUTION+FORMATION {TOGETHER} OF THE QUERY
+-- CTE LIFE IS  ONLY TILL THE EXECUTION+FORMATION {TOGETHER} OF THE QUERY
 -- QUERY WITH "WITH CLAUSE"
 -- QUERY SUB-FOLDING.
 
-
-
-select * from employees;
-
--- FIND THE EMPLOYEES WHOSE SALARY IS IN THE RANGE +-2000 OF AVERAGE SALARY WHERE DEPARTMENT IS abc  AND EMP_DURA>200.
--- LOGIC
+-- FIND THE EMPLOYEES WHOSE SALARY IS IN THE RANGE +-2000 OF AVERAGE SALARY WHERE DEPARTMENT IS abc AND EMP_DURA>200.
 --  STEP 1 WE NEED TO FIND AVERAGE SALARY ON THE BASIS OF GIVEN CONDITION.
-Select  avg(emp_salary)  as  average from employees where  emp_department = "abc" and emp_duration_in_days>200;
---  STEP 2 FROM  THE TABLE , FIND THE EMPLOYESS WHO LIE IN RANGE OF THE GIVEN AVERAGE.
+SELECT AVG(emp_salary) AS average 
+FROM employees 
+WHERE emp_department = "abc" AND emp_duration_in_days > 200;
 
-
-select * from 
-employees  where 
-emp_salary >(
-			 Select  avg(emp_salary)   from employees where  emp_department = "it" and 
-                   emp_duration_in_days>200)-2000
-and
-emp_salary <(
-			 Select  avg(emp_salary)  from employees where  emp_department = "it" and 
-                   emp_duration_in_days>200)+2000;
-
+--  STEP 2 FROM  THE TABLE, FIND THE EMPLOYESS WHO LIE IN RANGE OF THE GIVEN AVERAGE.
+SELECT * FROM employees
+WHERE emp_salary > (SELECT AVG(emp_salary) FROM employees 
+					WHERE emp_department = "it" AND (emp_duration_in_days > 200) - 2000 
+                    AND emp_salary < (SELECT AVG(emp_salary) FROM employees 
+									  WHERE emp_department = "it" AND (emp_duration_in_days > 200) + 2000;
 
 -- ISSUE 
-     -- DECREASES REDABILITY.
-     -- COMPLEXITY INCREASES.
-     -- DECREASES PERFORMANCE.
-     
+	-- DECREASES REDABILITY.
+	-- COMPLEXITY INCREASES.
+	-- DECREASES PERFORMANCE.
      
 -- USING CTE.
-
-with t as
-(
-  select avg(emp_salary)  as avg_salary from employees where emp_department= 'abc' and emp_duration_in_days>200
+WITH t AS (
+    SELECT AVG(emp_salary) AS avg_salary 
+    FROM employees 
+    WHERE emp_department = 'abc' 
+    AND emp_duration_in_days > 200
 ) 
-select * from employees
-where 
-emp_salary >(select avg_salary  from t ) - 2000
-and  emp_salary<(select avg_salary from t )+2000;
+SELECT * 
+FROM employees
+WHERE emp_salary > (SELECT avg_salary FROM t) - 2000
+AND emp_salary < (SELECT avg_salary FROM t) + 2000;
 
--- SELECT THE DEPARTMENT FROM EMPLOYEES TABLE  WHOSE AVERAGE SALARY  IS MORE THAN AVERAGE SALARY  ACROSS ALL DEPARTMENTS
+-- SELECT THE DEPARTMENT FROM EMPLOYEES TABLE WHOSE AVERAGE SALARY IS MORE THAN AVERAGE SALARY ACROSS ALL DEPARTMENTS
 -- LOGIC
--- STEP 1 -  AVERAGE SALARY OF EACH DEPARTMENT    [DEP_AVG]
-SELECT emp_department, avg(emp_salary)  as dep_avg 
-from employees
-group by
-emp_department;
--- STEP 2 - FIND AVERAGE SALARY WITH RESPECT TO ALL THE DEPARTMENT   [ENTIRE_AVG]
-select round(avg(dep_avg),2)  as entire_avg
-from 
-(
-  SELECT emp_department, avg(emp_salary)  as dep_avg 
-from employees
-group by
-emp_department
-)t;
--- STEP 3 - FIND THE DEPARTMENT WHERE DEP_AVG> ENTIRE_AVG
-select * from 
-( 
-  SELECT emp_department, avg(emp_salary)  as dep_avg 
-  from employees
-  group by
-  emp_department
-)k
-join
-(
- select round(avg(dep_avg),2)  as entire_avg from 
-   (
-           SELECT emp_department, avg(emp_salary)  as dep_avg 
-           from employees
-           group by
-           emp_department
-    )t
-)m
-on dep_avg>entire_avg;
+-- STEP 1 - AVERAGE SALARY OF EACH DEPARTMENT [DEP_AVG]
+SELECT 
+    emp_department, 
+    AVG(emp_salary) AS dep_avg 
+FROM employees
+GROUP BY emp_department;
 
+-- STEP 2 - FIND AVERAGE SALARY WITH RESPECT TO ALL THE DEPARTMENT [ENTIRE_AVG]
+SELECT 
+    ROUND(AVG(dep_avg), 2) AS entire_avg
+FROM (
+    SELECT 
+        emp_department, 
+        AVG(emp_salary) AS dep_avg 
+    FROM employees
+    GROUP BY emp_department
+) t;
 
+-- STEP 3 - FIND THE DEPARTMENT WHERE DEP_AVG > ENTIRE_AVG
+SELECT * 
+FROM (
+    SELECT 
+        emp_department, 
+        AVG(emp_salary) AS dep_avg 
+    FROM employees
+    GROUP BY emp_department
+) k
+JOIN (
+    SELECT 
+        ROUND(AVG(dep_avg), 2) AS entire_avg 
+    FROM (
+        SELECT 
+            emp_department, 
+            AVG(emp_salary) AS dep_avg 
+        FROM employees
+        GROUP BY emp_department
+    ) t
+) m ON dep_avg > entire_avg;
 
--- WITH CTE.
-
-with cte as
-(
- SELECT emp_department, avg(emp_salary)  as dep_avg 
-           from employees
-           group by
-           emp_department
+-- WITH CTE
+WITH cte AS (
+    SELECT 
+        emp_department, 
+        AVG(emp_salary) AS dep_avg 
+    FROM employees
+    GROUP BY emp_department
 )
-select * from  cte  where dep_avg>(select avg(dep_avg)  from cte);
-
+SELECT * 
+FROM cte 
+WHERE dep_avg > (SELECT AVG(dep_avg) FROM cte);
 
 -- MULTIPLE CTE
--- client want average salary and count  of employees of each department.
-with cte as
-(
- SELECT emp_department, avg(emp_salary)  as dep_avg 
-           from employees
-           group by
-           emp_department
+-- client want average salary and count of employees of each department.
+WITH cte AS (
+    SELECT 
+        emp_department, 
+        AVG(emp_salary) AS dep_avg 
+    FROM employees
+    GROUP BY emp_department
 ),
-t as 
-(
-  select emp_department , count(emp_id) as cnt 
-  from employees 
-  group by 
-  emp_department
+t AS (
+    SELECT 
+        emp_department, 
+        COUNT(emp_id) AS cnt 
+    FROM employees 
+    GROUP BY emp_department
 )
-select* from cte  join t on  cte.emp_department = t.emp_department
+SELECT * 
+FROM cte 
+JOIN t ON cte.emp_department = t.emp_department;
