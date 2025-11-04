@@ -1,3 +1,17 @@
+## Name Mangling in OOP
+
+Name mangling is a mechanism in Python that helps with **encapsulation** in object-oriented programming. It's directly related to the double underscore (`__`) prefix.
+
+### What is Name Mangling?
+
+Name mangling is the process where Python automatically rewrites attribute names that start with double underscores (`__`) to include the class name, making them harder to accidentally override in subclasses.
+
+### How it Works:
+
+When you define an attribute with `__` prefix (like `__private_var`), Python automatically changes it to `_ClassName__private_var`.
+
+### Example:
+        
 # Discrete Data Types / Data Structures
 print("Int - ", 1e308)
 print("Float - ", 1.46)
@@ -55,7 +69,35 @@ print(a, b, c)
 
 # Identifiers - Naming Conventions - Basically a name given to a variable, function, class, etc.
 _ = 10 # Used in Temporary or insignificant variable and Interpreter variable
-# __function_name() -> OOPs interview question - Name Mangling (private naming convention)
+# __function_name() -> OOPs interview question - Name Mangling
+
+# Name Mangling Example
+class MyClass:
+    def __init__(self):
+        self.public_var = "public"
+        self._protected_var = "protected"  # Convention for protected
+        self.__private_var = "private"     # Name mangling applied
+    
+    def __private_method(self):
+        return "This is private"
+    
+    def show_mangled_names(self):
+        print(f"Public: {self.public_var}")
+        print(f"Protected: {self._protected_var}")
+        print(f"Private (mangled): {self.__private_var}")
+        print(f"Private method (mangled): {self.__private_method()}")
+        print(f"Actual mangled name: {self._MyClass__private_var}")
+
+# Create instance
+obj = MyClass()
+obj.show_mangled_names()
+
+# Try accessing from outside
+print("\nAccessing from outside:")
+print(f"Public: {obj.public_var}")          # Works
+print(f"Protected: {obj._protected_var}")   # Works (but convention says don't)
+# print(f"Private: {obj.__private_var}")     # Error: AttributeError
+print(f"Mangled access: {obj._MyClass__private_var}")  # Works but should be avoided
 
 # Perform some calculations
 result1 = 10 + 5
@@ -113,6 +155,7 @@ print(raw_str)
 # 'sep' parameter specifies the separator between the printed values
 # 'end' parameter specifies what to print at the end of the statement
 print("Hello Python", "Hello C++", sep=" seperator ", end="end")
+
 # Print a new line
 print("Second Line")
 
@@ -150,3 +193,28 @@ print(e[True])  # Prints the value associated with the True key, which will be "
 
 f = {'Hello', 'World', 'Welcome'}  # An unordered set object containing unique elements, order is not guaranteed
 print(f)  # Prints the set 'f', order of elements may vary
+          
+I've added a practical example to your file that demonstrates name mangling. Here's what name mangling is all about:
+
+## Key Points about Name Mangling:
+
+1. **Purpose**: Prevents accidental overriding of "private" attributes in subclasses
+2. **Syntax**: Attributes starting with `__` (but not ending with `__`) get mangled
+3. **Mechanism**: Python rewrites `__private` to `_ClassName__private`
+4. **Not truly private**: It's a convention, not enforced privacy (you can still access via mangled name)
+
+### What gets mangled:
+- `__variable` → becomes `_ClassName__variable`
+- `__method()` → becomes `_ClassName__method()`
+
+### What doesn't get mangled:
+- `__init__` (magic methods)
+- `__str__` (magic methods)  
+- `__variable__` (names with double underscores at both ends)
+
+### Why use it?
+- **Encapsulation**: Helps prevent accidental name clashes in inheritance
+- **Code organization**: Clearly indicates intended "private" members
+- **Interview question**: Common OOP concept asked in Python interviews
+
+The example I added shows how public, protected (single underscore convention), and private (double underscore with name mangling) attributes behave differently when accessed from outside the class.

@@ -1,4 +1,4 @@
-# BuiltIn Modules
+# BuiltIn Modules - Came along with python installation
 # math
 import math
 math.sqrt(196)
@@ -15,7 +15,7 @@ print(random.randint(1,100))
 import datetime
 print(datetime.datetime.now())
 
-# External module.
+# External module - Explictly needs to be installed using pip inorder to use them.
 import pandas
 df = pandas.read_csv("one.csv")  
 
