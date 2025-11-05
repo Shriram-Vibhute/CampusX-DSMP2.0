@@ -27,15 +27,12 @@ while True:
             print("Take precautions while driving")
 
 
-
-a = 'abc'
+a = input("Enter the text: ")
 match a:
     case 'a':
-        print('a')
-    case 'b':
-        print('b')
+        print('a') # If a certain condition is met, the execution of that match - case statement will be terminated at that point. Unlike other programming languages like c++.
     case _ if a is 'abc':
-        # The is operator is used to compare the identities of two objects, not their values. This is typically used for comparing objects to their singleton instances, such as None, True, and False. Using is for string comparisons can lead to unexpected behavior because strings are immutable, and while Python may sometimes optimize memory usage by reusing objects for small strings, this is not guaranteed for all cases.
+        # The is operator is used to compare the identities (memory addresses) of two objects, not their values. This is typically used for comparing objects to their singleton instances, such as None, True, and False. Using is for string comparisons can lead to unexpected behavior because strings are immutable, and while Python may sometimes optimize memory usage by reusing objects for small strings, this is not guaranteed for all cases.
         print('Identity')
     case _ if a == 'abc':
         print('Equality')

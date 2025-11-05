@@ -15,16 +15,16 @@ print(4 <= 4)
 print(4 == 4)
 print(4 != 4)
 
-# Logical Operators
+# Logical Operators - Returns a value in between the comparison and not the True or False
 print(1 and 0)
 print(1 or 0)
 print(not 1)
 
-# Bitwise Operators
+# Bitwise Operators - only used with integers | This operator is overloaded for `booleans indexing` in numpy and pandas
 print(2 & 3)  # bitwise and
 print(2 | 3)  # bitwise or
 print(2 ^ 3)  # bitwise xor
-print(~3)     # bitwise not
+print(~3)     # bitwise not - working is important
 print(4 >> 2) # bitwise right-shift The newly introduced bits are chosen by interpreter
 print(5 << 2) # bitwise left-shift The newly introduced bits are 0
 
@@ -33,7 +33,7 @@ a = 2
 a %= 2  # a = a % 2
 print(a)
 
-# Membership Operators
+# Membership Operators - use bitwise operators to check if a value is present in a sequence
 print('D' not in 'Delhi')
 print(1 in [2, 3, 4, 5, 6])
 
@@ -43,8 +43,7 @@ print(f is g)
 print(3 is 4)
 print("f is not g:", f is not g)  # False
 
-# Immutability of Integers: In Python, integers are immutable. This means that once an integer object is created, its value cannot be changed. When you perform an operation that seems to modify an integer (like assigning a new value), Python actually creates a new integer object instead of modifying the existing one
-# This is only possible with integers and booleans
+# Immutability of Integers: In Python, discrete datatypes are immutable. This means that once an integer object is created, its value cannot be changed. When you perform an operation that seems to modify an integer (like assigning a new value), Python actually creates a new integer object instead of modifying the existing one
 
 a = True
 b = True
@@ -53,8 +52,11 @@ print(a is b)
 h = [1, 2, 3]
 i = [1, 2, 3]
 
-print("h is i:", h is i)           # False, because 'h' and 'i' are different instances even if they have the same content
-print("h is not i:", h is not i)   # True
+print(h == i) # Despite having same elements, if the order is different, it will return False (BECAUSE THE KEY VALUE PAIRS ARE DIFFERENT - This is not the case with dictionaries)
+print({1:'hi', 2:'hello'} == {2:'hello', 1:'hi'})
+
+print("h is i:", h is i) # False, because 'h' and 'i' are different instances even if they have the same elements
+print("h is not i:", h is not i) # True
 
 dict1 = {1:'hi'}
 dict2 = {1:'hi'}

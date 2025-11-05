@@ -1,5 +1,5 @@
 # Interview Question -> Whether the else block will executed or not
-# Ans -> if a loop successifully get executed till its range then the else will run but if got break in between then else will not get executed
+# Ans -> if a loop successifully executed till its range then the else will run but if got break in between then else will not get executed
 
 for i in range(6):
     print(i)

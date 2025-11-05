@@ -24,9 +24,12 @@ def mean(*array):
 
 print(mean(1,2,3,4,5,6,7)) 
 # print(mean([1,2,3])) - *arr treat all the arguments as list not like original list we are passing
+def arr_mean(*array):
+    return (array[1][1])
+print(arr_mean([1, 2], [3, 4], [5, 6]))
 
 # Passing arg as Dictonary
-def printVal(**dict):
+def printVal(**dict): # **dict only considers the arguments which are passed as keyword arguments.
     print(dict["name"], dict["country"]) # Make sure the keys are in double quotes
 printVal(name = "Dexter", country= "USA", gangstar_id= 69,) # Make sure the keys are not in double quotes
 # You cannot do like this

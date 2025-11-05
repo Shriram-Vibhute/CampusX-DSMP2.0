@@ -67,7 +67,7 @@ users = [
   }
 ]
 
-print(list(map(lambda users:users['gender'],users)))
+print(list(map(lambda users:users['gender'], users)))
 
 # Filter
 # numbers greater than 5
@@ -78,7 +78,7 @@ list(filter(lambda x:x>5,L))
 # fetch fruits starting with 'a'
 fruits = ['apple','guava','cherry']
 
-list(filter(lambda x:x.startswith('a'),fruits))
+list(filter(lambda x:x.startswith('a'), fruits))
 
 # reduce
 # sum of all item
