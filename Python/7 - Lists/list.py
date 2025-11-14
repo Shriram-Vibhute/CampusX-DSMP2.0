@@ -5,7 +5,7 @@ print(thislist)
 # If you insert more items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly
 
 thislist = ["apple", "banana", "cherry"]
-thislist[0:100] = ["blackcurrant", "watermelon"] # Does not through an error even is list index not ing range
+thislist[0:100] = ["blackcurrant", "watermelon"] # Does not throw an error even if list index not in range
 print(thislist)
 
 # Here the value get inserted multiple times
@@ -38,7 +38,7 @@ print(thislist)
 # Add Any Iterable
 thislist = ["apple", "banana", "cherry"]
 thistuple = ("kiwi", "orange")
-thislist.extend(thistuple)
+thislist.extend(thistuple) # Implicit type casting from tuple to list
 print(thislist)
 
 # The remove() method removes the specified item

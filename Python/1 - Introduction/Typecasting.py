@@ -62,3 +62,11 @@ print(bool(flt_val))  # True; non-zero floats are considered True
 
 # Converting None to str
 print(type(str(None))) 
+
+# Convert list to dict
+list_of_tuples = [('a', 1), ('b', 2), ('c', 3)]
+print(dict[str, int](list_of_tuples))  # {'a': 1, 'b': 2, 'c': 3}
+
+# Convert dict to list
+d = {'a': 1, 'b': 2, 'c': 3}
+print(list(d.items()))  # [('a', 1), ('b', 2), ('c', 3)]

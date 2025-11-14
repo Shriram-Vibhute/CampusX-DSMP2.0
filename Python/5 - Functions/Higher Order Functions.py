@@ -69,6 +69,13 @@ users = [
 
 print(list(map(lambda users:users['gender'], users)))
 
+d = {
+    'name': 'Ankita',
+    'age': "33",
+    'gender': 'male'
+}
+print(dict[str, str](map(lambda x: (x, d[x].upper()), d))) # If you want to convert a dictonary from a list, the list must contains tuples of 2 items - [(key, value), (key, value), ...]
+
 # Filter
 # numbers greater than 5
 L = [3,4,5,6,7]
@@ -77,8 +84,14 @@ list(filter(lambda x:x>5,L))
 
 # fetch fruits starting with 'a'
 fruits = ['apple','guava','cherry']
-
 list(filter(lambda x:x.startswith('a'), fruits))
+
+d = {
+    'name': 'Ankita',
+    'age': "33",
+    'gender': 'male'
+}
+print(dict(filter(lambda x: x[0].startswith('a'), d.items())))
 
 # reduce
 # sum of all item

@@ -40,7 +40,7 @@ dummy(10)
 # You can access global variables into local scope but you cannot modify them until and unless you mention global keyword - But this is not a good practice because is could be possible that others functions also using those value
 
 # The nonlocal keyword is used to work with variables in nested functions. It allows you to modify a variable defined in the nearest enclosing scope that isn't global.
-def create_counter():
+def create_counter() -> tuple[callable, callable]:
     count = 0
     
     def increment():

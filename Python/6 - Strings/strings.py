@@ -18,6 +18,7 @@ s = "abcdefgh"
 
 # Negative Indexing
 print(s[-3])
+print(s[-0]) # First character
 
 # Slicing
 print(s[6:0:-2])
@@ -40,7 +41,7 @@ print('delhi'*5)
 print("*"*50)
 print('delhi' != 'delhi')
 print('mumbai' < 'mumbb') # Lexicographical(Letter by letter) Comparison
-print('Pune' > 'pune') # Capatical letters have higher ASCII values than small values
+print('Pune' > 'pune') # Capatical letters have higher ASCII values than small letters
 
 # Both True -> and returns second | or returns first
 print('hello' and 'world') 
