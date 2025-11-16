@@ -1,8 +1,7 @@
 -- SCALER SUBQUERRIES -- 
 SELECT * 
 FROM joins.movies
-WHERE (gross - budget) = (SELECT MAX(gross - budget) FROM joins.movies);
-
+WHERE (gross - budget) = (SELECT MAX(gross - budget) FROM joins.movies); # The subquerry returns only one value
 
 SELECT *
 FROM joins.movies
@@ -40,7 +39,7 @@ WHERE score = (SELECT MAX(score) FROM joins.movies WHERE year = 2000) AND year =
 SELECT * FROM joins.movies
 WHERE score = (SELECT MAX(score)
 				FROM joins.movies
-				WHERE votes > (SELECT AVG(votes) FROM joins.movies));
+				WHERE votes > (SELECT AVG(votes) FROM joins.movies)); -- Nested Subquerries
  
 
 -- ROW SUBQUERRIES --
@@ -54,7 +53,7 @@ WHERE user_id NOT IN (SELECT DISTINCT user_id
 						FROM zomato.orders);
 -- When subquerry returns more than one row, you have to use IN or NOT IN operator and not = and != These only works for comparing with single values
 
--- Find all the movies made by top 3 directors(in therms of total gross income)
+-- Find all the movies made by top 3 directors(in terms of total gross income)
 SELECT * FROM joins.movies
 WHERE director IN (SELECT director 
 					FROM joins.movies 
@@ -65,7 +64,7 @@ WHERE director IN (SELECT director
 WITH top_directors AS (SELECT director 
 						FROM joins.movies 
 						GROUP BY director
-						ORDER BY SUM(gross) DESC -- We can you aggrigate function with order by clause as they execute after aggrigation
+						ORDER BY SUM(gross) DESC -- We can aggrigate function with order by clause as they execute after aggrigation (group by)
 						LIMIT 3)
 SELECT * FROM joins.movies
 WHERE director in (SELECT * FROM top_directors);
@@ -95,8 +94,8 @@ WHERE (year, gross - budget) IN (SELECT year, MAX(gross - budget) AS profit, nam
 							FROM joins.movies
 							GROUP BY year
 							ORDER BY year ASC);
-                            
 
+-- You cannot compaire between a subquerry which returns more than one column and a criteria on less number of columns eg.. `WHERE year IN (SELECT year, name, ...)`					
 SELECT *
 FROM joins.movies
 WHERE name IN (SELECT name, gross from joins.movies);
@@ -186,3 +185,10 @@ DELETE FROM zomato.user
 WHERE user_id IN (SELECT *
 					FROM user AS t1
 					WHERE user_id NOT IN (SELECT DISTINCT(user_id) FROM zomato.orders));
+
+SELECT * FROM employees e
+WHERE EXISTS (SELECT 1 FROM orders o WHERE o.employee_id = e.id);
+-- Time Complexity: O(n × log m) to O(n × m)
+	-- With proper indexing: O(n × log m)
+	-- Without indexes: O(n × m)
+	-- Often more efficient than IN because it stops at first match
